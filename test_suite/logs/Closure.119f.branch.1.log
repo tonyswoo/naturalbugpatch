@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 9782
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2681_1536356231/build/classes
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/args4j.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/guava.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/json.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_2681_1536356231/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 497
+* Using seed 1536356269455
+* Starting evolution
+[MASTER] 14:00:31.190 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 14:05:13.605 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 14:11:51.045 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 224 seconds more than allowed.
+* Search finished after 2025s and 3086 generations, 397530 statements, best individual has fitness: 380.0
+[MASTER] 14:13:51.368 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 14:14:16.448 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 14:15:56.901 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 14:17:32.157 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 14:17:50.117 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.GlobalNamespace. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 14:17:50.219 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 14:17:50.219 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 14:17:50.320 [main] ERROR TestGeneration - failed to write statistics data

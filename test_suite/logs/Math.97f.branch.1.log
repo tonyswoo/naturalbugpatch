@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.analysis.BrentSolver
+* Starting client
+* Connecting to master process on port 2533
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_14357_1536378139/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.BrentSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 55
+* Using seed 1536378158842
+* Starting evolution
+* Search finished after 1802s and 33780 generations, 13828430 statements, best individual has fitness: 0.6666666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 55
+* Number of covered goals: 54
+* Generated 14 tests with total length 74
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+* Time spent executing tests: 984749ms
+* Generating assertions
+* Resulting test suite's mutation score: 29%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'BrentSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,68 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.threed.SubLine
+* Starting client
+* Connecting to master process on port 6929
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12748_1536366364/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.threed.SubLine
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 18
+* Using seed 1536366392345
+* Starting evolution
+* Search finished after 21s and 149 generations, 46378 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Generated 8 tests with total length 42
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                         21 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 8827ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Writing JUnit test case 'SubLine_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.twod.SubLine
+* Starting client
+* Connecting to master process on port 21928
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12748_1536366364/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.twod.SubLine
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 1536366431153
+* Starting evolution
+* Search finished after 14s and 36 generations, 15202 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 39
+* Number of covered goals: 39
+* Generated 15 tests with total length 65
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- MaxTime :                         15 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 5831ms
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Writing JUnit test case 'SubLine_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

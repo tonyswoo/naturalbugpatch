@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 17:12:36  ######
+Generate tests for: org.apache.commons.math3.fraction.Fraction : branch : 1800s
+Generate tests for: org.apache.commons.math3.fraction.BigFraction : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 18:17:08  ######

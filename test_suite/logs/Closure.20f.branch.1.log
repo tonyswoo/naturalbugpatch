@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 5239
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2806_1536339669/build/classes
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/args4j.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/guava.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/json.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_2806_1536339669/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 615
+* Using seed 1536339710568
+* Starting evolution
+* Search finished after 1810s and 4050 generations, 691814 statements, best individual has fitness: 471.1253245487456
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 615
+* Number of covered goals: 145
+* Generated 40 tests with total length 154
+* Resulting test suite's coverage: 24%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    471 / 0           
+	- MaxTime :                      1,841 / 1,800        Finished!
+* Time spent executing tests: 1323166ms
+* Generating assertions
+[MASTER] 09:32:54.078 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve Unexpected expression node: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

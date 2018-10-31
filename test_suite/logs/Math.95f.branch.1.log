@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.distribution.FDistributionImpl
+* Starting client
+* Connecting to master process on port 7264
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10414_1536378004/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.distribution.FDistributionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 17
+* Using seed 1536378024030
+* Starting evolution
+* Search finished after 6s and 1 generations, 1083 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Generated 10 tests with total length 19
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                          7 / 1,800       
+* Time spent executing tests: 2696ms
+* Generating assertions
+* Resulting test suite's mutation score: 66%
+* Writing JUnit test case 'FDistributionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

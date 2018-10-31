@@ -1,0 +1,3 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 14:18:02  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 14:48:36  ######

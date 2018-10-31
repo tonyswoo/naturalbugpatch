@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.field.FieldUtils
+* Starting client
+* Connecting to master process on port 6306
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22553_1536384532/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.field.FieldUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 1536384557050
+* Starting evolution
+* Search finished after 1802s and 19557 generations, 2553162 statements, best individual has fitness: 3.4999999990686774
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 78
+* Number of covered goals: 74
+* Generated 41 tests with total length 63
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      3 / 0           
+* Time spent executing tests: 397646ms
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'FieldUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

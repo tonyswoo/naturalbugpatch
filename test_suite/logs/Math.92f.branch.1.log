@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.util.MathUtils
+* Starting client
+* Connecting to master process on port 3523
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5738_1536377716/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MathUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 275
+* Using seed 1536377737133
+* Starting evolution
+* Search finished after 1802s and 23071 generations, 3793769 statements, best individual has fitness: 14.249999999301508
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 275
+* Number of covered goals: 258
+* Generated 117 tests with total length 127
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     17 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 757798ms
+* Generating assertions
+* Resulting test suite's mutation score: 59%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'MathUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

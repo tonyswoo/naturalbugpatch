@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.EigenDecompositionImpl
+* Starting client
+* Connecting to master process on port 5531
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30173_1536375535/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.EigenDecompositionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 428
+* Using seed 1536375558958
+* Starting evolution
+* Search finished after 1847s and 5025 generations, 363595 statements, best individual has fitness: 70.63541666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 19:32:16.677 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 428
+* Number of covered goals: 349
+* Generated 449 tests with total length 6873
+* Resulting test suite's coverage: 82%
+* GA-Budget:
+[MASTER] 19:33:08.134 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 64 seconds more than allowed.
+	- MaxTime :                      2,016 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     71 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1426436ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'EigenDecompositionImpl_ESTest' to evosuite-branch
+[MASTER] 19:39:19.559 [main] ERROR ExternalProcessHandler - Class org.apache.commons.math.linear.EigenDecompositionImpl. Clients have not finished yet, although timeout.
+ClientNode: WRITING_TESTS
+
+* Computation finished

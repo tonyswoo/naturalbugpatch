@@ -1,0 +1,51 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.block.BorderArrangement
+* Starting client
+* Connecting to master process on port 20939
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30396_1536335115/build
+  - /tmp/run_evosuite.pl_30396_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.block.BorderArrangement
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 122
+* Using seed 1536335148177
+* Starting evolution
+[MASTER] 07:50:20.872 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:52:31.512 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1804s and 5195 generations, 1168207 statements, best individual has fitness: 8.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 122
+* Number of covered goals: 105
+* Generated 23 tests with total length 161
+* Resulting test suite's coverage: 86%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      9 / 0           
+	- MaxTime :                      1,820 / 1,800        Finished!
+* Time spent executing tests: 1216332ms
+* Generating assertions
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT7513064283607027156.tmp: 1
+         write /tmp/+~JT654215609694385122.tmp: 1
+         write /tmp/+~JF189538617558045856.tmp: 1
+         and other 85 cases of action/name for this exception class
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 2
+         connect,resolve www.someFakeButWellFormedURL.org:80: 2
+  - java.lang.RuntimePermission: 
+         loadLibrary.mlib_image: 1
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 1
+         queuePrintJob: 2
+* Writing JUnit test case 'BorderArrangement_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

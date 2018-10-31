@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 16582
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11311_1536347283/build/classes
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/args4j.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/guava.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/json.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_11311_1536347283/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 457
+* Using seed 1536347317210
+* Starting evolution
+* Search finished after 1811s and 744 generations, 153361 statements, best individual has fitness: 128.5833333314707
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 457
+* Number of covered goals: 297
+* Generated 85 tests with total length 300
+* Resulting test suite's coverage: 65%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    129 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,872 / 1,800        Finished!
+* Time spent executing tests: 359910ms
+* Generating assertions
+[MASTER] 11:40:19.948 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 48%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

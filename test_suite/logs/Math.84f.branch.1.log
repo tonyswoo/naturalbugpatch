@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.direct.MultiDirectional
+* Starting client
+* Connecting to master process on port 15897
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12613_1536376429/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.direct.MultiDirectional
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 16
+* Using seed 1536376453239
+* Starting evolution
+* Search finished after 1801s and 20701 generations, 4458843 statements, best individual has fitness: 16.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 16
+* Number of covered goals: 2
+* Generated 2 tests with total length 2
+* Resulting test suite's coverage: 12%
+* GA-Budget:
+	- ZeroFitness :                     16 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 500989ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'MultiDirectional_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

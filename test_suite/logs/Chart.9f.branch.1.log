@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.time.TimeSeries
+* Starting client
+* Connecting to master process on port 9507
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30388_1536335115/build
+  - /tmp/run_evosuite.pl_30388_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimeSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 163
+* Using seed 1536335148878
+* Starting evolution
+* Search finished after 1803s and 6600 generations, 1212367 statements, best individual has fitness: 7.499999999534339
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 163
+* Number of covered goals: 144
+* Generated 50 tests with total length 243
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- MaxTime :                      1,813 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      7 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 825588ms
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         execute /usr/bin/xprop: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'TimeSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

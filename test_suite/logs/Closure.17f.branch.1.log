@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 6904
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_31561_1536339550/build/classes
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/args4j.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/guava.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/json.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_31561_1536339550/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 734
+* Using seed 1536339593136
+* Starting evolution
+* Search finished after 1814s and 4362 generations, 486316 statements, best individual has fitness: 565.8666666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 09:31:39.132 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 21%
+* Total number of goals: 734
+* Number of covered goals: 152
+* Generated 186 tests with total length 2805
+* Resulting test suite's coverage: 21%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,904 / 1,800        Finished!
+	- ZeroFitness :                    566 / 0           
+* Time spent executing tests: 1377519ms
+* Generating assertions
+[MASTER] 09:31:55.612 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 18 seconds more than allowed.
+* Resulting test suite's mutation score: 25%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

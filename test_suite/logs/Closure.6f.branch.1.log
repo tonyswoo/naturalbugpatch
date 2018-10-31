@@ -1,0 +1,57 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeValidator
+* Starting client
+* Connecting to master process on port 4387
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_25652_1536337599/build/classes
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/args4j.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/guava.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/json.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_25652_1536337599/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeValidator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 218
+* Using seed 1536337643009
+* Starting evolution
+[MASTER] 08:53:44.478 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:55:41.788 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 10780 generations, 751988 statements, best individual has fitness: 237.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 218
+* Number of covered goals: 6
+* Generated 4 tests with total length 20
+* Resulting test suite's coverage: 3%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    237 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,802 / 1,800        Finished!
+* Time spent executing tests: 310934ms
+* Generating assertions
+[MASTER] 08:57:44.083 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 08:57:44.087 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 08:57:44.088 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+[MASTER] 08:57:44.399 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CaseFormat, null
+[MASTER] 08:57:44.804 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.WhitelistWarningsGuard, null
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve 8],}1>9: 1
+         connect,resolve [:6C(GM]:6: 1
+         connect,resolve 127.0.0.1:32768: 1
+         connect,resolve 127.0.0.1:1: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 77
+* Writing JUnit test case 'TypeValidator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+[MASTER] 08:57:47.474 [Thread-3] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

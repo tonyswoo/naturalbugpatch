@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.ClassUtils
+* Starting client
+* Connecting to master process on port 13178
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2971_1536362737/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.ClassUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 229
+* Using seed 1536362755117
+* Starting evolution
+* Search finished after 1802s and 12715 generations, 3674111 statements, best individual has fitness: 32.666666666666664
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 229
+* Number of covered goals: 189
+* Generated 65 tests with total length 133
+* Resulting test suite's coverage: 83%
+* GA-Budget:
+	- ZeroFitness :                     33 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,807 / 1,800        Finished!
+* Time spent executing tests: 495192ms
+* Generating assertions
+* Resulting test suite's mutation score: 59%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ClassUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

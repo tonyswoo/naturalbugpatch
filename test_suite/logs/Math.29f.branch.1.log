@@ -1,0 +1,64 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 5353
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13985_1536369333/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 171
+* Using seed 1536369371869
+* Starting evolution
+* Search finished after 753s and 752 generations, 248367 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 17:30:07.241 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 171
+* Number of covered goals: 171
+* Generated 185 tests with total length 2615
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                        837 / 1,800       
+* Time spent executing tests: 730482ms
+* Generating assertions
+[MASTER] 17:30:22.245 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 15 seconds more than allowed.
+[MASTER] 17:32:23.342 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 17:32:23.347 [logback-1] WARN  ExecutionTrace - Popping method mapAddToSelf(D)Lorg/apache/commons/math3/linear/OpenMapRealVector; because we were looking for setEntry(ID)V
+[MASTER] 17:32:23.348 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.linear.OpenMapRealVector:mapAddToSelf(D)Lorg/apache/commons/math3/linear/OpenMapRealVector;
+Branches:  53 53 53 53 53 53 53 53 53 53 53 53 53
+True Distances:  2696.0 2695.0 2694.0 2693.0 2692.0 2691.0 2690.0 2689.0 2688.0 2687.0 2686.0 2685.0 2684.0
+False Distances:  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+, org.apache.commons.math3.linear.OpenMapRealVector:mapAdd(D)Lorg/apache/commons/math3/linear/OpenMapRealVector;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 17:32:23.348 [logback-1] WARN  ExecutionTrace - Popping method mapAdd(D)Lorg/apache/commons/math3/linear/OpenMapRealVector; because we were looking for setEntry(ID)V
+[MASTER] 17:32:23.348 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.linear.OpenMapRealVector:mapAdd(D)Lorg/apache/commons/math3/linear/OpenMapRealVector;
+Branches:  55
+True Distances:  0.0
+False Distances:  1.0
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

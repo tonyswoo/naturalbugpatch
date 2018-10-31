@@ -1,0 +1,88 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckSideEffects
+* Starting client
+* Connecting to master process on port 19976
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12651_1536340246/build/classes
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/args4j.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/guava.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/json.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_12651_1536340246/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckSideEffects
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 1536340294645
+* Starting evolution
+[MASTER] 09:28:49.048 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:29:24.776 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:30:31.023 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:31:37.384 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:32:03.016 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:33:04.024 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:35:06.568 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:36:37.839 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:36:53.091 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:37:33.643 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:39:21.248 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:39:52.108 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:40:44.380 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:41:33.025 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:42:00.592 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:42:30.646 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1884s and 7602 generations, 1123020 statements, best individual has fitness: 18.0
+[MASTER] 09:43:46.100 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:44:01.132 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:44:21.157 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 09:45:51.373 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Coverage analysis for criterion BRANCH
+[MASTER] 09:46:06.455 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 09:46:46.543 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:47:01.572 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:47:31.617 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Coverage of criterion BRANCH: 42%
+* Total number of goals: 45
+* Number of covered goals: 19
+* Generated 49 tests with total length 440
+* Resulting test suite's coverage: 78%
+* GA-Budget:
+	- MaxTime :                      2,138 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      8 / 0           
+* Time spent executing tests: 589922ms
+* Generating assertions
+[MASTER] 09:47:31.833 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 110 seconds more than allowed.
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:2584: 1
+         resolve =Id6@: 1
+         resolve '$9: 1
+         resolve ;LouG: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 27
+[MASTER] 09:49:05.529 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: com.google.javascript.jscomp.CheckSideEffects with seed 1536340294645. Configuration id : null
+java.lang.AssertionError: A ConstantValue position is only defined if the VariableReference is defined by a statement
+	at org.evosuite.testcase.variable.ConstantValue.getStPosition(ConstantValue.java:111) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.variable.VariableReferenceImpl.same(VariableReferenceImpl.java:495) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.statements.MethodStatement.same(MethodStatement.java:674) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.DefaultTestCase.isPrefix(DefaultTestCase.java:867) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.junit.writer.TestSuiteWriter.insertTest(TestSuiteWriter.java:97) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.junit.writer.TestSuiteWriter.insertTests(TestSuiteWriter.java:151) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.writeJUnitTestsAndCreateResult(TestSuiteGenerator.java:632) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.writeJUnitTestsAndCreateResult(TestSuiteGenerator.java:661) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:257) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) ~[evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_95]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_95]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_95]
+* Computation finished

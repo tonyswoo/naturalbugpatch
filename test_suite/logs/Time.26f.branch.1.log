@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.chrono.ZonedChronology
+* Starting client
+* Connecting to master process on port 5415
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26199_1536386580/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.ZonedChronology
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 121
+* Using seed 1536386605909
+* Starting evolution
+* Search finished after 1802s and 12802 generations, 1321578 statements, best individual has fitness: 5.499999998599434
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 121
+* Number of covered goals: 112
+* Generated 56 tests with total length 349
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,815 / 1,800        Finished!
+	- ZeroFitness :                      5 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 618891ms
+* Generating assertions
+* Resulting test suite's mutation score: 38%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'ZonedChronology_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

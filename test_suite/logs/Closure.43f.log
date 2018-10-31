@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 11:06:30  ######
+Generate tests for: com.google.javascript.jscomp.TypedScopeCreator : branch : 1800s
+Error: cannot archive and ompress test suite!
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 11:46:45  ######

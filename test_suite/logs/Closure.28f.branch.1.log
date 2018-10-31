@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.InlineCostEstimator
+* Starting client
+* Connecting to master process on port 7794
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30919_1536341414/build/classes
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/args4j.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/guava.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/json.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_30919_1536341414/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.InlineCostEstimator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 11
+* Using seed 1536341466786
+* Starting evolution
+* Search finished after 1801s and 32547 generations, 4893967 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 11
+* Number of covered goals: 10
+* Generated 2 tests with total length 4
+* Resulting test suite's coverage: 91%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 557683ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'InlineCostEstimator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

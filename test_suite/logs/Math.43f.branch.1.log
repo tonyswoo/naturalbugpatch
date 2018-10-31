@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.descriptive.SummaryStatistics
+* Starting client
+* Connecting to master process on port 19079
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11344_1536371046/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.descriptive.SummaryStatistics
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 91
+* Using seed 1536371075952
+* Starting evolution
+* Search finished after 100s and 1137 generations, 242528 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 91
+* Number of covered goals: 91
+* Generated 35 tests with total length 123
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                        103 / 1,800       
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 71983ms
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Writing JUnit test case 'SummaryStatistics_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

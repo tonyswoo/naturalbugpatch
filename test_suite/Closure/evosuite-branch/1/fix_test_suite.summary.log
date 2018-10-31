@@ -1,0 +1,938 @@
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:52:21  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:55:24  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:55:55  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:56:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:56:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:57:48  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:58:07  ######
+- Found 1 test archive(s)
+ - Removing 3 broken test method(s): Closure-7f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test31
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test33
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test02
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:59:09  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:59:16  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:59:51  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:01:08  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:01:26  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:21:41  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:21:46  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-8f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.CollapseVariableDeclarations_ESTest::test0
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:23:42  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:25:03  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:25:27  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:25:52  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:26:12  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:26:28  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:27:29  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:27:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:28:44  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:29:23  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:29:40  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:30:14  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:31:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:31:35  ######
+ - Removing 4 broken test method(s): Closure-19f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test41
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test43
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test45
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter_ESTest::test49
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:32:36  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:32:58  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:32:58  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:33:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:34:09  ######
+ - Removing 1 broken test method(s): Closure-20f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax_ESTest::test21
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:35:28  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:36:17  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:37:00  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:37:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:37:53  ######
+ - Removing 9 broken test method(s): Closure-18f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.Compiler_ESTest::test051
+com.google.javascript.jscomp.Compiler_ESTest::test054
+com.google.javascript.jscomp.Compiler_ESTest::test070
+com.google.javascript.jscomp.Compiler_ESTest::test090
+com.google.javascript.jscomp.Compiler_ESTest::test009
+com.google.javascript.jscomp.Compiler_ESTest::test140
+com.google.javascript.jscomp.Compiler_ESTest::test148
+com.google.javascript.jscomp.Compiler_ESTest::test162
+com.google.javascript.jscomp.Compiler_ESTest::test025
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:40:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 9 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:42:00  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:49:06  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:49:06  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:57:34  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:57:58  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:00:16  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:00:39  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:01:16  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:01:24  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:01:28  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:02:58  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:03:27  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:03:45  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:04:08  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:05:28  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:06:01  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:07:54  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Closure-32f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:08:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:09:17  ######
+Number of uncompilable test classes: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:10:07  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:11:15  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:12:18  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:12:28  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:13:03  ######
+- Found 1 test archive(s)
+ - Removing 13 broken test method(s): Closure-31f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.Compiler_ESTest::test046
+com.google.javascript.jscomp.Compiler_ESTest::test054
+com.google.javascript.jscomp.Compiler_ESTest::test078
+com.google.javascript.jscomp.Compiler_ESTest::test085
+com.google.javascript.jscomp.Compiler_ESTest::test100
+com.google.javascript.jscomp.Compiler_ESTest::test122
+com.google.javascript.jscomp.Compiler_ESTest::test000
+com.google.javascript.jscomp.Compiler_ESTest::test015
+com.google.javascript.jscomp.Compiler_ESTest::test017
+com.google.javascript.jscomp.Compiler_ESTest::test146
+com.google.javascript.jscomp.Compiler_ESTest::test030
+com.google.javascript.jscomp.Compiler_ESTest::test034
+com.google.javascript.jscomp.Compiler_ESTest::test036
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:15:27  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:16:13  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 13 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:17:21  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:31:35  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:33:43  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:34:27  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-39f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.jstype.PrototypeObjectType_ESTest::test34
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:35:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:35:46  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:36:02  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:37:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:38:43  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:39:05  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:39:14  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:40:06  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:40:08  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:40:18  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-42f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.IRFactory_ESTest::test03
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:41:20  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Closure-45f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.RemoveUnusedVars_ESTest::test0
+com.google.javascript.jscomp.RemoveUnusedVars_ESTest::test1
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:42:33  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:42:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:42:42  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:43:40  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:45:04  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:45:04  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:46:45  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:46:45  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:48:47  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:52:02  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:56:54  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 11:56:54  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:04:45  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:07:25  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:07:25  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:08:03  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:08:25  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:10:12  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:10:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:11:02  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:13:41  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:13:51  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:14:00  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:14:01  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:17:07  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:17:09  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:17:54  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:18:05  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:20:36  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:20:36  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:20:53  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:21:59  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:23:15  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:24:24  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:24:24  ######
+ - Removing 3 broken test method(s): Closure-59f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.Compiler_ESTest::test069
+com.google.javascript.jscomp.Compiler_ESTest::test132
+com.google.javascript.jscomp.Compiler_ESTest::test144
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:24:54  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:24:54  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:28:00  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:28:13  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:31:13  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:38:44  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:41:44  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:42:11  ######
+- Found 1 test archive(s)
+ - Removing 4 broken test method(s): Closure-64f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.Compiler_ESTest::test74
+com.google.javascript.jscomp.Compiler_ESTest::test43
+com.google.javascript.jscomp.Compiler_ESTest::test45
+com.google.javascript.jscomp.Compiler_ESTest::test71
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:45:14  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:45:31  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:45:34  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:47:51  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:48:06  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:48:39  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:49:18  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-54f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.jstype.FunctionType_ESTest::test43
+ - Removing 2 broken test method(s): Closure-68f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test28
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test30
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:51:43  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:52:10  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:52:28  ######
+- Found 1 test archive(s)
+ - Removing 6 broken test method(s): Closure-66f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.TypeCheck_ESTest::test041
+com.google.javascript.jscomp.TypeCheck_ESTest::test115
+com.google.javascript.jscomp.TypeCheck_ESTest::test152
+com.google.javascript.jscomp.TypeCheck_ESTest::test015
+com.google.javascript.jscomp.TypeCheck_ESTest::test018
+com.google.javascript.jscomp.TypeCheck_ESTest::test020
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:52:57  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:55:14  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 6 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:57:26  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:58:02  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:58:28  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 12:58:29  ######
+- Found 1 test archive(s)
+ - Removing 13 broken test method(s): Closure-69f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.TypeCheck_ESTest::test01
+com.google.javascript.jscomp.TypeCheck_ESTest::test02
+com.google.javascript.jscomp.TypeCheck_ESTest::test03
+com.google.javascript.jscomp.TypeCheck_ESTest::test04
+com.google.javascript.jscomp.TypeCheck_ESTest::test05
+com.google.javascript.jscomp.TypeCheck_ESTest::test06
+com.google.javascript.jscomp.TypeCheck_ESTest::test07
+com.google.javascript.jscomp.TypeCheck_ESTest::test08
+com.google.javascript.jscomp.TypeCheck_ESTest::test10
+com.google.javascript.jscomp.TypeCheck_ESTest::test11
+com.google.javascript.jscomp.TypeCheck_ESTest::test13
+com.google.javascript.jscomp.TypeCheck_ESTest::test00
+com.google.javascript.jscomp.TypeCheck_ESTest::test16
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:04  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:04  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:11  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:11  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 13 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:01:57  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:02:01  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:02:06  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:04:21  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:15:56  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:18:26  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:19:20  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:21:02  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:21:02  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:21:53  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:25:55  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:26:14  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:26:29  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-81f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.IRFactory_ESTest::test15
+ - Removing 1 broken test method(s): Closure-83f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.CommandLineRunner_ESTest::test1
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:27:44  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:28:38  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:29:16  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:29:47  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:32:18  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:32:26  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:33:13  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:33:17  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:34:40  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:34:40  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:35:41  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:36:18  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:36:41  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:38:22  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:38:22  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:50:30  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:52:15  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:52:59  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:53:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:54:50  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:55:46  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 13:59:04  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-79f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.VarCheck_ESTest::test2
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:03:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:03:15  ######
+ - Removing 2 broken test method(s): Closure-104f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.jstype.UnionType_ESTest::test29
+com.google.javascript.rhino.jstype.UnionType_ESTest::test30
+ - Removing 1 broken test method(s): Closure-104f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.jstype.UnionType_ESTest::test13
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:04:46  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:05:43  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:05:48  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:06:24  ######
+- Found 1 test archive(s)
+ - Removing 8 broken test method(s): Closure-89f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test40
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test46
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test51
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test52
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test54
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test56
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test57
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test58
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:06:55  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Closure-98f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test32
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test36
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:07:47  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:07:51  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:08:37  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-101f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.CommandLineRunner_ESTest::test1
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:08:56  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:08:56  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:09:38  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:09:44  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:09:44  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 8 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:09:55  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:10:08  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:10:45  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:10:47  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:11:16  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:11:26  ######
+- Found 1 test archive(s)
+ - Removing 4 broken test method(s): Closure-90f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.jstype.FunctionType_ESTest::test18
+com.google.javascript.rhino.jstype.FunctionType_ESTest::test35
+com.google.javascript.rhino.jstype.FunctionType_ESTest::test67
+com.google.javascript.rhino.jstype.FunctionType_ESTest::test68
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:12:57  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:14:23  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:16:53  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:17:33  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:34:02  ######
+- Found 1 test archive(s)
+ - Removing 18 broken test method(s): Closure-105f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.FoldConstants_ESTest::test020
+com.google.javascript.jscomp.FoldConstants_ESTest::test021
+com.google.javascript.jscomp.FoldConstants_ESTest::test022
+com.google.javascript.jscomp.FoldConstants_ESTest::test024
+com.google.javascript.jscomp.FoldConstants_ESTest::test025
+com.google.javascript.jscomp.FoldConstants_ESTest::test030
+com.google.javascript.jscomp.FoldConstants_ESTest::test062
+com.google.javascript.jscomp.FoldConstants_ESTest::test065
+com.google.javascript.jscomp.FoldConstants_ESTest::test077
+com.google.javascript.jscomp.FoldConstants_ESTest::test080
+com.google.javascript.jscomp.FoldConstants_ESTest::test084
+com.google.javascript.jscomp.FoldConstants_ESTest::test088
+com.google.javascript.jscomp.FoldConstants_ESTest::test094
+com.google.javascript.jscomp.FoldConstants_ESTest::test112
+com.google.javascript.jscomp.FoldConstants_ESTest::test037
+com.google.javascript.jscomp.FoldConstants_ESTest::test040
+com.google.javascript.jscomp.FoldConstants_ESTest::test045
+com.google.javascript.jscomp.FoldConstants_ESTest::test047
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 18 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:37:11  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:37:32  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Closure-107f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.CommandLineRunner_ESTest::test3
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:39:38  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:40:49  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:41:11  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:41:30  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:41:34  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:42:14  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Closure-113f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.ProcessClosurePrimitives_ESTest::test4
+com.google.javascript.jscomp.ProcessClosurePrimitives_ESTest::test5
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:42:49  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:42:52  ######
+ - Removing 17 broken test method(s): Closure-109f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test30
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test33
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test34
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test35
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test38
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test40
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test41
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test42
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test44
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test46
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test03
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test05
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test16
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test22
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test23
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test25
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest::test01
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:43:11  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:43:19  ######
+ - Removing 4 broken test method(s): Closure-114f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.NameAnalyzer_ESTest::test0
+com.google.javascript.jscomp.NameAnalyzer_ESTest::test2
+com.google.javascript.jscomp.NameAnalyzer_ESTest::test3
+com.google.javascript.jscomp.NameAnalyzer_ESTest::test4
+ - Removing 4 broken test method(s): Closure-115f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.FunctionInjector_ESTest::test06
+com.google.javascript.jscomp.FunctionInjector_ESTest::test11
+com.google.javascript.jscomp.FunctionInjector_ESTest::test05
+com.google.javascript.jscomp.FunctionInjector_ESTest::test00
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:44:08  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:44:21  ######
+ - Removing 1 broken test method(s): Closure-116f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.FunctionInjector_ESTest::test5
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:45:21  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 17 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:46:04  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:46:37  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:47:13  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:47:55  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:48:01  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:48:37  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:51:21  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:51:47  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:56:47  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 14:59:18  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:05:36  ######
+- Found 1 test archive(s)
+ - Removing 7 broken test method(s): Closure-106f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test44
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test49
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test51
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test52
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test55
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test56
+com.google.javascript.jscomp.GlobalNamespace_ESTest::test57
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 7 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:08:37  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:13:09  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:14:02  ######
+- Found 1 test archive(s)
+ - Removing 4 broken test method(s): Closure-120f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test15
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test16
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test19
+com.google.javascript.jscomp.ReferenceCollectingCallback_ESTest::test21
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:15:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:16:31  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:11  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:14  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:36  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:50  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:50  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:17:57  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:18:17  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Closure-122f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.IRFactory_ESTest::test03
+com.google.javascript.jscomp.parsing.IRFactory_ESTest::test16
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:18:44  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:19:06  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:19:31  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:19:31  ######
+ - Removing uncompilable test method(s): Closure-110f-evosuite-branch.1.tar.bz2
+com.google.javascript.rhino.Node_ESTest
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:21:05  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:21:25  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:21:28  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:21:56  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:22:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:22:47  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:22:50  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:25:12  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:25:41  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:25:59  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:29:21  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:30:23  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:32:50  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:40:07  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Closure-132f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax_ESTest::test18
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax_ESTest::test37
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:44:26  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:49:37  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Closure-133f-evosuite-branch.1.tar.bz2
+com.google.javascript.jscomp.parsing.JsDocInfoParser_ESTest
+Number of uncompilable test classes: 1 (see /data/ktony11/test_suite/Closure/evosuite-branch/1/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:51:47  ######
+######  Start fixing tests  defects4j/framework/util/fix_test_suite.pl: 2018-10-10 15:08:59  ######
+- Found 0 test archive(s)
+######  End fixing tests  defects4j/framework/util/fix_test_suite.pl: 2018-10-10 15:08:59  ######
+######  Start fixing tests  defects4j/framework/util/fix_test_suite.pl: 2018-10-10 15:10:28  ######
+- Found 0 test archive(s)
+######  End fixing tests  defects4j/framework/util/fix_test_suite.pl: 2018-10-10 15:10:28  ######

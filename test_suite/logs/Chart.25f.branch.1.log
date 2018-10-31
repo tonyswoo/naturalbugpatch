@@ -1,0 +1,115 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Starting client
+* Connecting to master process on port 15496
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10048_1536337173/build
+  - /tmp/run_evosuite.pl_10048_1536337173/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 1536337202005
+* Starting evolution
+[MASTER] 08:21:13.211 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:21:30.264 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:22:14.595 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:23:13.108 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:24:04.356 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:24:10.198 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:24:36.956 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:26:10.437 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:26:21.049 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:26:29.246 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:26:44.405 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:27:44.142 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:28:23.923 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:28:45.664 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:28:45.951 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:29:05.757 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:29:06.907 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:30:16.448 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:30:33.009 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:31:35.969 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:31:41.139 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:31:41.206 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:31:47.240 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:31:47.695 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:31:52.679 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:32:05.822 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:33:06.658 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:33:11.486 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:33:17.851 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:33:34.704 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:33:59.501 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:34:27.630 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:34:39.399 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:34:39.399 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:35:39.931 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:35:46.339 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:35:48.845 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:37:16.759 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:37:42.363 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:37:55.551 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:37:57.671 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:38:27.195 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:38:51.943 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:06.373 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:19.329 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:23.065 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:32.331 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:36.482 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:39:50.863 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:39:56.371 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:40:34.141 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:41:11.903 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:41:13.129 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:41:35.476 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:41:37.793 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:41:39.062 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:41:53.218 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:42:23.047 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:44:43.763 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:44:45.017 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:46:19.118 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:47:43.971 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:48:10.477 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:48:36.769 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:48:53.667 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:49:34.916 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:50:16.632 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 1801s and 8235 generations, 2679938 statements, best individual has fitness: 79.83333333333333
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 16%
+* Total number of goals: 97
+* Number of covered goals: 16
+* Generated 10 tests with total length 55
+* Resulting test suite's coverage: 16%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     80 / 0           
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 769443ms
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT2926066002802741702.tmp: 1
+         write /tmp/+~JT2516729311593710934.tmp: 1
+         write /tmp/+~JT6868140068052465667.tmp: 1
+         and other 49 cases of action/name for this exception class
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 2
+         connect,resolve www.someFakeButWellFormedURL.org:80: 2
+  - java.lang.RuntimePermission: 
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 12
+         queuePrintJob: 1
+* Writing JUnit test case 'StatisticalBarRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

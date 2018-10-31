@@ -1,0 +1,59 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ClosureCodingConvention
+* Starting client
+* Connecting to master process on port 11002
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23960_1536345820/build/classes
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/args4j.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/guava.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/json.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_23960_1536345820/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ClosureCodingConvention
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 117
+* Using seed 1536345862548
+* Starting evolution
+[MASTER] 11:09:07.912 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:09:58.704 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:11:51.702 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:12:01.912 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:12:38.347 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:13:45.134 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:15:27.052 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:15:47.164 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:16:17.386 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:16:27.478 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1908s and 5501 generations, 872770 statements, best individual has fitness: 93.0
+[MASTER] 11:16:37.840 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:17:03.044 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:17:48.346 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 11:19:29.202 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:20:29.836 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Coverage analysis for criterion BRANCH
+[MASTER] 11:20:29.906 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 11:21:00.099 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:22:20.487 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Coverage of criterion BRANCH: 21%
+* Total number of goals: 117
+* Number of covered goals: 24
+* Generated 78 tests with total length 639
+* Resulting test suite's coverage: 38%
+* GA-Budget:
+	- MaxTime :                      2,271 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                     71 / 0           
+[MASTER] 11:22:30.913 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 182 seconds more than allowed.
+* Time spent executing tests: 1084349ms
+* Generating assertions
+[MASTER] 11:24:23.286 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.ClosureCodingConvention. Clients have not finished yet, although timeout.
+ClientNode: ASSERTION_GENERATION
+
+* Computation finished

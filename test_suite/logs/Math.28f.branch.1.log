@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.linear.SimplexSolver
+* Starting client
+* Connecting to master process on port 4325
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_6121_1536369057/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.linear.SimplexSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 54
+* Using seed 1536369091725
+* Starting evolution
+* Search finished after 1802s and 15195 generations, 2523867 statements, best individual has fitness: 40.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 54
+* Number of covered goals: 12
+* Generated 2 tests with total length 13
+* Resulting test suite's coverage: 22%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     40 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1295364ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'SimplexSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

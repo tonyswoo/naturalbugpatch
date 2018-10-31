@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckAccessControls
+* Starting client
+* Connecting to master process on port 6857
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26939_1536348053/build/classes
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/args4j.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/guava.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/json.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_26939_1536348053/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckAccessControls
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 1536348087386
+* Starting evolution
+* Search finished after 1803s and 8932 generations, 811898 statements, best individual has fitness: 177.78101098595465
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 230
+* Number of covered goals: 50
+* Generated 4 tests with total length 19
+* Resulting test suite's coverage: 22%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    178 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,811 / 1,800        Finished!
+* Time spent executing tests: 1222652ms
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve m%`!%2 ) ^z_8gt6B<: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 27
+* Writing JUnit test case 'CheckAccessControls_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

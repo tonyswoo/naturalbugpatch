@@ -1,0 +1,3 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 18:59:13  ######
+Generate tests for: org.apache.commons.math.analysis.solvers.BaseSecantSolver : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 19:29:39  ######

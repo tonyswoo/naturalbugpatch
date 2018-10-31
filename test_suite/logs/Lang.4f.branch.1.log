@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.text.translate.LookupTranslator
+* Starting client
+* Connecting to master process on port 15641
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17358_1536358772/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.translate.LookupTranslator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 14
+* Using seed 1536358792221
+* Starting evolution
+* Search finished after 12s and 35 generations, 17502 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Generated 3 tests with total length 18
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                         12 / 1,800       
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 3785ms
+* Generating assertions
+* Resulting test suite's mutation score: 43%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'LookupTranslator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

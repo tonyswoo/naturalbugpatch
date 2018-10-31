@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 7423
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26246_1536345904/build/classes
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/args4j.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/guava.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/json.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_26246_1536345904/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 467
+* Using seed 1536345944958
+* Starting evolution
+* Search finished after 1819s and 843 generations, 169406 statements, best individual has fitness: 114.08333333100504
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 11:17:43.344 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 467
+* Number of covered goals: 319
+* Generated 337 tests with total length 6213
+* Resulting test suite's coverage: 68%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    117 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,916 / 1,800        Finished!
+* Time spent executing tests: 342044ms
+* Generating assertions
+[MASTER] 11:18:03.375 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 20 seconds more than allowed.
+[MASTER] 11:18:11.981 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 11:18:13.990 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 60%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve Strip code: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

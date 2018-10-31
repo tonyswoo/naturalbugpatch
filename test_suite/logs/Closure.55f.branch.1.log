@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionRewriter
+* Starting client
+* Connecting to master process on port 10507
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21622_1536345753/build/classes
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/guava.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/json.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_21622_1536345753/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionRewriter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 1536345793837
+* Starting evolution
+[MASTER] 10:52:51.276 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1804s and 9758 generations, 1157386 statements, best individual has fitness: 21.977272727272727
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 97
+* Number of covered goals: 70
+* Generated 6 tests with total length 24
+* Resulting test suite's coverage: 72%
+* GA-Budget:
+	- MaxTime :                      1,811 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     22 / 0           
+* Time spent executing tests: 1152396ms
+* Generating assertions
+[MASTER] 11:13:49.256 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve ENUM_INIT_VALUES: 1
+         resolve parser reused: 1
+         resolve JSCompilr_identityFn_value: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 37
+* Writing JUnit test case 'FunctionRewriter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

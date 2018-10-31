@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.xy.XYSeries
+* Starting client
+* Connecting to master process on port 7111
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30383_1536335115/build
+  - /tmp/run_evosuite.pl_30383_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.xy.XYSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 103
+* Using seed 1536335150550
+* Starting evolution
+* Search finished after 1240s and 5725 generations, 824558 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 103
+* Number of covered goals: 103
+* Generated 37 tests with total length 134
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- MaxTime :                      1,247 / 1,800       
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 638645ms
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         execute /usr/bin/xprop: 1
+  - java.net.SocketPermission: 
+         resolve localhost: 1
+         resolve www.someFakeButWellFormedURL.org: 1
+         connect,resolve www.someFakeButWellFormedURL.org:80: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'XYSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,58 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionInjector
+* Starting client
+* Connecting to master process on port 7723
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17841_1536354777/build/classes
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/args4j.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/guava.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/json.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_17841_1536354777/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionInjector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 258
+* Using seed 1536354817136
+* Starting evolution
+[MASTER] 13:19:42.693 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:32:03.835 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:33:30.404 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:35:38.132 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:35:46.454 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:37:27.360 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:39:09.066 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:39:55.575 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 2134 generations, 447798 statements, best individual has fitness: 241.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 9%
+* Total number of goals: 258
+* Number of covered goals: 22
+* Generated 8 tests with total length 59
+* Resulting test suite's coverage: 9%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    242 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,805 / 1,800        Finished!
+* Time spent executing tests: 266651ms
+* Generating assertions
+[MASTER] 13:44:02.486 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:1485: 1
+         resolve MIvc]): 1
+         resolve Decomposable expressions must be decomposed before inlining.: 1
+         and other 2 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'FunctionInjector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

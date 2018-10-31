@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 21:10:16  ######
+Generate tests for: org.mockito.Mockito : branch : 1800s
+Generate tests for: org.mockito.internal.MockitoCore : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 22:11:18  ######

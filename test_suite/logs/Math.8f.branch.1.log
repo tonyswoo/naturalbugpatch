@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.distribution.DiscreteDistribution
+* Starting client
+* Connecting to master process on port 17931
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22058_1536366735/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.DiscreteDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 26
+* Using seed 1536366764547
+* Starting evolution
+* Search finished after 1802s and 8952 generations, 1192165 statements, best individual has fitness: 0.6666666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 26
+* Number of covered goals: 25
+* Generated 10 tests with total length 78
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,806 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 473288ms
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'DiscreteDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

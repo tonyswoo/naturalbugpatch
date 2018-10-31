@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 2741
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11317_1536367362/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 286
+* Using seed 1536367388914
+* Starting evolution
+* Search finished after 1872s and 422 generations, 205426 statements, best individual has fitness: 70.83329972485086
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 17:17:12.851 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 73%
+* Total number of goals: 286
+* Number of covered goals: 209
+[MASTER] 17:18:33.207 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 108 seconds more than allowed.
+* Generated 216 tests with total length 3578
+* Resulting test suite's coverage: 73%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     71 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      2,114 / 1,800        Finished!
+* Time spent executing tests: 2032408ms
+* Generating assertions
+[MASTER] 17:23:09.567 [main] ERROR ExternalProcessHandler - Class org.apache.commons.math3.optimization.direct.CMAESOptimizer. Clients have not finished yet, although timeout.
+ClientNode: ASSERTION_GENERATION
+
+* Computation finished

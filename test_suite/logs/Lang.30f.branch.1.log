@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 18522
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_4086_1536361058/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1126
+* Using seed 1536361077583
+* Starting evolution
+[MASTER] 15:15:40.093 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.StringUtils. Lost connection with clients.
+ClientNode: SEARCH
+The JVM of the client process did crash:
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007ffabc1eabf3, pid=4663, tid=140711649306368
+#
+# JRE version: OpenJDK Runtime Environment (7.0_95) (build 1.7.0_95-b00)
+# Java VM: OpenJDK 64-Bit Server VM (24.95-b01 mixed mode linux-amd64 compressed oops)
+# Derivative: IcedTea 2.6.4
+# Distribution: Ubuntu Xenial Xerus (development branch), package 7u95-2.6.4-3
+# Problematic frame:
+# C  [libjava.so+0x18bf3]  Java_java_nio_Bits_copyToShortArray+0x1e3
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please include
+# instructions on how to reproduce the bug and visit:
+#   http://icedtea.classpath.org/bugzilla
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+* Computation finished
+[MASTER] 15:15:40.200 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 15:15:40.302 [main] ERROR TestGeneration - failed to write statistics data

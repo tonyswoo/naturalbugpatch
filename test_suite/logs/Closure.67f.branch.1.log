@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Starting client
+* Connecting to master process on port 18635
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18005_1536347632/build/classes
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/args4j.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/guava.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/json.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_18005_1536347632/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 175
+* Using seed 1536347672447
+* Starting evolution
+* Search finished after 1805s and 1343 generations, 272272 statements, best individual has fitness: 93.18333333333334
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 175
+* Number of covered goals: 76
+* Generated 18 tests with total length 70
+* Resulting test suite's coverage: 43%
+* GA-Budget:
+	- MaxTime :                      1,824 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     93 / 0           
+* Time spent executing tests: 704916ms
+* Generating assertions
+[MASTER] 11:45:21.032 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve F-V|: 1
+         resolve }xUt: 1
+         resolve javasript: 1
+         resolve &H: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'AnalyzePrototypeProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

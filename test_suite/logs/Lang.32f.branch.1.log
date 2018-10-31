@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.builder.HashCodeBuilder
+* Starting client
+* Connecting to master process on port 10825
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_6540_1536361171/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.builder.HashCodeBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 119
+* Using seed 1536361188109
+* Starting evolution
+* Search finished after 1802s and 24460 generations, 10276109 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 119
+* Number of covered goals: 112
+* Generated 30 tests with total length 85
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 734505ms
+* Generating assertions
+* Resulting test suite's mutation score: 73%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'HashCodeBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

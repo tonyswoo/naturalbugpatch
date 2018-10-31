@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.EigenDecompositionImpl
+* Starting client
+* Connecting to master process on port 15337
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2006_1536375730/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.EigenDecompositionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 428
+* Using seed 1536375754906
+* Starting evolution
+* Search finished after 1811s and 10989 generations, 700212 statements, best individual has fitness: 56.96875
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 19:34:07.510 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 428
+* Number of covered goals: 370
+* Generated 470 tests with total length 6926
+* Resulting test suite's coverage: 86%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,890 / 1,800        Finished!
+	- ZeroFitness :                     57 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 608387ms
+* Generating assertions
+[MASTER] 19:34:18.115 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 11 seconds more than allowed.
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'EigenDecompositionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

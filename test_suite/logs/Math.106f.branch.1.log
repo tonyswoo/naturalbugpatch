@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.fraction.ProperFractionFormat
+* Starting client
+* Connecting to master process on port 7544
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3891_1536379163/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.ProperFractionFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 26
+* Using seed 1536379182813
+* Starting evolution
+[MASTER] 20:05:15.099 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 20:22:14.499 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1654s and 24324 generations, 3072325 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Generated 12 tests with total length 51
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+	- MaxTime :                      1,654 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 701116ms
+* Generating assertions
+* Resulting test suite's mutation score: 81%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'ProperFractionFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,36 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.util.MultidimensionalCounter
+* Starting client
+* Connecting to master process on port 19350
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11754_1536372774/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MultidimensionalCounter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 41
+* Using seed 1536372798927
+* Starting evolution
+* Search finished after 1804s and 51920 generations, 12627392 statements, best individual has fitness: 46.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 41
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     46 / 0           
+* Time spent executing tests: 1268048ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Done!
+
+* Computation finished

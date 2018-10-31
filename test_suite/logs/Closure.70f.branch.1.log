@@ -1,0 +1,30 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 8732
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26410_1536348036/build/classes
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/args4j.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/guava.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/json.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_26410_1536348036/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 663
+* Using seed 1536348070171
+* Starting evolution
+* Search finished after 2203s and 872 generations, 158873 statements, best individual has fitness: 297.88540256040255
+[MASTER] 11:58:14.813 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 402 seconds more than allowed.
+[MASTER] 12:01:10.876 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.TypedScopeCreator. Clients have not finished yet, although timeout.
+ClientNode: INLINING
+
+* Computation finished
+[MASTER] 12:01:10.977 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 12:01:10.977 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:01:11.078 [main] ERROR TestGeneration - failed to write statistics data

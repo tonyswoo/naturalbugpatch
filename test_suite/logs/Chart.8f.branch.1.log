@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.time.Week
+* Starting client
+* Connecting to master process on port 7020
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30385_1536335115/build
+  - /tmp/run_evosuite.pl_30385_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.Week
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 83
+* Using seed 1536335147746
+* Starting evolution
+* Search finished after 1802s and 16610 generations, 2033878 statements, best individual has fitness: 6.963636363636364
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 83
+* Number of covered goals: 75
+* Generated 30 tests with total length 99
+* Resulting test suite's coverage: 90%
+* GA-Budget:
+	- ZeroFitness :                      7 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,805 / 1,800        Finished!
+* Time spent executing tests: 785006ms
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'Week_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

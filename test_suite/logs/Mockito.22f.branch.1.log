@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.matchers.Equality
+* Starting client
+* Connecting to master process on port 5075
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_31228_1536380104/target/classes
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.matchers.Equality
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 28
+* Using seed 1536380178017
+* Starting evolution
+* Search finished after 1801s and 27336 generations, 1636858 statements, best individual has fitness: 15.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 28
+* Number of covered goals: 12
+* Generated 5 tests with total length 7
+* Resulting test suite's coverage: 43%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     15 / 0           
+* Time spent executing tests: 718404ms
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'Equality_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

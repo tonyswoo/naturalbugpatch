@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+* Starting client
+* Connecting to master process on port 13373
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3110_1536373882/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 205
+* Using seed 1536373908139
+* Starting evolution
+* Search finished after 1801s and 29953 generations, 4397743 statements, best individual has fitness: 204.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 2%
+* Total number of goals: 205
+* Number of covered goals: 5
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 2%
+* GA-Budget:
+	- ZeroFitness :                    204 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 734152ms
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'LevenbergMarquardtOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,3 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 17:00:30  ######
+Generate tests for: org.apache.commons.lang.math.NumberUtils : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 17:31:38  ######

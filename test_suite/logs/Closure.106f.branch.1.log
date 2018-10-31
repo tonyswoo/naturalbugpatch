@@ -1,0 +1,83 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.JSDocInfoBuilder
+* Starting client
+* Connecting to master process on port 15608
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_830_1536354195/build/classes
+  - /tmp/run_evosuite.pl_830_1536354195/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/junit.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.JSDocInfoBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 150
+* Using seed 1536354226414
+* Starting evolution
+* Search finished after 1802s and 15737 generations, 2078881 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 150
+* Number of covered goals: 147
+* Generated 75 tests with total length 281
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- ZeroFitness :                      2 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 592625ms
+* Generating assertions
+* Resulting test suite's mutation score: 71%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'JSDocInfoBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 3490
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_830_1536354195/build/classes
+  - /tmp/run_evosuite.pl_830_1536354195/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/junit.jar
+  - /tmp/run_evosuite.pl_830_1536354195/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 400
+* Using seed 1536356064372
+* Starting evolution
+* Search finished after 1802s and 10894 generations, 1052659 statements, best individual has fitness: 213.42362951100296
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 48%
+* Total number of goals: 400
+* Number of covered goals: 190
+* Generated 58 tests with total length 287
+* Resulting test suite's coverage: 48%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    213 / 0           
+	- MaxTime :                      1,811 / 1,800        Finished!
+* Time spent executing tests: 607336ms
+* Generating assertions
+[MASTER] 14:04:53.280 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

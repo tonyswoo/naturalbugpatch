@@ -1,0 +1,56 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.axis.Axis
+* Starting client
+* Connecting to master process on port 15152
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10724_1536337189/build
+  - /tmp/run_evosuite.pl_10724_1536337189/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.axis.Axis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 172
+* Using seed 1536337218073
+* Starting evolution
+[MASTER] 08:25:51.554 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:26:09.781 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:38:01.192 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:38:30.768 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:39:25.956 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:42:40.863 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:47:57.788 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:49:25.938 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+* Search finished after 1805s and 1450 generations, 553035 statements, best individual has fitness: 10.333333333333332
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 172
+* Number of covered goals: 154
+* Generated 59 tests with total length 231
+* Resulting test suite's coverage: 91%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     10 / 0           
+	- MaxTime :                      1,833 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 607438ms
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT3139756623235402273.tmp: 1
+         write /tmp/+~JT2440698497811751253.tmp: 1
+         write /tmp/+~JT7961058413306057408.tmp: 1
+         and other 9 cases of action/name for this exception class
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 2
+         connect,resolve www.someFakeButWellFormedURL.org:80: 2
+  - java.lang.RuntimePermission: 
+         loadLibrary.mlib_image: 1
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 8
+* Writing JUnit test case 'Axis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

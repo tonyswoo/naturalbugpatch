@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 20486
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5655_1536341649/build/classes
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/args4j.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/guava.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/json.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_5655_1536341649/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 542
+* Using seed 1536341701949
+* Starting evolution
+* Search finished after 1814s and 807 generations, 181608 statements, best individual has fitness: 166.2499999976717
+* Minimizing test suite
+[MASTER] 10:06:59.028 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 542
+* Number of covered goals: 341
+* Generated 365 tests with total length 6500
+* Resulting test suite's coverage: 63%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    166 / 0           
+	- MaxTime :                      1,910 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+[MASTER] 10:07:15.108 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 21 seconds more than allowed.
+* Time spent executing tests: 404539ms
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 13
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

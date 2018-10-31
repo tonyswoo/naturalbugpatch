@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.ode.AbstractIntegrator
+* Starting client
+* Connecting to master process on port 20646
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19703_1536366665/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.ode.AbstractIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 1536366695062
+* Starting evolution
+* Search finished after 1802s and 2110 generations, 577257 statements, best individual has fitness: 63.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 78
+* Number of covered goals: 17
+* Generated 13 tests with total length 34
+* Resulting test suite's coverage: 22%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     63 / 0           
+* Time spent executing tests: 1692986ms
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'AbstractIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 12:22:25  ######
+Generate tests for: com.google.javascript.jscomp.FunctionToBlockMutator : branch : 1800s
+Generate tests for: com.google.javascript.jscomp.RenameLabels : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 13:29:47  ######

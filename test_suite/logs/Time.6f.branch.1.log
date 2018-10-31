@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.chrono.GJChronology
+* Starting client
+* Connecting to master process on port 14741
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_350_1536383409/target/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.GJChronology
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 222
+* Using seed 1536383432475
+* Starting evolution
+* Search finished after 1805s and 6614 generations, 1002088 statements, best individual has fitness: 32.99910393706439
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 21:41:55.848 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 222
+* Number of covered goals: 183
+* Generated 235 tests with total length 2662
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- MaxTime :                      1,895 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                     33 / 0           
+* Time spent executing tests: 1154707ms
+* Generating assertions
+[MASTER] 21:42:21.066 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 25 seconds more than allowed.
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'GJChronology_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

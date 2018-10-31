@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ControlFlowAnalysis
+* Starting client
+* Connecting to master process on port 10177
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24670_1536339271/build/classes
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/args4j.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/guava.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/json.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_24670_1536339271/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ControlFlowAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 409
+* Using seed 1536339310755
+* Starting evolution
+* Search finished after 1808s and 2450 generations, 548017 statements, best individual has fitness: 112.1
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 409
+* Number of covered goals: 279
+* Generated 53 tests with total length 230
+* Resulting test suite's coverage: 68%
+* GA-Budget:
+	- MaxTime :                      1,828 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    112 / 0           
+* Time spent executing tests: 582870ms
+* Generating assertions
+[MASTER] 09:26:01.699 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'ControlFlowAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

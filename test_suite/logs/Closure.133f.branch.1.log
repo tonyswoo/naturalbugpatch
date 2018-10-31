@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 10475
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12668_1536358631/build/classes
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/args4j.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/guava.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/json.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_12668_1536358631/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 800
+* Using seed 1536358673312
+* Starting evolution
+[MASTER] 14:18:47.197 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 14:19:49.515 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 14:21:45.142 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 14:24:00.082 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 14:31:38.783 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 1803s and 8680 generations, 2053664 statements, best individual has fitness: 544.7166666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 31%
+* Total number of goals: 800
+* Number of covered goals: 246
+* Generated 52 tests with total length 403
+* Resulting test suite's coverage: 31%
+* GA-Budget:
+	- MaxTime :                      1,816 / 1,800        Finished!
+	- ZeroFitness :                    546 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 561633ms
+* Generating assertions
+[MASTER] 14:48:39.476 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

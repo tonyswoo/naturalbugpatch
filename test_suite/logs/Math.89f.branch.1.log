@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.Frequency
+* Starting client
+* Connecting to master process on port 5339
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_25466_1536377049/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.Frequency
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 55
+* Using seed 1536377073099
+* Starting evolution
+* Search finished after 1802s and 6183 generations, 650467 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 55
+* Number of covered goals: 52
+* Generated 22 tests with total length 57
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 212952ms
+* Generating assertions
+* Resulting test suite's mutation score: 61%
+* Writing JUnit test case 'Frequency_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

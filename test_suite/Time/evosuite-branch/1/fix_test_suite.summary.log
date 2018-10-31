@@ -1,0 +1,234 @@
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:11:30  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:13:44  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:33:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:35:46  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:37:49  ######
+- Found 1 test archive(s)
+ - Removing 4 broken test method(s): Time-4f-evosuite-branch.1.tar.bz2
+org.joda.time.Partial_ESTest::test03
+org.joda.time.Partial_ESTest::test33
+org.joda.time.Partial_ESTest::test34
+org.joda.time.Partial_ESTest::test46
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:40:22  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:45:14  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:45:17  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:45:40  ######
+- Found 1 test archive(s)
+ - Removing 5 broken test method(s): Time-7f-evosuite-branch.1.tar.bz2
+org.joda.time.format.DateTimeFormatter_ESTest::test32
+org.joda.time.format.DateTimeFormatter_ESTest::test33
+org.joda.time.format.DateTimeFormatter_ESTest::test34
+org.joda.time.format.DateTimeFormatter_ESTest::test44
+org.joda.time.format.DateTimeFormatter_ESTest::test50
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:45:51  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-8f-evosuite-branch.1.tar.bz2
+org.joda.time.DateTimeZone_ESTest::test25
+ - Removing 8 broken test method(s): Time-9f-evosuite-branch.1.tar.bz2
+org.joda.time.DateTimeZone_ESTest::test14
+org.joda.time.DateTimeZone_ESTest::test25
+org.joda.time.DateTimeZone_ESTest::test38
+org.joda.time.DateTimeZone_ESTest::test41
+org.joda.time.DateTimeZone_ESTest::test48
+org.joda.time.DateTimeZone_ESTest::test49
+org.joda.time.DateTimeZone_ESTest::test51
+org.joda.time.DateTimeZone_ESTest::test56
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:47:28  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:47:57  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:47:57  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 5 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:47:57  ######
+ - Removing 5 broken test method(s): Time-6f-evosuite-branch.1.tar.bz2
+org.joda.time.chrono.GJChronology_ESTest::test001
+org.joda.time.chrono.GJChronology_ESTest::test011
+org.joda.time.chrono.GJChronology_ESTest::test016
+org.joda.time.chrono.GJChronology_ESTest::test020
+org.joda.time.chrono.GJChronology_ESTest::test084
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 8 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:48:19  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:49:55  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 5 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:50:18  ######
+ - Removing 3 broken test method(s): Time-11f-evosuite-branch.1.tar.bz2
+org.joda.time.tz.ZoneInfoCompiler_ESTest::test37
+org.joda.time.tz.ZoneInfoCompiler_ESTest::test43
+org.joda.time.tz.ZoneInfoCompiler_ESTest::test44
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:52:30  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:00:08  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:00:30  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-14f-evosuite-branch.1.tar.bz2
+org.joda.time.chrono.BasicMonthOfYearDateTimeField_ESTest::test19
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:01:13  ######
+- Found 1 test archive(s)
+ - Removing 3 broken test method(s): Time-1f-evosuite-branch.1.tar.bz2
+org.joda.time.Partial_ESTest::test38
+org.joda.time.Partial_ESTest::test41
+org.joda.time.Partial_ESTest::test51
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:02:12  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:03:00  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:03:07  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:03:33  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:03:58  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:05:36  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:05:51  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:07:01  ######
+- Found 1 test archive(s)
+ - Removing 5 broken test method(s): Time-16f-evosuite-branch.1.tar.bz2
+org.joda.time.format.DateTimeFormatter_ESTest::test31
+org.joda.time.format.DateTimeFormatter_ESTest::test33
+org.joda.time.format.DateTimeFormatter_ESTest::test35
+org.joda.time.format.DateTimeFormatter_ESTest::test43
+org.joda.time.format.DateTimeFormatter_ESTest::test49
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 5 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:09:35  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:10:11  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:12:20  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:18:20  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:18:38  ######
+- Found 1 test archive(s)
+ - Removing 3 broken test method(s): Time-18f-evosuite-branch.1.tar.bz2
+org.joda.time.chrono.GJChronology_ESTest::test33
+org.joda.time.chrono.GJChronology_ESTest::test40
+org.joda.time.chrono.GJChronology_ESTest::test60
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:19:19  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:19:50  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-22f-evosuite-branch.1.tar.bz2
+org.joda.time.base.BasePeriod_ESTest::test14
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:20:25  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:21:06  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:21:37  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:21:50  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:22:25  ######
+ - Removing 17 broken test method(s): Time-23f-evosuite-branch.1.tar.bz2
+org.joda.time.DateTimeZone_ESTest::test13
+org.joda.time.DateTimeZone_ESTest::test20
+org.joda.time.DateTimeZone_ESTest::test21
+org.joda.time.DateTimeZone_ESTest::test29
+org.joda.time.DateTimeZone_ESTest::test34
+org.joda.time.DateTimeZone_ESTest::test36
+org.joda.time.DateTimeZone_ESTest::test37
+org.joda.time.DateTimeZone_ESTest::test38
+org.joda.time.DateTimeZone_ESTest::test39
+org.joda.time.DateTimeZone_ESTest::test40
+org.joda.time.DateTimeZone_ESTest::test41
+org.joda.time.DateTimeZone_ESTest::test44
+org.joda.time.DateTimeZone_ESTest::test45
+org.joda.time.DateTimeZone_ESTest::test46
+org.joda.time.DateTimeZone_ESTest::test47
+org.joda.time.DateTimeZone_ESTest::test48
+org.joda.time.DateTimeZone_ESTest::test50
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:24:26  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 17 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:24:27  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:24:38  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:26:35  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:27:20  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:28:51  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-12f-evosuite-branch.1.tar.bz2
+org.joda.time.LocalDate_ESTest::test47
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:32:11  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:33:36  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-25f-evosuite-branch.1.tar.bz2
+org.joda.time.DateTimeZone_ESTest::test04
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:35:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Time/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:36:03  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:37:24  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:40:03  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 23:41:49  ######

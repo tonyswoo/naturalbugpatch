@@ -1,0 +1,969 @@
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:20:30  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:21:38  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:23:22  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:24:35  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:27:23  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:28:40  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:29:07  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:30:16  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:34:27  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:35:32  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:43:26  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:43:26  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:48:57  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:48:57  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:50:50  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:51:03  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:52:20  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:52:25  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:52:31  ######
+ - Removing 1 broken test method(s): Lang-11f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang3.RandomStringUtils_ESTest::test16
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:53:02  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:53:17  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:54:10  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:54:17  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:54:37  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:54:38  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:54:50  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:55:30  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:56:01  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:56:32  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:57:21  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:57:38  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:58:43  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:59:30  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 15:59:30  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:00:00  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:01:13  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:01:50  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:03:16  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:11:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:12:33  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:15:40  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:15:40  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:21:24  ######
+- Found 1 test archive(s)
+ - Removing 262 broken test method(s): Lang-20f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang3.StringUtils_ESTest::test000
+org.apache.commons.lang3.StringUtils_ESTest::test001
+org.apache.commons.lang3.StringUtils_ESTest::test002
+org.apache.commons.lang3.StringUtils_ESTest::test003
+org.apache.commons.lang3.StringUtils_ESTest::test004
+org.apache.commons.lang3.StringUtils_ESTest::test005
+org.apache.commons.lang3.StringUtils_ESTest::test006
+org.apache.commons.lang3.StringUtils_ESTest::test007
+org.apache.commons.lang3.StringUtils_ESTest::test008
+org.apache.commons.lang3.StringUtils_ESTest::test009
+org.apache.commons.lang3.StringUtils_ESTest::test010
+org.apache.commons.lang3.StringUtils_ESTest::test012
+org.apache.commons.lang3.StringUtils_ESTest::test013
+org.apache.commons.lang3.StringUtils_ESTest::test015
+org.apache.commons.lang3.StringUtils_ESTest::test016
+org.apache.commons.lang3.StringUtils_ESTest::test018
+org.apache.commons.lang3.StringUtils_ESTest::test020
+org.apache.commons.lang3.StringUtils_ESTest::test027
+org.apache.commons.lang3.StringUtils_ESTest::test028
+org.apache.commons.lang3.StringUtils_ESTest::test029
+org.apache.commons.lang3.StringUtils_ESTest::test030
+org.apache.commons.lang3.StringUtils_ESTest::test031
+org.apache.commons.lang3.StringUtils_ESTest::test032
+org.apache.commons.lang3.StringUtils_ESTest::test033
+org.apache.commons.lang3.StringUtils_ESTest::test034
+org.apache.commons.lang3.StringUtils_ESTest::test035
+org.apache.commons.lang3.StringUtils_ESTest::test036
+org.apache.commons.lang3.StringUtils_ESTest::test037
+org.apache.commons.lang3.StringUtils_ESTest::test038
+org.apache.commons.lang3.StringUtils_ESTest::test039
+org.apache.commons.lang3.StringUtils_ESTest::test040
+org.apache.commons.lang3.StringUtils_ESTest::test041
+org.apache.commons.lang3.StringUtils_ESTest::test042
+org.apache.commons.lang3.StringUtils_ESTest::test043
+org.apache.commons.lang3.StringUtils_ESTest::test045
+org.apache.commons.lang3.StringUtils_ESTest::test046
+org.apache.commons.lang3.StringUtils_ESTest::test047
+org.apache.commons.lang3.StringUtils_ESTest::test072
+org.apache.commons.lang3.StringUtils_ESTest::test076
+org.apache.commons.lang3.StringUtils_ESTest::test107
+org.apache.commons.lang3.StringUtils_ESTest::test111
+org.apache.commons.lang3.StringUtils_ESTest::test113
+org.apache.commons.lang3.StringUtils_ESTest::test122
+org.apache.commons.lang3.StringUtils_ESTest::test130
+org.apache.commons.lang3.StringUtils_ESTest::test131
+org.apache.commons.lang3.StringUtils_ESTest::test133
+org.apache.commons.lang3.StringUtils_ESTest::test138
+org.apache.commons.lang3.StringUtils_ESTest::test139
+org.apache.commons.lang3.StringUtils_ESTest::test147
+org.apache.commons.lang3.StringUtils_ESTest::test148
+org.apache.commons.lang3.StringUtils_ESTest::test149
+org.apache.commons.lang3.StringUtils_ESTest::test150
+org.apache.commons.lang3.StringUtils_ESTest::test151
+org.apache.commons.lang3.StringUtils_ESTest::test152
+org.apache.commons.lang3.StringUtils_ESTest::test153
+org.apache.commons.lang3.StringUtils_ESTest::test154
+org.apache.commons.lang3.StringUtils_ESTest::test155
+org.apache.commons.lang3.StringUtils_ESTest::test156
+org.apache.commons.lang3.StringUtils_ESTest::test157
+org.apache.commons.lang3.StringUtils_ESTest::test158
+org.apache.commons.lang3.StringUtils_ESTest::test159
+org.apache.commons.lang3.StringUtils_ESTest::test160
+org.apache.commons.lang3.StringUtils_ESTest::test161
+org.apache.commons.lang3.StringUtils_ESTest::test162
+org.apache.commons.lang3.StringUtils_ESTest::test163
+org.apache.commons.lang3.StringUtils_ESTest::test164
+org.apache.commons.lang3.StringUtils_ESTest::test165
+org.apache.commons.lang3.StringUtils_ESTest::test166
+org.apache.commons.lang3.StringUtils_ESTest::test167
+org.apache.commons.lang3.StringUtils_ESTest::test168
+org.apache.commons.lang3.StringUtils_ESTest::test169
+org.apache.commons.lang3.StringUtils_ESTest::test170
+org.apache.commons.lang3.StringUtils_ESTest::test171
+org.apache.commons.lang3.StringUtils_ESTest::test172
+org.apache.commons.lang3.StringUtils_ESTest::test173
+org.apache.commons.lang3.StringUtils_ESTest::test174
+org.apache.commons.lang3.StringUtils_ESTest::test175
+org.apache.commons.lang3.StringUtils_ESTest::test176
+org.apache.commons.lang3.StringUtils_ESTest::test177
+org.apache.commons.lang3.StringUtils_ESTest::test178
+org.apache.commons.lang3.StringUtils_ESTest::test179
+org.apache.commons.lang3.StringUtils_ESTest::test180
+org.apache.commons.lang3.StringUtils_ESTest::test181
+org.apache.commons.lang3.StringUtils_ESTest::test182
+org.apache.commons.lang3.StringUtils_ESTest::test183
+org.apache.commons.lang3.StringUtils_ESTest::test184
+org.apache.commons.lang3.StringUtils_ESTest::test185
+org.apache.commons.lang3.StringUtils_ESTest::test186
+org.apache.commons.lang3.StringUtils_ESTest::test187
+org.apache.commons.lang3.StringUtils_ESTest::test188
+org.apache.commons.lang3.StringUtils_ESTest::test189
+org.apache.commons.lang3.StringUtils_ESTest::test190
+org.apache.commons.lang3.StringUtils_ESTest::test191
+org.apache.commons.lang3.StringUtils_ESTest::test192
+org.apache.commons.lang3.StringUtils_ESTest::test193
+org.apache.commons.lang3.StringUtils_ESTest::test194
+org.apache.commons.lang3.StringUtils_ESTest::test195
+org.apache.commons.lang3.StringUtils_ESTest::test196
+org.apache.commons.lang3.StringUtils_ESTest::test197
+org.apache.commons.lang3.StringUtils_ESTest::test198
+org.apache.commons.lang3.StringUtils_ESTest::test199
+org.apache.commons.lang3.StringUtils_ESTest::test200
+org.apache.commons.lang3.StringUtils_ESTest::test201
+org.apache.commons.lang3.StringUtils_ESTest::test202
+org.apache.commons.lang3.StringUtils_ESTest::test203
+org.apache.commons.lang3.StringUtils_ESTest::test204
+org.apache.commons.lang3.StringUtils_ESTest::test205
+org.apache.commons.lang3.StringUtils_ESTest::test206
+org.apache.commons.lang3.StringUtils_ESTest::test207
+org.apache.commons.lang3.StringUtils_ESTest::test208
+org.apache.commons.lang3.StringUtils_ESTest::test209
+org.apache.commons.lang3.StringUtils_ESTest::test210
+org.apache.commons.lang3.StringUtils_ESTest::test211
+org.apache.commons.lang3.StringUtils_ESTest::test212
+org.apache.commons.lang3.StringUtils_ESTest::test213
+org.apache.commons.lang3.StringUtils_ESTest::test214
+org.apache.commons.lang3.StringUtils_ESTest::test215
+org.apache.commons.lang3.StringUtils_ESTest::test216
+org.apache.commons.lang3.StringUtils_ESTest::test217
+org.apache.commons.lang3.StringUtils_ESTest::test218
+org.apache.commons.lang3.StringUtils_ESTest::test219
+org.apache.commons.lang3.StringUtils_ESTest::test225
+org.apache.commons.lang3.StringUtils_ESTest::test226
+org.apache.commons.lang3.StringUtils_ESTest::test232
+org.apache.commons.lang3.StringUtils_ESTest::test235
+org.apache.commons.lang3.StringUtils_ESTest::test236
+org.apache.commons.lang3.StringUtils_ESTest::test239
+org.apache.commons.lang3.StringUtils_ESTest::test240
+org.apache.commons.lang3.StringUtils_ESTest::test241
+org.apache.commons.lang3.StringUtils_ESTest::test242
+org.apache.commons.lang3.StringUtils_ESTest::test243
+org.apache.commons.lang3.StringUtils_ESTest::test244
+org.apache.commons.lang3.StringUtils_ESTest::test245
+org.apache.commons.lang3.StringUtils_ESTest::test246
+org.apache.commons.lang3.StringUtils_ESTest::test247
+org.apache.commons.lang3.StringUtils_ESTest::test248
+org.apache.commons.lang3.StringUtils_ESTest::test249
+org.apache.commons.lang3.StringUtils_ESTest::test250
+org.apache.commons.lang3.StringUtils_ESTest::test251
+org.apache.commons.lang3.StringUtils_ESTest::test252
+org.apache.commons.lang3.StringUtils_ESTest::test253
+org.apache.commons.lang3.StringUtils_ESTest::test254
+org.apache.commons.lang3.StringUtils_ESTest::test255
+org.apache.commons.lang3.StringUtils_ESTest::test256
+org.apache.commons.lang3.StringUtils_ESTest::test257
+org.apache.commons.lang3.StringUtils_ESTest::test258
+org.apache.commons.lang3.StringUtils_ESTest::test259
+org.apache.commons.lang3.StringUtils_ESTest::test260
+org.apache.commons.lang3.StringUtils_ESTest::test261
+org.apache.commons.lang3.StringUtils_ESTest::test262
+org.apache.commons.lang3.StringUtils_ESTest::test263
+org.apache.commons.lang3.StringUtils_ESTest::test264
+org.apache.commons.lang3.StringUtils_ESTest::test265
+org.apache.commons.lang3.StringUtils_ESTest::test266
+org.apache.commons.lang3.StringUtils_ESTest::test267
+org.apache.commons.lang3.StringUtils_ESTest::test268
+org.apache.commons.lang3.StringUtils_ESTest::test269
+org.apache.commons.lang3.StringUtils_ESTest::test270
+org.apache.commons.lang3.StringUtils_ESTest::test271
+org.apache.commons.lang3.StringUtils_ESTest::test272
+org.apache.commons.lang3.StringUtils_ESTest::test273
+org.apache.commons.lang3.StringUtils_ESTest::test274
+org.apache.commons.lang3.StringUtils_ESTest::test275
+org.apache.commons.lang3.StringUtils_ESTest::test276
+org.apache.commons.lang3.StringUtils_ESTest::test277
+org.apache.commons.lang3.StringUtils_ESTest::test278
+org.apache.commons.lang3.StringUtils_ESTest::test279
+org.apache.commons.lang3.StringUtils_ESTest::test280
+org.apache.commons.lang3.StringUtils_ESTest::test281
+org.apache.commons.lang3.StringUtils_ESTest::test282
+org.apache.commons.lang3.StringUtils_ESTest::test283
+org.apache.commons.lang3.StringUtils_ESTest::test284
+org.apache.commons.lang3.StringUtils_ESTest::test285
+org.apache.commons.lang3.StringUtils_ESTest::test286
+org.apache.commons.lang3.StringUtils_ESTest::test287
+org.apache.commons.lang3.StringUtils_ESTest::test288
+org.apache.commons.lang3.StringUtils_ESTest::test289
+org.apache.commons.lang3.StringUtils_ESTest::test290
+org.apache.commons.lang3.StringUtils_ESTest::test291
+org.apache.commons.lang3.StringUtils_ESTest::test292
+org.apache.commons.lang3.StringUtils_ESTest::test293
+org.apache.commons.lang3.StringUtils_ESTest::test294
+org.apache.commons.lang3.StringUtils_ESTest::test295
+org.apache.commons.lang3.StringUtils_ESTest::test296
+org.apache.commons.lang3.StringUtils_ESTest::test297
+org.apache.commons.lang3.StringUtils_ESTest::test298
+org.apache.commons.lang3.StringUtils_ESTest::test299
+org.apache.commons.lang3.StringUtils_ESTest::test300
+org.apache.commons.lang3.StringUtils_ESTest::test301
+org.apache.commons.lang3.StringUtils_ESTest::test302
+org.apache.commons.lang3.StringUtils_ESTest::test303
+org.apache.commons.lang3.StringUtils_ESTest::test304
+org.apache.commons.lang3.StringUtils_ESTest::test305
+org.apache.commons.lang3.StringUtils_ESTest::test306
+org.apache.commons.lang3.StringUtils_ESTest::test307
+org.apache.commons.lang3.StringUtils_ESTest::test308
+org.apache.commons.lang3.StringUtils_ESTest::test309
+org.apache.commons.lang3.StringUtils_ESTest::test310
+org.apache.commons.lang3.StringUtils_ESTest::test311
+org.apache.commons.lang3.StringUtils_ESTest::test312
+org.apache.commons.lang3.StringUtils_ESTest::test313
+org.apache.commons.lang3.StringUtils_ESTest::test314
+org.apache.commons.lang3.StringUtils_ESTest::test315
+org.apache.commons.lang3.StringUtils_ESTest::test316
+org.apache.commons.lang3.StringUtils_ESTest::test317
+org.apache.commons.lang3.StringUtils_ESTest::test318
+org.apache.commons.lang3.StringUtils_ESTest::test319
+org.apache.commons.lang3.StringUtils_ESTest::test320
+org.apache.commons.lang3.StringUtils_ESTest::test321
+org.apache.commons.lang3.StringUtils_ESTest::test322
+org.apache.commons.lang3.StringUtils_ESTest::test323
+org.apache.commons.lang3.StringUtils_ESTest::test326
+org.apache.commons.lang3.StringUtils_ESTest::test327
+org.apache.commons.lang3.StringUtils_ESTest::test328
+org.apache.commons.lang3.StringUtils_ESTest::test329
+org.apache.commons.lang3.StringUtils_ESTest::test330
+org.apache.commons.lang3.StringUtils_ESTest::test331
+org.apache.commons.lang3.StringUtils_ESTest::test332
+org.apache.commons.lang3.StringUtils_ESTest::test333
+org.apache.commons.lang3.StringUtils_ESTest::test334
+org.apache.commons.lang3.StringUtils_ESTest::test335
+org.apache.commons.lang3.StringUtils_ESTest::test336
+org.apache.commons.lang3.StringUtils_ESTest::test337
+org.apache.commons.lang3.StringUtils_ESTest::test338
+org.apache.commons.lang3.StringUtils_ESTest::test339
+org.apache.commons.lang3.StringUtils_ESTest::test340
+org.apache.commons.lang3.StringUtils_ESTest::test341
+org.apache.commons.lang3.StringUtils_ESTest::test342
+org.apache.commons.lang3.StringUtils_ESTest::test343
+org.apache.commons.lang3.StringUtils_ESTest::test344
+org.apache.commons.lang3.StringUtils_ESTest::test345
+org.apache.commons.lang3.StringUtils_ESTest::test346
+org.apache.commons.lang3.StringUtils_ESTest::test347
+org.apache.commons.lang3.StringUtils_ESTest::test348
+org.apache.commons.lang3.StringUtils_ESTest::test388
+org.apache.commons.lang3.StringUtils_ESTest::test389
+org.apache.commons.lang3.StringUtils_ESTest::test390
+org.apache.commons.lang3.StringUtils_ESTest::test391
+org.apache.commons.lang3.StringUtils_ESTest::test395
+org.apache.commons.lang3.StringUtils_ESTest::test396
+org.apache.commons.lang3.StringUtils_ESTest::test397
+org.apache.commons.lang3.StringUtils_ESTest::test398
+org.apache.commons.lang3.StringUtils_ESTest::test399
+org.apache.commons.lang3.StringUtils_ESTest::test400
+org.apache.commons.lang3.StringUtils_ESTest::test401
+org.apache.commons.lang3.StringUtils_ESTest::test402
+org.apache.commons.lang3.StringUtils_ESTest::test403
+org.apache.commons.lang3.StringUtils_ESTest::test404
+org.apache.commons.lang3.StringUtils_ESTest::test405
+org.apache.commons.lang3.StringUtils_ESTest::test406
+org.apache.commons.lang3.StringUtils_ESTest::test407
+org.apache.commons.lang3.StringUtils_ESTest::test408
+org.apache.commons.lang3.StringUtils_ESTest::test409
+org.apache.commons.lang3.StringUtils_ESTest::test410
+org.apache.commons.lang3.StringUtils_ESTest::test425
+org.apache.commons.lang3.StringUtils_ESTest::test438
+org.apache.commons.lang3.StringUtils_ESTest::test449
+org.apache.commons.lang3.StringUtils_ESTest::test452
+org.apache.commons.lang3.StringUtils_ESTest::test453
+org.apache.commons.lang3.StringUtils_ESTest::test454
+org.apache.commons.lang3.StringUtils_ESTest::test456
+org.apache.commons.lang3.StringUtils_ESTest::test457
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:23:18  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:23:28  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 262 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:23:51  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:24:01  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:24:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:24:28  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:24:43  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:25:27  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:25:37  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:26:13  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:26:20  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:27:23  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:27:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:27:44  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:28:31  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:30:22  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:30:25  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Lang-26f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang3.time.FastDateFormat_ESTest::test03
+org.apache.commons.lang3.time.FastDateFormat_ESTest::test04
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:31:41  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:32:04  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:32:10  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:33:23  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:34:19  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:34:23  ######
+- Found 1 test archive(s)
+ - Removing 324 broken test method(s): Lang-31f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang3.StringUtils_ESTest::test270
+org.apache.commons.lang3.StringUtils_ESTest::test271
+org.apache.commons.lang3.StringUtils_ESTest::test272
+org.apache.commons.lang3.StringUtils_ESTest::test273
+org.apache.commons.lang3.StringUtils_ESTest::test274
+org.apache.commons.lang3.StringUtils_ESTest::test275
+org.apache.commons.lang3.StringUtils_ESTest::test276
+org.apache.commons.lang3.StringUtils_ESTest::test277
+org.apache.commons.lang3.StringUtils_ESTest::test278
+org.apache.commons.lang3.StringUtils_ESTest::test279
+org.apache.commons.lang3.StringUtils_ESTest::test280
+org.apache.commons.lang3.StringUtils_ESTest::test281
+org.apache.commons.lang3.StringUtils_ESTest::test282
+org.apache.commons.lang3.StringUtils_ESTest::test283
+org.apache.commons.lang3.StringUtils_ESTest::test284
+org.apache.commons.lang3.StringUtils_ESTest::test285
+org.apache.commons.lang3.StringUtils_ESTest::test286
+org.apache.commons.lang3.StringUtils_ESTest::test287
+org.apache.commons.lang3.StringUtils_ESTest::test288
+org.apache.commons.lang3.StringUtils_ESTest::test289
+org.apache.commons.lang3.StringUtils_ESTest::test290
+org.apache.commons.lang3.StringUtils_ESTest::test291
+org.apache.commons.lang3.StringUtils_ESTest::test292
+org.apache.commons.lang3.StringUtils_ESTest::test293
+org.apache.commons.lang3.StringUtils_ESTest::test294
+org.apache.commons.lang3.StringUtils_ESTest::test295
+org.apache.commons.lang3.StringUtils_ESTest::test296
+org.apache.commons.lang3.StringUtils_ESTest::test297
+org.apache.commons.lang3.StringUtils_ESTest::test298
+org.apache.commons.lang3.StringUtils_ESTest::test299
+org.apache.commons.lang3.StringUtils_ESTest::test300
+org.apache.commons.lang3.StringUtils_ESTest::test301
+org.apache.commons.lang3.StringUtils_ESTest::test302
+org.apache.commons.lang3.StringUtils_ESTest::test303
+org.apache.commons.lang3.StringUtils_ESTest::test304
+org.apache.commons.lang3.StringUtils_ESTest::test305
+org.apache.commons.lang3.StringUtils_ESTest::test306
+org.apache.commons.lang3.StringUtils_ESTest::test307
+org.apache.commons.lang3.StringUtils_ESTest::test308
+org.apache.commons.lang3.StringUtils_ESTest::test309
+org.apache.commons.lang3.StringUtils_ESTest::test310
+org.apache.commons.lang3.StringUtils_ESTest::test311
+org.apache.commons.lang3.StringUtils_ESTest::test312
+org.apache.commons.lang3.StringUtils_ESTest::test313
+org.apache.commons.lang3.StringUtils_ESTest::test314
+org.apache.commons.lang3.StringUtils_ESTest::test315
+org.apache.commons.lang3.StringUtils_ESTest::test316
+org.apache.commons.lang3.StringUtils_ESTest::test317
+org.apache.commons.lang3.StringUtils_ESTest::test318
+org.apache.commons.lang3.StringUtils_ESTest::test319
+org.apache.commons.lang3.StringUtils_ESTest::test320
+org.apache.commons.lang3.StringUtils_ESTest::test321
+org.apache.commons.lang3.StringUtils_ESTest::test322
+org.apache.commons.lang3.StringUtils_ESTest::test323
+org.apache.commons.lang3.StringUtils_ESTest::test324
+org.apache.commons.lang3.StringUtils_ESTest::test325
+org.apache.commons.lang3.StringUtils_ESTest::test326
+org.apache.commons.lang3.StringUtils_ESTest::test327
+org.apache.commons.lang3.StringUtils_ESTest::test328
+org.apache.commons.lang3.StringUtils_ESTest::test329
+org.apache.commons.lang3.StringUtils_ESTest::test330
+org.apache.commons.lang3.StringUtils_ESTest::test331
+org.apache.commons.lang3.StringUtils_ESTest::test332
+org.apache.commons.lang3.StringUtils_ESTest::test333
+org.apache.commons.lang3.StringUtils_ESTest::test334
+org.apache.commons.lang3.StringUtils_ESTest::test341
+org.apache.commons.lang3.StringUtils_ESTest::test342
+org.apache.commons.lang3.StringUtils_ESTest::test343
+org.apache.commons.lang3.StringUtils_ESTest::test344
+org.apache.commons.lang3.StringUtils_ESTest::test345
+org.apache.commons.lang3.StringUtils_ESTest::test378
+org.apache.commons.lang3.StringUtils_ESTest::test379
+org.apache.commons.lang3.StringUtils_ESTest::test380
+org.apache.commons.lang3.StringUtils_ESTest::test381
+org.apache.commons.lang3.StringUtils_ESTest::test384
+org.apache.commons.lang3.StringUtils_ESTest::test385
+org.apache.commons.lang3.StringUtils_ESTest::test386
+org.apache.commons.lang3.StringUtils_ESTest::test387
+org.apache.commons.lang3.StringUtils_ESTest::test388
+org.apache.commons.lang3.StringUtils_ESTest::test389
+org.apache.commons.lang3.StringUtils_ESTest::test390
+org.apache.commons.lang3.StringUtils_ESTest::test391
+org.apache.commons.lang3.StringUtils_ESTest::test392
+org.apache.commons.lang3.StringUtils_ESTest::test393
+org.apache.commons.lang3.StringUtils_ESTest::test394
+org.apache.commons.lang3.StringUtils_ESTest::test395
+org.apache.commons.lang3.StringUtils_ESTest::test396
+org.apache.commons.lang3.StringUtils_ESTest::test397
+org.apache.commons.lang3.StringUtils_ESTest::test398
+org.apache.commons.lang3.StringUtils_ESTest::test399
+org.apache.commons.lang3.StringUtils_ESTest::test400
+org.apache.commons.lang3.StringUtils_ESTest::test411
+org.apache.commons.lang3.StringUtils_ESTest::test414
+org.apache.commons.lang3.StringUtils_ESTest::test422
+org.apache.commons.lang3.StringUtils_ESTest::test423
+org.apache.commons.lang3.StringUtils_ESTest::test424
+org.apache.commons.lang3.StringUtils_ESTest::test425
+org.apache.commons.lang3.StringUtils_ESTest::test426
+org.apache.commons.lang3.StringUtils_ESTest::test427
+org.apache.commons.lang3.StringUtils_ESTest::test428
+org.apache.commons.lang3.StringUtils_ESTest::test045
+org.apache.commons.lang3.StringUtils_ESTest::test046
+org.apache.commons.lang3.StringUtils_ESTest::test047
+org.apache.commons.lang3.StringUtils_ESTest::test048
+org.apache.commons.lang3.StringUtils_ESTest::test049
+org.apache.commons.lang3.StringUtils_ESTest::test050
+org.apache.commons.lang3.StringUtils_ESTest::test052
+org.apache.commons.lang3.StringUtils_ESTest::test053
+org.apache.commons.lang3.StringUtils_ESTest::test054
+org.apache.commons.lang3.StringUtils_ESTest::test058
+org.apache.commons.lang3.StringUtils_ESTest::test059
+org.apache.commons.lang3.StringUtils_ESTest::test060
+org.apache.commons.lang3.StringUtils_ESTest::test061
+org.apache.commons.lang3.StringUtils_ESTest::test062
+org.apache.commons.lang3.StringUtils_ESTest::test063
+org.apache.commons.lang3.StringUtils_ESTest::test064
+org.apache.commons.lang3.StringUtils_ESTest::test065
+org.apache.commons.lang3.StringUtils_ESTest::test066
+org.apache.commons.lang3.StringUtils_ESTest::test067
+org.apache.commons.lang3.StringUtils_ESTest::test068
+org.apache.commons.lang3.StringUtils_ESTest::test069
+org.apache.commons.lang3.StringUtils_ESTest::test070
+org.apache.commons.lang3.StringUtils_ESTest::test071
+org.apache.commons.lang3.StringUtils_ESTest::test072
+org.apache.commons.lang3.StringUtils_ESTest::test073
+org.apache.commons.lang3.StringUtils_ESTest::test074
+org.apache.commons.lang3.StringUtils_ESTest::test075
+org.apache.commons.lang3.StringUtils_ESTest::test076
+org.apache.commons.lang3.StringUtils_ESTest::test077
+org.apache.commons.lang3.StringUtils_ESTest::test078
+org.apache.commons.lang3.StringUtils_ESTest::test079
+org.apache.commons.lang3.StringUtils_ESTest::test080
+org.apache.commons.lang3.StringUtils_ESTest::test081
+org.apache.commons.lang3.StringUtils_ESTest::test082
+org.apache.commons.lang3.StringUtils_ESTest::test083
+org.apache.commons.lang3.StringUtils_ESTest::test084
+org.apache.commons.lang3.StringUtils_ESTest::test085
+org.apache.commons.lang3.StringUtils_ESTest::test086
+org.apache.commons.lang3.StringUtils_ESTest::test087
+org.apache.commons.lang3.StringUtils_ESTest::test088
+org.apache.commons.lang3.StringUtils_ESTest::test089
+org.apache.commons.lang3.StringUtils_ESTest::test090
+org.apache.commons.lang3.StringUtils_ESTest::test091
+org.apache.commons.lang3.StringUtils_ESTest::test092
+org.apache.commons.lang3.StringUtils_ESTest::test093
+org.apache.commons.lang3.StringUtils_ESTest::test094
+org.apache.commons.lang3.StringUtils_ESTest::test095
+org.apache.commons.lang3.StringUtils_ESTest::test096
+org.apache.commons.lang3.StringUtils_ESTest::test097
+org.apache.commons.lang3.StringUtils_ESTest::test098
+org.apache.commons.lang3.StringUtils_ESTest::test099
+org.apache.commons.lang3.StringUtils_ESTest::test100
+org.apache.commons.lang3.StringUtils_ESTest::test101
+org.apache.commons.lang3.StringUtils_ESTest::test102
+org.apache.commons.lang3.StringUtils_ESTest::test103
+org.apache.commons.lang3.StringUtils_ESTest::test104
+org.apache.commons.lang3.StringUtils_ESTest::test105
+org.apache.commons.lang3.StringUtils_ESTest::test106
+org.apache.commons.lang3.StringUtils_ESTest::test107
+org.apache.commons.lang3.StringUtils_ESTest::test016
+org.apache.commons.lang3.StringUtils_ESTest::test017
+org.apache.commons.lang3.StringUtils_ESTest::test018
+org.apache.commons.lang3.StringUtils_ESTest::test019
+org.apache.commons.lang3.StringUtils_ESTest::test020
+org.apache.commons.lang3.StringUtils_ESTest::test022
+org.apache.commons.lang3.StringUtils_ESTest::test023
+org.apache.commons.lang3.StringUtils_ESTest::test033
+org.apache.commons.lang3.StringUtils_ESTest::test034
+org.apache.commons.lang3.StringUtils_ESTest::test035
+org.apache.commons.lang3.StringUtils_ESTest::test036
+org.apache.commons.lang3.StringUtils_ESTest::test037
+org.apache.commons.lang3.StringUtils_ESTest::test038
+org.apache.commons.lang3.StringUtils_ESTest::test039
+org.apache.commons.lang3.StringUtils_ESTest::test040
+org.apache.commons.lang3.StringUtils_ESTest::test041
+org.apache.commons.lang3.StringUtils_ESTest::test042
+org.apache.commons.lang3.StringUtils_ESTest::test043
+org.apache.commons.lang3.StringUtils_ESTest::test044
+org.apache.commons.lang3.StringUtils_ESTest::test002
+org.apache.commons.lang3.StringUtils_ESTest::test108
+org.apache.commons.lang3.StringUtils_ESTest::test109
+org.apache.commons.lang3.StringUtils_ESTest::test115
+org.apache.commons.lang3.StringUtils_ESTest::test116
+org.apache.commons.lang3.StringUtils_ESTest::test117
+org.apache.commons.lang3.StringUtils_ESTest::test118
+org.apache.commons.lang3.StringUtils_ESTest::test119
+org.apache.commons.lang3.StringUtils_ESTest::test123
+org.apache.commons.lang3.StringUtils_ESTest::test127
+org.apache.commons.lang3.StringUtils_ESTest::test128
+org.apache.commons.lang3.StringUtils_ESTest::test129
+org.apache.commons.lang3.StringUtils_ESTest::test130
+org.apache.commons.lang3.StringUtils_ESTest::test131
+org.apache.commons.lang3.StringUtils_ESTest::test135
+org.apache.commons.lang3.StringUtils_ESTest::test137
+org.apache.commons.lang3.StringUtils_ESTest::test139
+org.apache.commons.lang3.StringUtils_ESTest::test143
+org.apache.commons.lang3.StringUtils_ESTest::test144
+org.apache.commons.lang3.StringUtils_ESTest::test145
+org.apache.commons.lang3.StringUtils_ESTest::test146
+org.apache.commons.lang3.StringUtils_ESTest::test147
+org.apache.commons.lang3.StringUtils_ESTest::test148
+org.apache.commons.lang3.StringUtils_ESTest::test149
+org.apache.commons.lang3.StringUtils_ESTest::test150
+org.apache.commons.lang3.StringUtils_ESTest::test151
+org.apache.commons.lang3.StringUtils_ESTest::test152
+org.apache.commons.lang3.StringUtils_ESTest::test153
+org.apache.commons.lang3.StringUtils_ESTest::test154
+org.apache.commons.lang3.StringUtils_ESTest::test155
+org.apache.commons.lang3.StringUtils_ESTest::test156
+org.apache.commons.lang3.StringUtils_ESTest::test157
+org.apache.commons.lang3.StringUtils_ESTest::test158
+org.apache.commons.lang3.StringUtils_ESTest::test159
+org.apache.commons.lang3.StringUtils_ESTest::test160
+org.apache.commons.lang3.StringUtils_ESTest::test161
+org.apache.commons.lang3.StringUtils_ESTest::test162
+org.apache.commons.lang3.StringUtils_ESTest::test163
+org.apache.commons.lang3.StringUtils_ESTest::test164
+org.apache.commons.lang3.StringUtils_ESTest::test165
+org.apache.commons.lang3.StringUtils_ESTest::test166
+org.apache.commons.lang3.StringUtils_ESTest::test167
+org.apache.commons.lang3.StringUtils_ESTest::test168
+org.apache.commons.lang3.StringUtils_ESTest::test169
+org.apache.commons.lang3.StringUtils_ESTest::test170
+org.apache.commons.lang3.StringUtils_ESTest::test171
+org.apache.commons.lang3.StringUtils_ESTest::test172
+org.apache.commons.lang3.StringUtils_ESTest::test173
+org.apache.commons.lang3.StringUtils_ESTest::test174
+org.apache.commons.lang3.StringUtils_ESTest::test175
+org.apache.commons.lang3.StringUtils_ESTest::test176
+org.apache.commons.lang3.StringUtils_ESTest::test177
+org.apache.commons.lang3.StringUtils_ESTest::test178
+org.apache.commons.lang3.StringUtils_ESTest::test179
+org.apache.commons.lang3.StringUtils_ESTest::test180
+org.apache.commons.lang3.StringUtils_ESTest::test181
+org.apache.commons.lang3.StringUtils_ESTest::test182
+org.apache.commons.lang3.StringUtils_ESTest::test183
+org.apache.commons.lang3.StringUtils_ESTest::test184
+org.apache.commons.lang3.StringUtils_ESTest::test185
+org.apache.commons.lang3.StringUtils_ESTest::test186
+org.apache.commons.lang3.StringUtils_ESTest::test187
+org.apache.commons.lang3.StringUtils_ESTest::test188
+org.apache.commons.lang3.StringUtils_ESTest::test189
+org.apache.commons.lang3.StringUtils_ESTest::test190
+org.apache.commons.lang3.StringUtils_ESTest::test191
+org.apache.commons.lang3.StringUtils_ESTest::test192
+org.apache.commons.lang3.StringUtils_ESTest::test193
+org.apache.commons.lang3.StringUtils_ESTest::test194
+org.apache.commons.lang3.StringUtils_ESTest::test195
+org.apache.commons.lang3.StringUtils_ESTest::test196
+org.apache.commons.lang3.StringUtils_ESTest::test197
+org.apache.commons.lang3.StringUtils_ESTest::test198
+org.apache.commons.lang3.StringUtils_ESTest::test199
+org.apache.commons.lang3.StringUtils_ESTest::test200
+org.apache.commons.lang3.StringUtils_ESTest::test201
+org.apache.commons.lang3.StringUtils_ESTest::test202
+org.apache.commons.lang3.StringUtils_ESTest::test003
+org.apache.commons.lang3.StringUtils_ESTest::test004
+org.apache.commons.lang3.StringUtils_ESTest::test024
+org.apache.commons.lang3.StringUtils_ESTest::test031
+org.apache.commons.lang3.StringUtils_ESTest::test032
+org.apache.commons.lang3.StringUtils_ESTest::test000
+org.apache.commons.lang3.StringUtils_ESTest::test001
+org.apache.commons.lang3.StringUtils_ESTest::test005
+org.apache.commons.lang3.StringUtils_ESTest::test006
+org.apache.commons.lang3.StringUtils_ESTest::test007
+org.apache.commons.lang3.StringUtils_ESTest::test008
+org.apache.commons.lang3.StringUtils_ESTest::test203
+org.apache.commons.lang3.StringUtils_ESTest::test204
+org.apache.commons.lang3.StringUtils_ESTest::test205
+org.apache.commons.lang3.StringUtils_ESTest::test206
+org.apache.commons.lang3.StringUtils_ESTest::test207
+org.apache.commons.lang3.StringUtils_ESTest::test208
+org.apache.commons.lang3.StringUtils_ESTest::test209
+org.apache.commons.lang3.StringUtils_ESTest::test210
+org.apache.commons.lang3.StringUtils_ESTest::test211
+org.apache.commons.lang3.StringUtils_ESTest::test212
+org.apache.commons.lang3.StringUtils_ESTest::test213
+org.apache.commons.lang3.StringUtils_ESTest::test214
+org.apache.commons.lang3.StringUtils_ESTest::test215
+org.apache.commons.lang3.StringUtils_ESTest::test216
+org.apache.commons.lang3.StringUtils_ESTest::test217
+org.apache.commons.lang3.StringUtils_ESTest::test218
+org.apache.commons.lang3.StringUtils_ESTest::test219
+org.apache.commons.lang3.StringUtils_ESTest::test220
+org.apache.commons.lang3.StringUtils_ESTest::test227
+org.apache.commons.lang3.StringUtils_ESTest::test228
+org.apache.commons.lang3.StringUtils_ESTest::test229
+org.apache.commons.lang3.StringUtils_ESTest::test237
+org.apache.commons.lang3.StringUtils_ESTest::test238
+org.apache.commons.lang3.StringUtils_ESTest::test239
+org.apache.commons.lang3.StringUtils_ESTest::test242
+org.apache.commons.lang3.StringUtils_ESTest::test243
+org.apache.commons.lang3.StringUtils_ESTest::test244
+org.apache.commons.lang3.StringUtils_ESTest::test245
+org.apache.commons.lang3.StringUtils_ESTest::test246
+org.apache.commons.lang3.StringUtils_ESTest::test247
+org.apache.commons.lang3.StringUtils_ESTest::test248
+org.apache.commons.lang3.StringUtils_ESTest::test249
+org.apache.commons.lang3.StringUtils_ESTest::test250
+org.apache.commons.lang3.StringUtils_ESTest::test251
+org.apache.commons.lang3.StringUtils_ESTest::test252
+org.apache.commons.lang3.StringUtils_ESTest::test253
+org.apache.commons.lang3.StringUtils_ESTest::test254
+org.apache.commons.lang3.StringUtils_ESTest::test255
+org.apache.commons.lang3.StringUtils_ESTest::test256
+org.apache.commons.lang3.StringUtils_ESTest::test257
+org.apache.commons.lang3.StringUtils_ESTest::test258
+org.apache.commons.lang3.StringUtils_ESTest::test259
+org.apache.commons.lang3.StringUtils_ESTest::test260
+org.apache.commons.lang3.StringUtils_ESTest::test261
+org.apache.commons.lang3.StringUtils_ESTest::test262
+org.apache.commons.lang3.StringUtils_ESTest::test263
+org.apache.commons.lang3.StringUtils_ESTest::test264
+org.apache.commons.lang3.StringUtils_ESTest::test265
+org.apache.commons.lang3.StringUtils_ESTest::test266
+org.apache.commons.lang3.StringUtils_ESTest::test267
+org.apache.commons.lang3.StringUtils_ESTest::test268
+org.apache.commons.lang3.StringUtils_ESTest::test269
+org.apache.commons.lang3.StringUtils_ESTest::test010
+org.apache.commons.lang3.StringUtils_ESTest::test011
+org.apache.commons.lang3.StringUtils_ESTest::test012
+org.apache.commons.lang3.StringUtils_ESTest::test013
+org.apache.commons.lang3.StringUtils_ESTest::test014
+org.apache.commons.lang3.StringUtils_ESTest::test021
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:35:58  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 324 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:36:59  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:46:21  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:47:04  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:48:18  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:48:32  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:55:52  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:55:52  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:56:26  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:56:49  ######
+- Found 0 test archive(s)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:56:49  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:57:50  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:57:50  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:58:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:58:44  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Lang-42f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang.Entities_ESTest
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:59:06  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 1 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:59:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:59:34  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 16:59:48  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:00:18  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:00:18  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:01:22  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:01:36  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:02:31  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:02:45  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:02:50  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:03:30  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:04:02  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:04:04  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:04:41  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:06:51  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:08:11  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:09:29  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:10:53  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:11:15  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:12:14  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:19:12  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:20:35  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:23:58  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Lang-50f-evosuite-branch.1.tar.bz2
+org.apache.commons.lang.time.FastDateFormat_ESTest::test07
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Lang/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:25:38  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:26:22  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:27:35  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:29:56  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:30:57  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:31:05  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:31:38  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:32:15  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:33:08  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:35:12  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:35:40  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:35:59  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:36:29  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:36:51  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:37:11  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:37:40  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:38:36  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:38:52  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:39:26  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:39:38  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:40:31  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:40:57  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:42:42  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:45:17  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 17:46:35  ######

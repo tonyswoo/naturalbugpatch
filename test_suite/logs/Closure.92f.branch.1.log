@@ -1,0 +1,51 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 16862
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24882_1536351662/build/classes
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/json.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/junit.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_24882_1536351662/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 282
+* Using seed 1536351688554
+* Starting evolution
+* Search finished after 1802s and 10033 generations, 1561481 statements, best individual has fitness: 237.8897435897436
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 282
+* Number of covered goals: 53
+* Generated 11 tests with total length 63
+* Resulting test suite's coverage: 19%
+* GA-Budget:
+	- ZeroFitness :                    238 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 994807ms
+* Generating assertions
+[MASTER] 12:51:57.375 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve nk: 1
+         resolve printNameReferenceReport: 1
+         resolve google.avascjipT: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 42
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

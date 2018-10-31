@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.fitting.GaussianFitter
+* Starting client
+* Connecting to master process on port 19178
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19022_1536373171/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.fitting.GaussianFitter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 67
+* Using seed 1536373198505
+* Starting evolution
+* Search finished after 1801s and 31423 generations, 4547923 statements, best individual has fitness: 3.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 67
+* Number of covered goals: 63
+* Generated 12 tests with total length 87
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      3 / 0           
+* Time spent executing tests: 804783ms
+* Generating assertions
+[MASTER] 18:50:11.660 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 18:50:11.707 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.random.UniformRandomGenerator, null
+* Resulting test suite's mutation score: 35%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'GaussianFitter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.regression.SimpleRegression
+* Starting client
+* Connecting to master process on port 6387
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_1754_1536379124/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.regression.SimpleRegression
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 33
+* Using seed 1536379142984
+* Starting evolution
+* Search finished after 6s and 5 generations, 7619 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 33
+* Number of covered goals: 33
+* Generated 14 tests with total length 45
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                          8 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 3090ms
+* Generating assertions
+* Resulting test suite's mutation score: 35%
+* Writing JUnit test case 'SimpleRegression_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

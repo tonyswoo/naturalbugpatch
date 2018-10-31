@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs
+* Starting client
+* Connecting to master process on port 20326
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_4774_1536380350/target/classes
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 22
+* Using seed 1536380424659
+* Starting evolution
+* Search finished after 1801s and 27918 generations, 3018333 statements, best individual has fitness: 24.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 9%
+* Total number of goals: 22
+* Number of covered goals: 2
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 9%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     24 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 473987ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ReturnsDeepStubs_ESTest' to evosuite-branch
+[MASTER] 20:50:35.996 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.core.MethodWrapper, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+* Done!
+
+* Computation finished

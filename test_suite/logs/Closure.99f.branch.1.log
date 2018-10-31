@@ -1,0 +1,53 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 11448
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9568_1536352541/build/classes
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/junit.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_9568_1536352541/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 63
+* Using seed 1536352575727
+* Starting evolution
+[MASTER] 12:49:35.678 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:53:18.344 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:55:27.604 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:57:07.047 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 14067 generations, 1843296 statements, best individual has fitness: 24.351960784313725
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 54%
+* Total number of goals: 63
+* Number of covered goals: 34
+* Generated 10 tests with total length 69
+* Resulting test suite's coverage: 54%
+* GA-Budget:
+	- ZeroFitness :                     24 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 608699ms
+* Generating assertions
+[MASTER] 13:06:39.991 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve JSC_USED_GLOBAL_THIS: 1
+         resolve dangerous use of the global 'this' object: 1
+         resolve typedef: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 37
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

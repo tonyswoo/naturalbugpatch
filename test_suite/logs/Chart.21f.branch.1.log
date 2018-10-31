@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Starting client
+* Connecting to master process on port 4529
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5823_1536337094/build
+  - /tmp/run_evosuite.pl_5823_1536337094/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 99
+* Using seed 1536337123285
+* Starting evolution
+* Search finished after 1802s and 8937 generations, 1253850 statements, best individual has fitness: 7.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 99
+* Number of covered goals: 85
+* Generated 46 tests with total length 252
+* Resulting test suite's coverage: 86%
+* GA-Budget:
+	- MaxTime :                      1,806 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      7 / 0           
+* Time spent executing tests: 670315ms
+* Generating assertions
+* Resulting test suite's mutation score: 35%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT7349078490833130552.tmp: 1
+         execute /usr/bin/xprop: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'DefaultBoxAndWhiskerCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

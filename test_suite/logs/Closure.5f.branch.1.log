@@ -1,0 +1,52 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.InlineObjectLiterals
+* Starting client
+* Connecting to master process on port 18027
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23101_1536337530/build/classes
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/args4j.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/guava.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/json.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_23101_1536337530/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.InlineObjectLiterals
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 1536337574957
+* Starting evolution
+[MASTER] 08:38:44.966 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:39:27.412 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:48:41.885 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 11030 generations, 618306 statements, best individual has fitness: 129.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 2%
+* Total number of goals: 123
+* Number of covered goals: 2
+* Generated 1 tests with total length 4
+* Resulting test suite's coverage: 2%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    129 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 249644ms
+* Generating assertions
+[MASTER] 08:56:35.685 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 08:56:35.688 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 08:56:35.690 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+[MASTER] 08:56:36.427 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CaseFormat, null
+[MASTER] 08:56:36.480 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.WhitelistWarningsGuard, null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+* Writing JUnit test case 'InlineObjectLiterals_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

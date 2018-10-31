@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PrepareAst
+* Starting client
+* Connecting to master process on port 13490
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23373_1536357081/build/classes
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/args4j.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/guava.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/json.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_23373_1536357081/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PrepareAst
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 59
+* Using seed 1536357123213
+* Starting evolution
+* Search finished after 1801s and 6328 generations, 921883 statements, best individual has fitness: 14.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 69%
+* Total number of goals: 59
+* Number of covered goals: 41
+* Generated 9 tests with total length 43
+* Resulting test suite's coverage: 69%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     14 / 0           
+* Time spent executing tests: 361080ms
+* Generating assertions
+[MASTER] 14:22:27.539 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 25%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve eval: 1
+         connect,resolve 127.0.0.1:3096: 1
+         connect,resolve 127.0.0.1:51: 1
+         and other 2 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 20
+* Writing JUnit test case 'PrepareAst_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

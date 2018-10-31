@@ -1,0 +1,64 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.DeadAssignmentsElimination
+* Starting client
+* Connecting to master process on port 13598
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10158_1536350518/build/classes
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/ant.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/guava.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/json.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/junit.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_10158_1536350518/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DeadAssignmentsElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 124
+* Using seed 1536350549413
+* Starting evolution
+[MASTER] 12:08:14.783 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:08:35.262 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:11:03.999 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:18:52.878 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:21:17.187 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:23:16.026 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:26:24.190 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:27:17.523 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:28:50.014 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:29:39.028 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:30:20.096 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:30:31.587 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:30:37.264 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:31:31.407 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:32:52.260 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1807s and 2399 generations, 192254 statements, best individual has fitness: 124.0
+[MASTER] 12:32:57.419 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 124
+* Number of covered goals: 5
+* Generated 4 tests with total length 18
+* Resulting test suite's coverage: 5%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,819 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    123 / 0           
+* Time spent executing tests: 127825ms
+* Generating assertions
+[MASTER] 12:33:08.402 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 12:33:10.813 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'DeadAssignmentsElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

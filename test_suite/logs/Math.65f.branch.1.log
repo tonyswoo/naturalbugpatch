@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer
+* Starting client
+* Connecting to master process on port 5109
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_29768_1536373618/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 1536373641415
+* Starting evolution
+* Search finished after 1801s and 27053 generations, 4476941 statements, best individual has fitness: 21.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 49%
+* Total number of goals: 39
+* Number of covered goals: 19
+* Generated 12 tests with total length 27
+* Resulting test suite's coverage: 49%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     21 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 636440ms
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'AbstractLeastSquaresOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

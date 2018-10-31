@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.WordUtils
+* Starting client
+* Connecting to master process on port 7613
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12324_1536363101/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.WordUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 110
+* Using seed 1536363121638
+* Starting evolution
+* Search finished after 1802s and 24927 generations, 9521214 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 110
+* Number of covered goals: 105
+* Generated 28 tests with total length 34
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ZeroFitness :                      3 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 931580ms
+* Generating assertions
+* Resulting test suite's mutation score: 68%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'WordUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

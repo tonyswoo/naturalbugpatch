@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+* Starting client
+* Connecting to master process on port 19963
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_374_1536360931/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 17
+* Using seed 1536360950428
+* Starting evolution
+* Search finished after 1801s and 24879 generations, 5218968 statements, best individual has fitness: 0.9999845052527193
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 17
+* Number of covered goals: 16
+* Generated 4 tests with total length 30
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,806 / 1,800        Finished!
+	- ZeroFitness :                      1 / 0           
+* Time spent executing tests: 586485ms
+* Generating assertions
+* Resulting test suite's mutation score: 74%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1949
+* Writing JUnit test case 'NumericEntityUnescaper_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

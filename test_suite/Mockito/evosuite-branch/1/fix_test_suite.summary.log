@@ -1,0 +1,158 @@
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:18:30  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:28:53  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:29:58  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:32:37  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:33:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:34:09  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:34:27  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:35:11  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:35:14  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:35:25  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:35:31  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Mockito-29f-evosuite-branch.1.tar.bz2
+org.mockito.internal.matchers.Same_ESTest::test1
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Mockito/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:37:31  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:40:29  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:42:21  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:46:07  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:46:22  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:46:28  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:50:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:51:37  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:52:26  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:53:44  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:54:26  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:55:59  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:56:27  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:59:08  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 21:59:41  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:01:20  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:01:54  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:04:46  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:05:59  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:06:34  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:08:10  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:08:11  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:10:09  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:11:18  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:11:54  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:12:59  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:13:50  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:14:08  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:14:56  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:16:47  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:17:00  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:18:52  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:18:59  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:25:04  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:26:34  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:26:54  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:27:13  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:28:30  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:28:51  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:36:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 22:38:51  ######

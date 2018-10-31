@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.util.MathUtils
+* Starting client
+* Connecting to master process on port 2598
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26716_1536373490/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MathUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 460
+* Using seed 1536373514254
+* Starting evolution
+[MASTER] 18:26:15.460 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1805s and 3823 generations, 866496 statements, best individual has fitness: 74.08191200387981
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 460
+* Number of covered goals: 382
+* Generated 163 tests with total length 228
+* Resulting test suite's coverage: 83%
+* GA-Budget:
+	- ZeroFitness :                     74 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,822 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 290344ms
+* Generating assertions
+[MASTER] 18:55:52.095 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'MathUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

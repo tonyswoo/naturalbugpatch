@@ -1,0 +1,3 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 15:19:45  ######
+Generate tests for: org.apache.commons.lang3.text.translate.LookupTranslator : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 15:20:30  ######

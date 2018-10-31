@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.renderer.GrayPaintScale
+* Starting client
+* Connecting to master process on port 6623
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_8593_1536337141/build
+  - /tmp/run_evosuite.pl_8593_1536337141/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.GrayPaintScale
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 15
+* Using seed 1536337171040
+* Starting evolution
+* Search finished after 6s and 4 generations, 3155 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Generated 8 tests with total length 19
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                          6 / 1,800       
+* Time spent executing tests: 2521ms
+* Generating assertions
+* Resulting test suite's mutation score: 77%
+* Writing JUnit test case 'GrayPaintScale_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

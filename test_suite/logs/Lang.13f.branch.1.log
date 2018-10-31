@@ -1,0 +1,43 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.SerializationUtils
+* Starting client
+* Connecting to master process on port 5598
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_29140_1536359160/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.SerializationUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 1536359179167
+* Starting evolution
+[MASTER] 14:53:25.409 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1804s and 532 generations, 78459 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 25
+* Number of covered goals: 17
+* Generated 10 tests with total length 18
+* Resulting test suite's coverage: 68%
+* GA-Budget:
+	- MaxTime :                      1,804 / 1,800        Finished!
+	- ZeroFitness :                      6 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 28885ms
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.security.SecurityPermission: 
+         org.apache.commons.lang3.SerializationException: 14
+         Zk{,k\zWtW1!my: 1
+         org.apache.commons.lGng3.SerializationExceptiGn: 1
+         org.dpache.commons.lang3.Seria/izationExcepion: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 21
+* Writing JUnit test case 'SerializationUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

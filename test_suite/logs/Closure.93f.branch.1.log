@@ -1,0 +1,53 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 9349
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26056_1536351714/build/classes
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/json.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/junit.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_26056_1536351714/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 282
+* Using seed 1536351739405
+* Starting evolution
+[MASTER] 12:45:13.011 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1803s and 6907 generations, 1156462 statements, best individual has fitness: 237.8897435897436
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 282
+* Number of covered goals: 53
+* Generated 10 tests with total length 70
+* Resulting test suite's coverage: 19%
+* GA-Budget:
+	- MaxTime :                      1,818 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                    238 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1028986ms
+* Generating assertions
+[MASTER] 12:52:58.468 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve "{0}" cannot be both provided and declared as a function: 1
+         resolve e.javascrptjscomp: 1
+         resolve egK"X?A<Z#8q!%E: 1
+         and other 2 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 29
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

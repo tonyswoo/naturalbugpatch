@@ -1,0 +1,285 @@
+- Compilation issues: Closure-32f-evosuite-branch.1.tar.bz2
+Buildfile: /home/ktony11/defects4j/framework/projects/defects4j.build.xml
+
+rhino:
+
+properties:
+
+init:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/lib
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/lib/rhino1_7R4pre
+
+compile:
+
+compile-most:
+    [javac] Compiling 217 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_11624_1536343674/lib/rhino/src/org/mozilla/javascript/commonjs/module/provider/SoftCachingModuleScriptProvider.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+
+compile-jdk15:
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+
+properties:
+
+compile:
+    [javac] Compiling 28 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_11624_1536343674/lib/rhino/toolsrc/org/mozilla/javascript/tools/debugger/SwingGui.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+
+xmlimplsrc-compile:
+     [echo] Calling /tmp/fix_test_suite.pl_11624_1536343674/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+    [javac] Compiling 3 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+jar:
+      [jar] Building jar: /tmp/fix_test_suite.pl_11624_1536343674/build/lib/rhino1_7R4pre/js.jar
+
+rhino-jarjar:
+   [jarjar] Building jar: /tmp/fix_test_suite.pl_11624_1536343674/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/classes
+    [javac] /tmp/fix_test_suite.pl_11624_1536343674/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 7 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+    [javac] /tmp/fix_test_suite.pl_11624_1536343674/build.xml:258: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 380 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: /tmp/fix_test_suite.pl_11624_1536343674/src/com/google/javascript/jscomp/ant/CompileTask.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_11624_1536343674/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_11624_1536343674/build/classes/com/google/javascript/jscomp/parsing
+[propertyfile] Updating property file: /tmp/fix_test_suite.pl_11624_1536343674/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/classes/com/google/javascript/jscomp/js
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_11624_1536343674/build/classes/com/google/javascript/jscomp/js
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_11624_1536343674/build/classes
+     [echo] build.home: /tmp/fix_test_suite.pl_11624_1536343674/build
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_11624_1536343674/build/gen-tests
+    [javac] /home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to /tmp/fix_test_suite.pl_11624_1536343674/build/gen-tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/fix_test_suite.pl_11624_1536343674/evosuite-branch/com/google/javascript/jscomp/parsing/JsDocInfoParser_ESTest.java:31: error: package org.evosuite.testcase.execution does not exist
+    [javac] import org.evosuite.testcase.execution.CodeUnderTestException;
+    [javac]                                       ^
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: Compile failed; see the compiler error output for details.
+
+Total time: 25 seconds
+- Compilation issues: Closure-110f-evosuite-branch.1.tar.bz2
+Buildfile: /home/ktony11/defects4j/framework/projects/defects4j.build.xml
+
+rhino:
+
+properties:
+
+init:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/lib
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/lib/rhino1_7R5pre
+
+compile:
+
+compile-most:
+    [javac] Compiling 218 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_17321_1536358771/lib/rhino/src/org/mozilla/javascript/commonjs/module/provider/SoftCachingModuleScriptProvider.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+
+compile-jdk15:
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+
+properties:
+
+compile:
+    [javac] Compiling 29 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_17321_1536358771/lib/rhino/toolsrc/org/mozilla/javascript/tools/debugger/SwingGui.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+
+xmlimplsrc-compile:
+     [echo] Calling /tmp/fix_test_suite.pl_17321_1536358771/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+    [javac] Compiling 3 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+jar:
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_17321_1536358771/build/lib/classes
+      [jar] Building jar: /tmp/fix_test_suite.pl_17321_1536358771/build/lib/rhino1_7R5pre/js.jar
+
+rhino-jarjar:
+   [jarjar] Building jar: /tmp/fix_test_suite.pl_17321_1536358771/build/lib/rhino.jar
+
+relversion:
+
+compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/classes
+    [javac] /tmp/fix_test_suite.pl_17321_1536358771/build.xml:259: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 7 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+    [javac] /tmp/fix_test_suite.pl_17321_1536358771/build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 514 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_17321_1536358771/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_17321_1536358771/build/classes/com/google/javascript/jscomp/parsing
+[propertyfile] Updating property file: /tmp/fix_test_suite.pl_17321_1536358771/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/classes/com/google/javascript/jscomp/js
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_17321_1536358771/build/classes/com/google/javascript/jscomp/js
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_17321_1536358771/build/classes
+     [echo] build.home: /tmp/fix_test_suite.pl_17321_1536358771/build
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_17321_1536358771/build/gen-tests
+    [javac] /home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 4 source files to /tmp/fix_test_suite.pl_17321_1536358771/build/gen-tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/fix_test_suite.pl_17321_1536358771/evosuite-branch/com/google/javascript/rhino/Node_ESTest.java:48: error: package org.evosuite.testcase.execution does not exist
+    [javac] import org.evosuite.testcase.execution.CodeUnderTestException;
+    [javac]                                       ^
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: Compile failed; see the compiler error output for details.
+
+Total time: 25 seconds
+- Compilation issues: Closure-133f-evosuite-branch.1.tar.bz2
+Buildfile: /home/ktony11/defects4j/framework/projects/defects4j.build.xml
+
+rhino:
+
+properties:
+
+init:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/lib
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/lib/rhino1_7R5pre
+
+compile:
+
+compile-most:
+    [javac] Compiling 217 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_20157_1536360577/lib/rhino/src/org/mozilla/javascript/commonjs/module/provider/SoftCachingModuleScriptProvider.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+
+compile-jdk15:
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+
+properties:
+
+compile:
+    [javac] Compiling 29 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/fix_test_suite.pl_20157_1536360577/lib/rhino/toolsrc/org/mozilla/javascript/tools/debugger/SwingGui.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+
+xmlimplsrc-compile:
+     [echo] Calling /tmp/fix_test_suite.pl_20157_1536360577/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+    [javac] Compiling 3 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+jar:
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_20157_1536360577/build/lib/classes
+      [jar] Building jar: /tmp/fix_test_suite.pl_20157_1536360577/build/lib/rhino1_7R5pre/js.jar
+
+rhino-jarjar:
+   [jarjar] Building jar: /tmp/fix_test_suite.pl_20157_1536360577/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/classes
+    [javac] /tmp/fix_test_suite.pl_20157_1536360577/build.xml:255: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 7 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+    [javac] /tmp/fix_test_suite.pl_20157_1536360577/build.xml:261: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 391 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_20157_1536360577/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_20157_1536360577/build/classes/com/google/javascript/jscomp/parsing
+[propertyfile] Updating property file: /tmp/fix_test_suite.pl_20157_1536360577/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/classes/com/google/javascript/jscomp/js
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_20157_1536360577/build/classes/com/google/javascript/jscomp/js
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_20157_1536360577/build/classes
+     [echo] build.home: /tmp/fix_test_suite.pl_20157_1536360577/build
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_20157_1536360577/build/gen-tests
+    [javac] /home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to /tmp/fix_test_suite.pl_20157_1536360577/build/gen-tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /tmp/fix_test_suite.pl_20157_1536360577/evosuite-branch/com/google/javascript/jscomp/parsing/JsDocInfoParser_ESTest.java:38: error: package org.evosuite.testcase.execution does not exist
+    [javac] import org.evosuite.testcase.execution.CodeUnderTestException;
+    [javac]                                       ^
+    [javac] Note: /tmp/fix_test_suite.pl_20157_1536360577/evosuite-branch/com/google/javascript/jscomp/parsing/JsDocInfoParser_ESTest.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/home/ktony11/defects4j/framework/projects/defects4j.build.xml:260: Compile failed; see the compiler error output for details.
+
+Total time: 24 seconds

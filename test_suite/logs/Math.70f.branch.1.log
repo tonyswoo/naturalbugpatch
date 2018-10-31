@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BisectionSolver
+* Starting client
+* Connecting to master process on port 7983
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12120_1536374511/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BisectionSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 11
+* Using seed 1536374535676
+* Starting evolution
+* Search finished after 1801s and 40030 generations, 5103190 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 11
+* Number of covered goals: 10
+* Generated 5 tests with total length 15
+* Resulting test suite's coverage: 91%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 1007460ms
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BisectionSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

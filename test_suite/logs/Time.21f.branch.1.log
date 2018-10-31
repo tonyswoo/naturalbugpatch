@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.tz.DefaultNameProvider
+* Starting client
+* Connecting to master process on port 14493
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10666_1536385677/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.tz.DefaultNameProvider
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 38
+* Using seed 1536385701324
+* Starting evolution
+* Search finished after 1801s and 28331 generations, 75114 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 38
+* Number of covered goals: 33
+* Generated 7 tests with total length 21
+* Resulting test suite's coverage: 87%
+* GA-Budget:
+	- ZeroFitness :                      3 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+* Time spent executing tests: 109704ms
+* Generating assertions
+* Resulting test suite's mutation score: 69%
+* Writing JUnit test case 'DefaultNameProvider_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

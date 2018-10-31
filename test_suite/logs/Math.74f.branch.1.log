@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+* Starting client
+* Connecting to master process on port 13505
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19919_1536375028/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 66
+* Using seed 1536375056765
+* Starting evolution
+* Search finished after 1801s and 35562 generations, 13319702 statements, best individual has fitness: 58.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 66
+* Number of covered goals: 8
+* Generated 3 tests with total length 7
+* Resulting test suite's coverage: 12%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     58 / 0           
+* Time spent executing tests: 955758ms
+* Generating assertions
+* Resulting test suite's mutation score: 29%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'EmbeddedRungeKuttaIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

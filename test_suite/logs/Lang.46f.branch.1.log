@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.StringEscapeUtils
+* Starting client
+* Connecting to master process on port 11117
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13356_1536363130/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.StringEscapeUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 140
+* Using seed 1536363148864
+* Starting evolution
+* Search finished after 1802s and 14978 generations, 2158430 statements, best individual has fitness: 20.492055803138925
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 140
+* Number of covered goals: 106
+* Generated 45 tests with total length 62
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,804 / 1,800        Finished!
+	- ZeroFitness :                     20 / 0           
+* Time spent executing tests: 367756ms
+* Generating assertions
+* Resulting test suite's mutation score: 57%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1257
+* Writing JUnit test case 'StringEscapeUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

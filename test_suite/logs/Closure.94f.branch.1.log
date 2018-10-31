@@ -1,0 +1,30 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 7942
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_32126_1536352065/build/classes
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/json.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/junit.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_32126_1536352065/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1966
+* Using seed 1536352090497
+* Starting evolution
+[MASTER] 13:08:55.809 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeUtil. Clients have not finished yet, although timeout.
+ClientNode: SEARCH
+
+* Computation finished
+[MASTER] 13:08:55.912 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 13:08:55.912 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:08:56.012 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.InlineVariables
+* Starting client
+* Connecting to master process on port 19949
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17113_1536342120/build/classes
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/args4j.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/guava.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/json.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_17113_1536342120/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.InlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 254
+* Using seed 1536342159667
+* Starting evolution
+* Search finished after 1802s and 19141 generations, 1228145 statements, best individual has fitness: 265.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 254
+* Number of covered goals: 9
+* Generated 3 tests with total length 9
+* Resulting test suite's coverage: 4%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                    266 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 510956ms
+* Generating assertions
+[MASTER] 10:13:01.449 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 0.0.0.7:1108: 1
+         resolve F9YdsocS@^fE: 1
+         connect,resolve 127.0.0.1:2: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 35
+* Writing JUnit test case 'InlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+[MASTER] 10:13:02.933 [Thread-3] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

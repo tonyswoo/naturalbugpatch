@@ -1,0 +1,52 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.RemoveUnusedVars
+* Starting client
+* Connecting to master process on port 9046
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13536_1536337270/build/classes
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/args4j.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/guava.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/json.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_13536_1536337270/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.RemoveUnusedVars
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 311
+* Using seed 1536337314927
+* Starting evolution
+[MASTER] 08:35:05.480 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:44:55.826 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 9327 generations, 613950 statements, best individual has fitness: 336.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 311
+* Number of covered goals: 1
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 0%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                    336 / 0           
+* Time spent executing tests: 251547ms
+* Generating assertions
+[MASTER] 08:52:19.210 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 08:52:19.215 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 08:52:19.218 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+[MASTER] 08:52:19.700 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.WhitelistWarningsGuard, null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve IJ>U/`mp]: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 23
+* Writing JUnit test case 'RemoveUnusedVars_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

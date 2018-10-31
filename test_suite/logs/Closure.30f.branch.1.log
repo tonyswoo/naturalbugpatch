@@ -1,0 +1,94 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.MustBeReachingVariableDef
+* Starting client
+* Connecting to master process on port 3054
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3355_1536341578/build/classes
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/args4j.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/guava.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/json.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MustBeReachingVariableDef
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 177
+* Using seed 1536341633133
+* Starting evolution
+* Search finished after 1805s and 2484 generations, 445586 statements, best individual has fitness: 67.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 177
+* Number of covered goals: 106
+* Generated 34 tests with total length 301
+* Resulting test suite's coverage: 60%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,839 / 1,800        Finished!
+	- ZeroFitness :                     68 / 0           
+* Time spent executing tests: 788550ms
+* Generating assertions
+[MASTER] 10:04:57.413 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'MustBeReachingVariableDef_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 11932
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3355_1536341578/build/classes
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/args4j.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/guava.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/json.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_3355_1536341578/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 122
+* Using seed 1536343525013
+* Starting evolution
+* Search finished after 1801s and 19965 generations, 2184561 statements, best individual has fitness: 126.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 122
+* Number of covered goals: 5
+* Generated 4 tests with total length 19
+* Resulting test suite's coverage: 4%
+* GA-Budget:
+	- ZeroFitness :                    127 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 527920ms
+* Generating assertions
+[MASTER] 10:35:44.925 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:1477: 1
+         resolve t^gYta3s. na@: 1
+         resolve .uBfYf@PZ: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 59
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

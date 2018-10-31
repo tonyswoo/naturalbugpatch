@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.BigMatrixImpl
+* Starting client
+* Connecting to master process on port 5571
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17870_1536378343/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.BigMatrixImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 315
+* Using seed 1536378363736
+* Starting evolution
+[MASTER] 20:12:53.728 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 5232 generations, 3830519 statements, best individual has fitness: 29.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 315
+* Number of covered goals: 281
+* Generated 82 tests with total length 401
+* Resulting test suite's coverage: 89%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     29 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,814 / 1,800        Finished!
+* Time spent executing tests: 303087ms
+* Generating assertions
+[MASTER] 20:19:53.689 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BigMatrixImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.RealMatrixImpl
+* Starting client
+* Connecting to master process on port 17342
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17870_1536378343/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.RealMatrixImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 268
+* Using seed 1536380427223
+* Starting evolution
+* Search finished after 1802s and 12875 generations, 9376881 statements, best individual has fitness: 26.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 268
+* Number of covered goals: 239
+* Generated 63 tests with total length 235
+* Resulting test suite's coverage: 89%
+* GA-Budget:
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     27 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 825350ms
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'RealMatrixImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,65 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.plot.PiePlot
+* Starting client
+* Connecting to master process on port 14556
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30401_1536335115/build
+  - /tmp/run_evosuite.pl_30401_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.PiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 392
+* Using seed 1536335148356
+* Starting evolution
+[MASTER] 07:52:21.384 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:53:36.373 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 07:57:06.447 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 07:57:34.173 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 07:57:34.815 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:00:29.727 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:01:27.464 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:03:45.189 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:04:51.332 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:04:59.768 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:05:05.028 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:05:10.272 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:05:44.492 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:06:18.566 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:06:40.052 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:06:47.162 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:06:52.933 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:13:08.472 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:14:58.699 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1807s and 2900 generations, 793961 statements, best individual has fitness: 54.99999999126824
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 392
+* Number of covered goals: 315
+* Generated 125 tests with total length 539
+* Resulting test suite's coverage: 80%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,854 / 1,800        Finished!
+	- ZeroFitness :                     55 / 0           
+* Time spent executing tests: 903464ms
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT9092449956229825502.tmp: 1
+         write /tmp/+~JT2543903336697620998.tmp: 1
+         write /tmp/+~JT6589949547707173170.tmp: 1
+         and other 6 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         loadLibrary.mlib_image: 1
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 10
+         queuePrintJob: 1
+* Writing JUnit test case 'PiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

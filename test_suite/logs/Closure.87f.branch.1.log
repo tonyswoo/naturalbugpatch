@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 12781
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9214_1536350490/build/classes
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/ant.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/args4j.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/guava.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/json.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/junit.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_9214_1536350490/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 374
+* Using seed 1536350519993
+* Starting evolution
+* Search finished after 1802s and 12223 generations, 1378605 statements, best individual has fitness: 301.7005813953488
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 374
+* Number of covered goals: 76
+* Generated 27 tests with total length 137
+* Resulting test suite's coverage: 21%
+* GA-Budget:
+	- MaxTime :                      1,810 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                    302 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 777573ms
+* Generating assertions
+[MASTER] 12:32:34.215 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 12:32:36.276 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 18
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

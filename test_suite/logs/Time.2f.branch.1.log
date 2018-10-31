@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.Partial
+* Starting client
+* Connecting to master process on port 16622
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23884_1536382880/target/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Partial
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 132
+* Using seed 1536382907125
+* Starting evolution
+* Search finished after 1802s and 13558 generations, 1814007 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 132
+* Number of covered goals: 131
+* Generated 53 tests with total length 278
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,807 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 476694ms
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'Partial_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.field.UnsupportedDurationField
+* Starting client
+* Connecting to master process on port 20793
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23884_1536382880/target/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.field.UnsupportedDurationField
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 35
+* Using seed 1536384796839
+* Starting evolution
+* Search finished after 1802s and 25191 generations, 2999336 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 35
+* Number of covered goals: 29
+* Generated 21 tests with total length 70
+* Resulting test suite's coverage: 89%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      4 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 552792ms
+* Generating assertions
+* Resulting test suite's mutation score: 61%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'UnsupportedDurationField_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

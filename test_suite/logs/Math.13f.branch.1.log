@@ -1,0 +1,15 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer
+* Starting client
+* Connecting to master process on port 6002
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30533_1536367032/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer
+* Test criterion:
+  - Branch Coverage
+* Found no testable methods in the target class org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer
+* Total number of test goals: 39
+* Done!
+
+* Computation finished

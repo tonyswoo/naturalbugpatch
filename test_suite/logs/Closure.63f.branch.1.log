@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.LightweightMessageFormatter
+* Starting client
+* Connecting to master process on port 13921
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10707_1536347245/build/classes
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/guava.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/json.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_10707_1536347245/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.LightweightMessageFormatter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 1536347291003
+* Starting evolution
+* Search finished after 1801s and 19835 generations, 2473705 statements, best individual has fitness: 10.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 39
+* Number of covered goals: 28
+* Generated 7 tests with total length 32
+* Resulting test suite's coverage: 72%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     11 / 0           
+* Time spent executing tests: 556641ms
+* Generating assertions
+[MASTER] 11:38:34.128 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 80%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve rts(,TW: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 41
+* Writing JUnit test case 'LightweightMessageFormatter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

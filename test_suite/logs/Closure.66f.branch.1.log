@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 6632
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17813_1536347622/build/classes
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/args4j.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/guava.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/json.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_17813_1536347622/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 989
+* Using seed 1536347662735
+* Starting evolution
+* Search finished after 1810s and 2272 generations, 568454 statements, best individual has fitness: 618.0517598343686
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 11:46:04.732 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 37%
+* Total number of goals: 989
+* Number of covered goals: 370
+* Generated 414 tests with total length 6984
+* Resulting test suite's coverage: 37%
+* GA-Budget:
+	- ZeroFitness :                    618 / 0           
+	- MaxTime :                      1,888 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 837705ms
+* Generating assertions
+[MASTER] 11:46:15.743 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 11 seconds more than allowed.
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

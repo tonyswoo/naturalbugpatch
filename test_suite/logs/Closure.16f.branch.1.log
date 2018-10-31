@@ -1,0 +1,61 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 15564
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26073_1536339324/build/classes
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/args4j.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/guava.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/json.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_26073_1536339324/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 140
+* Using seed 1536339362996
+* Starting evolution
+[MASTER] 09:03:59.295 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:08:43.512 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:10:11.714 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:14:44.750 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:15:07.016 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:17:32.044 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:17:39.154 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:17:47.290 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:18:59.639 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:23:19.953 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:23:36.688 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:25:08.966 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:26:04.704 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:26:09.964 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1804s and 10706 generations, 1461528 statements, best individual has fitness: 115.83333333286767
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 140
+* Number of covered goals: 24
+* Generated 2 tests with total length 13
+* Resulting test suite's coverage: 17%
+* GA-Budget:
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                    116 / 0           
+* Time spent executing tests: 348086ms
+* Generating assertions
+[MASTER] 09:26:25.005 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve u: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 35
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.complex.Complex
+* Starting client
+* Connecting to master process on port 18039
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15195_1536366455/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.complex.Complex
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 183
+* Using seed 1536366484682
+* Starting evolution
+* Search finished after 1803s and 11740 generations, 2832426 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 183
+* Number of covered goals: 182
+* Generated 75 tests with total length 199
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,810 / 1,800        Finished!
+* Time spent executing tests: 1055045ms
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'Complex_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

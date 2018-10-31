@@ -1,0 +1,94 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.Node
+* Starting client
+* Connecting to master process on port 14224
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11535_1536354579/build/classes
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/args4j.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/guava.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/json.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.Node
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 710
+* Using seed 1536354630856
+* Starting evolution
+* Search finished after 1808s and 3865 generations, 1118187 statements, best individual has fitness: 32.49999999953434
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 13:42:06.829 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 716
+* Number of covered goals: 664
+* Generated 726 tests with total length 10057
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- MaxTime :                      1,901 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     32 / 0           
+* Time spent executing tests: 651829ms
+* Generating assertions
+[MASTER] 13:42:26.599 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 27 seconds more than allowed.
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'Node_ESTest' to evosuite-branch
+[MASTER] 13:47:46.531 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:48:49.586 [logback-1] WARN  TimeController - Phase WRITING_TESTS lasted too long, 20 seconds more than allowed.
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 4193
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11535_1536354579/build/classes
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/args4j.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/guava.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/json.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_11535_1536354579/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 169
+* Using seed 1536356942011
+* Starting evolution
+* Search finished after 1802s and 5606 generations, 545915 statements, best individual has fitness: 145.83333333240202
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 169
+* Number of covered goals: 25
+* Generated 3 tests with total length 21
+* Resulting test suite's coverage: 15%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- ZeroFitness :                    146 / 0           
+* Time spent executing tests: 743920ms
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve $: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 18
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

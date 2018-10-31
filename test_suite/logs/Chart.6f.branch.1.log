@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.util.ShapeList
+* Starting client
+* Connecting to master process on port 20783
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30382_1536335115/build
+  - /tmp/run_evosuite.pl_30382_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.util.ShapeList
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 21
+* Using seed 1536335146491
+* Starting evolution
+* Search finished after 1801s and 30079 generations, 3572164 statements, best individual has fitness: 10.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 62%
+* Total number of goals: 21
+* Number of covered goals: 13
+* Generated 6 tests with total length 17
+* Resulting test suite's coverage: 62%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     10 / 0           
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1094862ms
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'ShapeList_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

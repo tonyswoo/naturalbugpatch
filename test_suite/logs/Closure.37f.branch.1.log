@@ -1,0 +1,123 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 5366
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21974_1536342546/build/classes
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/guava.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/json.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 566
+* Using seed 1536342586297
+* Starting evolution
+[MASTER] 09:50:08.129 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 1949s and 385 generations, 124744 statements, best individual has fitness: 370.02441600324016
+* Minimizing test suite
+[MASTER] 10:26:46.508 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: com.google.javascript.jscomp.parsing.IRFactory with seed 1536342586297. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Hashtable$Entry.clone(Hashtable.java:1052) ~[na:1.7.0_95]
+	at java.util.Hashtable$Entry.clone(Hashtable.java:1052) ~[na:1.7.0_95]
+	at java.util.Hashtable.clone(Hashtable.java:613) ~[na:1.7.0_95]
+	at org.evosuite.runtime.System.restoreProperties(System.java:96) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.runtime.sandbox.MSecurityManager.goingToEndTestCase(MSecurityManager.java:367) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(Sandbox.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:388) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:333) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:262) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:144) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:79) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.isCovered(TestFitnessFunction.java:150) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimizeTests(TestSuiteMinimizer.java:240) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimize(TestSuiteMinimizer.java:112) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateWholeSuite(TestSuiteGenerator.java:951) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:459) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:252) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) ~[evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_95]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_95]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_95]
+[MASTER] 10:26:53.483 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 117 seconds more than allowed.
+* Computation finished
+[MASTER] 10:27:08.921 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 10:27:08.921 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 10:27:09.022 [main] ERROR TestGeneration - failed to write statistics data
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeTraversal
+* Starting client
+* Connecting to master process on port 5978
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21974_1536342546/build/classes
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/guava.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/json.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_21974_1536342546/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeTraversal
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 136
+* Using seed 1536344844573
+* Starting evolution
+[MASTER] 10:28:58.516 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:31:22.791 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:34:11.266 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:34:41.752 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:34:52.425 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:35:08.558 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:35:19.057 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:35:29.980 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:35:35.197 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:35:40.235 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:36:12.272 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:37:13.666 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:37:59.591 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:38:05.034 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:38:32.415 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:38:37.642 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:39:14.859 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:39:19.962 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:39:51.072 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:40:27.176 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:41:46.893 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:41:51.943 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:43:15.016 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:44:02.095 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:45:53.269 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:47:57.712 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:48:34.580 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:52:27.976 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:53:42.962 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:55:37.746 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:59:51.582 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 2015s and 470 generations, 123005 statements, best individual has fitness: 89.0
+[MASTER] 11:01:17.094 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 215 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 11:04:58.500 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:05:28.981 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:05:44.064 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:05:49.099 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:05:59.167 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:06:29.253 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:07:19.492 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:07:25.141 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeTraversal. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 11:07:25.243 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 11:07:25.243 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:07:25.343 [main] ERROR TestGeneration - failed to write statistics data

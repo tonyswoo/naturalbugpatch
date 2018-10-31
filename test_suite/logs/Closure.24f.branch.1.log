@@ -1,0 +1,63 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 20876
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24691_1536341172/build/classes
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/args4j.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/guava.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/json.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_24691_1536341172/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 120
+* Using seed 1536341226329
+* Starting evolution
+[MASTER] 09:27:58.476 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:28:49.336 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:30:45.924 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:32:20.180 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:32:40.569 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:33:01.292 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:33:40.085 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:34:15.161 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:35:07.548 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:36:10.144 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:37:38.346 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:38:26.006 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:42:00.368 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:53:58.050 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 11095 generations, 1467422 statements, best individual has fitness: 95.06666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 120
+* Number of covered goals: 23
+* Generated 2 tests with total length 17
+* Resulting test suite's coverage: 19%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     95 / 0           
+* Time spent executing tests: 397619ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve The body of a goog.scope function cannot reference 'this'.: 1
+         resolve [{proxy:]: 1
+         resolve JSC_GOOG_S/OPE_USE_mM>LOPEROY: 4
+         and other 18 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 28
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

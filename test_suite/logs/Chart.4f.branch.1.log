@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.plot.XYPlot
+* Starting client
+* Connecting to master process on port 15130
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30372_1536335115/build
+  - /tmp/run_evosuite.pl_30372_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.XYPlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1079
+* Using seed 1536335150481
+* Starting evolution
+[MASTER] 08:04:58.462 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:10:27.685 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 1850s and 604 generations, 396414 statements, best individual has fitness: 301.8333333333333
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 08:19:00.023 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 1079
+* Number of covered goals: 705
+* Generated 739 tests with total length 16773
+* Resulting test suite's coverage: 65%
+* GA-Budget:
+	- ZeroFitness :                    303 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      2,006 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 901643ms
+* Generating assertions
+[MASTER] 08:19:51.657 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 53 seconds more than allowed.
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT1629873635130387986.tmp: 1
+         write /tmp/+~JF8635091543213168903.tmp: 1
+         execute /usr/bin/xprop: 1
+  - java.lang.RuntimePermission: 
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 4
+* Writing JUnit test case 'XYPlot_ESTest' to evosuite-branch
+[MASTER] 08:25:51.556 [main] ERROR ExternalProcessHandler - Class org.jfree.chart.plot.XYPlot. Clients have not finished yet, although timeout.
+ClientNode: WRITING_TESTS
+
+* Computation finished

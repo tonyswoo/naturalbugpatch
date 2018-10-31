@@ -1,0 +1,78 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 13950
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2018_1536352157/build/classes
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/json.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/junit.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_2018_1536352157/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 915
+* Using seed 1536352183144
+* Starting evolution
+[MASTER] 12:43:51.807 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:47:05.327 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:47:58.594 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:49:50.601 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:50:21.988 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:50:43.540 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:52:06.028 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:52:48.592 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:53:04.421 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:53:35.636 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:56:54.086 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:57:04.185 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:59:28.231 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:59:49.666 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:59:49.672 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.TypeCheck: null
+java.lang.NullPointerException: null
+	at org.evosuite.runtime.jvm.ShutdownHookHandler.getAddedHooks(ShutdownHookHandler.java:95) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.runtime.jvm.ShutdownHookHandler.removeNewHooks(ShutdownHookHandler.java:182) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.runtime.jvm.ShutdownHookHandler.initHandler(ShutdownHookHandler.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:206) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_95]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_95]
+[MASTER] 13:00:46.080 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:00:56.172 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:02:01.908 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:02:07.013 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:02:52.548 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:03:12.669 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:03:43.096 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:03:58.356 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:04:48.837 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:04:58.996 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:05:19.120 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:06:04.720 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:06:19.844 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:06:29.891 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:06:39.976 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:07:00.252 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:07:30.577 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:08:10.853 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:08:20.912 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:08:41.322 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:09:06.600 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:09:11.601 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:09:16.655 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:09:43.708 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.TypeCheck. Clients have not finished yet, although timeout.
+ClientNode: SEARCH
+
+* Computation finished
+[MASTER] 13:09:43.811 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 13:09:43.811 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:09:43.912 [main] ERROR TestGeneration - failed to write statistics data

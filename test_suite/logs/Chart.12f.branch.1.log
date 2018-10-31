@@ -1,0 +1,53 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.plot.MultiplePiePlot
+* Starting client
+* Connecting to master process on port 17802
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30394_1536335115/build
+  - /tmp/run_evosuite.pl_30394_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.MultiplePiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 96
+* Using seed 1536335147368
+* Starting evolution
+[MASTER] 07:55:08.050 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 07:57:07.608 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 08:05:57.539 [logback-1] WARN  TestClusterGenerator - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 1813s and 2332 generations, 699817 statements, best individual has fitness: 5.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 08:17:45.576 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 96
+* Number of covered goals: 87
+* Generated 104 tests with total length 5154
+* Resulting test suite's coverage: 91%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      6 / 0           
+[MASTER] 08:17:53.427 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 15 seconds more than allowed.
+	- MaxTime :                      1,896 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 1341485ms
+* Generating assertions
+* Resulting test suite's mutation score: 41%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT3908170899119449004.tmp: 1
+         write /tmp/+~JT1608814340147721518.tmp: 1
+         write /tmp/+~JT1627339424007650309.tmp: 1
+         and other 15 cases of action/name for this exception class
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 3
+         connect,resolve www.someFakeButWellFormedURL.org:80: 3
+  - java.lang.RuntimePermission: 
+         loadLibrary.mlib_image: 1
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 8
+* Writing JUnit test case 'MultiplePiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

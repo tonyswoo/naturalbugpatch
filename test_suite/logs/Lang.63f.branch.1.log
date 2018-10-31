@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.time.DurationFormatUtils
+* Starting client
+* Connecting to master process on port 3449
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24021_1536365081/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DurationFormatUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 1536365099909
+* Starting evolution
+* Search finished after 1802s and 18466 generations, 3411685 statements, best individual has fitness: 2.409090909090909
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 155
+* Number of covered goals: 151
+* Generated 24 tests with total length 47
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      2 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1027974ms
+* Generating assertions
+[MASTER] 16:35:37.883 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Resulting test suite's mutation score: 53%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'DurationFormatUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

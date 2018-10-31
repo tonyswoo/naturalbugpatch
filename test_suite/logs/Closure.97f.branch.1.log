@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 7282
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5448_1536352346/build/classes
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/json.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/junit.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_5448_1536352346/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 761
+* Using seed 1536352386095
+* Starting evolution
+* Search finished after 1805s and 6965 generations, 1212357 statements, best individual has fitness: 319.44007634655947
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 55%
+* Total number of goals: 761
+* Number of covered goals: 415
+* Generated 132 tests with total length 930
+* Resulting test suite's coverage: 55%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    319 / 0           
+	- MaxTime :                      1,817 / 1,800        Finished!
+* Time spent executing tests: 459956ms
+* Generating assertions
+[MASTER] 13:03:54.562 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

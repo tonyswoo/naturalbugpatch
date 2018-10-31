@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+* Starting client
+* Connecting to master process on port 15634
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_6555_1536370679/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 76
+* Using seed 1536370718009
+* Starting evolution
+* Search finished after 1802s and 22079 generations, 2631431 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 76
+* Number of covered goals: 75
+* Generated 17 tests with total length 60
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- ZeroFitness :                      1 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 863926ms
+* Generating assertions
+* Resulting test suite's mutation score: 76%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'BracketingNthOrderBrentSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

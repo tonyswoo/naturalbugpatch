@@ -1,0 +1,42 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.SystemUtils
+* Starting client
+* Connecting to master process on port 7618
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_1341_1536360961/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.SystemUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 64
+* Using seed 1536360979219
+* Starting evolution
+* Search finished after 1801s and 27458 generations, 3409600 statements, best individual has fitness: 16.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 73%
+* Total number of goals: 64
+* Number of covered goals: 47
+* Generated 25 tests with total length 25
+* Resulting test suite's coverage: 73%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     17 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 687055ms
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         execute /tmp/run_evosuite.pl_1341_1536360961: 1
+         write /tmp/run_evosuite.pl_1341_1536360961: 1
+         write /usr/lib/jvm/java-7-openjdk-amd64/jre: 1
+         and other 5 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'SystemUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

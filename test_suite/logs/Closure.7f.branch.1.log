@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 19041
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26066_1536337603/build/classes
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/args4j.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/guava.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/json.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_26066_1536337603/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 162
+* Using seed 1536337645216
+* Starting evolution
+* Search finished after 1803s and 10620 generations, 1395448 statements, best individual has fitness: 62.108333333333334
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 162
+* Number of covered goals: 98
+* Generated 43 tests with total length 326
+* Resulting test suite's coverage: 60%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,821 / 1,800        Finished!
+	- ZeroFitness :                     62 / 0           
+* Time spent executing tests: 730099ms
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'ChainableReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

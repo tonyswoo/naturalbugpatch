@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ReferenceCollectingCallback
+* Starting client
+* Connecting to master process on port 10136
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7296_1536356490/build/classes
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/args4j.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/guava.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/json.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_7296_1536356490/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ReferenceCollectingCallback
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 198
+* Using seed 1536356533492
+* Starting evolution
+* Search finished after 1802s and 6007 generations, 577474 statements, best individual has fitness: 97.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 198
+* Number of covered goals: 99
+* Generated 42 tests with total length 157
+* Resulting test suite's coverage: 50%
+* GA-Budget:
+	- ZeroFitness :                     97 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,817 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 400933ms
+* Generating assertions
+[MASTER] 14:12:52.179 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve +|u$E|fK#^8.K_G: 1
+         resolve msg.bad.var: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 13
+* Writing JUnit test case 'ReferenceCollectingCallback_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

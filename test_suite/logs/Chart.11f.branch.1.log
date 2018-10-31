@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.util.ShapeUtilities
+* Starting client
+* Connecting to master process on port 6980
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30397_1536335115/build
+  - /tmp/run_evosuite.pl_30397_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.util.ShapeUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 1536335147494
+* Starting evolution
+[MASTER] 08:10:53.630 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 7070 generations, 1372890 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 123
+* Number of covered goals: 120
+* Generated 65 tests with total length 169
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                      1,808 / 1,800        Finished!
+* Time spent executing tests: 1041434ms
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT7418204720951178660.tmp: 1
+         write /tmp/+~JT3480161287470452666.tmp: 1
+         write /tmp/+~JT4088817439514291100.tmp: 1
+         and other 7 cases of action/name for this exception class
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 1
+         connect,resolve www.someFakeButWellFormedURL.org:80: 1
+  - java.lang.RuntimePermission: 
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 4
+         queuePrintJob: 2
+* Writing JUnit test case 'ShapeUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

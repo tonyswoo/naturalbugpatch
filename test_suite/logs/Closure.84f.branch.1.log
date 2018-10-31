@@ -1,0 +1,33 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 7151
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3032_1536350246/build/classes
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/ant.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/args4j.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/guava.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/json.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/junit.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_3032_1536350246/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 523
+* Using seed 1536350280559
+* Starting evolution
+* Search finished after 1861s and 1125 generations, 264904 statements, best individual has fitness: 277.89570767463636
+* Minimizing test suite
+[MASTER] 12:38:21.540 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.parsing.IRFactory. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 12:38:21.643 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 12:38:21.643 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:38:21.743 [main] ERROR TestGeneration - failed to write statistics data

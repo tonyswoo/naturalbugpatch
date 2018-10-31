@@ -1,0 +1,74 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.fraction.Fraction
+* Starting client
+* Connecting to master process on port 5536
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_432_1536365534/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.fraction.Fraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 118
+* Using seed 1536365563263
+* Starting evolution
+* Search finished after 1802s and 23966 generations, 3418117 statements, best individual has fitness: 1.1666666666666665
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 118
+* Number of covered goals: 116
+* Generated 50 tests with total length 99
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- ZeroFitness :                      1 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+* Time spent executing tests: 709428ms
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'Fraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.fraction.BigFraction
+* Starting client
+* Connecting to master process on port 2004
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_432_1536365534/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.fraction.BigFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 1536367401175
+* Starting evolution
+* Search finished after 1936s and 222 generations, 68445 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 137
+* Number of covered goals: 135
+* Generated 67 tests with total length 135
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- ZeroFitness :                      1 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,956 / 1,800        Finished!
+* Time spent executing tests: 86303ms
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BigFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

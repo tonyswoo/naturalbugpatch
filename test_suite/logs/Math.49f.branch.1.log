@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 8432
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22342_1536371581/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 182
+* Using seed 1536371607854
+* Starting evolution
+* Search finished after 1801s and 14609 generations, 2443906 statements, best individual has fitness: 76.16666666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 182
+* Number of covered goals: 91
+* Generated 45 tests with total length 113
+* Resulting test suite's coverage: 50%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     76 / 0           
+* Time spent executing tests: 454671ms
+* Generating assertions
+[MASTER] 18:23:51.890 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

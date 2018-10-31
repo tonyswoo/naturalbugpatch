@@ -1,0 +1,5 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 10:49:32  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 1800s
+Generate tests for: com.google.javascript.jscomp.NodeTraversal : branch : 1800s
+Error: cannot archive and ompress test suite!
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 12:07:25  ######

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.descriptive.moment.Variance
+* Starting client
+* Connecting to master process on port 4541
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7752_1536370728/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.descriptive.moment.Variance
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 59
+* Using seed 1536370765371
+* Starting evolution
+* Search finished after 1801s and 18420 generations, 5553444 statements, best individual has fitness: 3.666666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 59
+* Number of covered goals: 53
+* Generated 23 tests with total length 72
+* Resulting test suite's coverage: 90%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- ZeroFitness :                      4 / 0           
+* Time spent executing tests: 1283343ms
+* Generating assertions
+* Resulting test suite's mutation score: 41%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'Variance_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

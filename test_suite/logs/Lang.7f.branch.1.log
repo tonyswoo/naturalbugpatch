@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.math.NumberUtils
+* Starting client
+* Connecting to master process on port 19583
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22172_1536358888/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.math.NumberUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 387
+* Using seed 1536358907719
+* Starting evolution
+* Search finished after 1802s and 14099 generations, 5738168 statements, best individual has fitness: 12.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 387
+* Number of covered goals: 362
+* Generated 132 tests with total length 167
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- ZeroFitness :                     13 / 0           
+	- MaxTime :                      1,810 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 546209ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'NumberUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

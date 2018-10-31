@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Starting client
+* Connecting to master process on port 20469
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7017_1536345223/build/classes
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/args4j.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/guava.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/json.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_7017_1536345223/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 259
+* Using seed 1536345262459
+* Starting evolution
+* Search finished after 1801s and 20845 generations, 2063201 statements, best individual has fitness: 250.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 5%
+* Total number of goals: 259
+* Number of covered goals: 14
+* Generated 4 tests with total length 26
+* Resulting test suite's coverage: 5%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                    251 / 0           
+* Time spent executing tests: 692801ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 21
+* Writing JUnit test case 'PeepholeReplaceKnownMethods_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

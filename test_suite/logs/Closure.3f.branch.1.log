@@ -1,0 +1,58 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 8920
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21278_1536337488/build/classes
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/guava.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/json.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_21278_1536337488/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 141
+* Using seed 1536337530779
+* Starting evolution
+[MASTER] 08:33:45.936 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:36:53.462 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:38:44.204 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:39:57.983 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:45:17.438 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:46:30.401 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:46:37.264 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:50:31.715 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:54:03.517 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 8658 generations, 663697 statements, best individual has fitness: 145.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 141
+* Number of covered goals: 5
+* Generated 4 tests with total length 17
+* Resulting test suite's coverage: 4%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    146 / 0           
+* Time spent executing tests: 215914ms
+* Generating assertions
+[MASTER] 08:55:53.089 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 08:55:53.093 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 08:55:53.094 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+[MASTER] 08:55:54.033 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CaseFormat, null
+[MASTER] 08:55:54.069 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.WhitelistWarningsGuard, null
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 28
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

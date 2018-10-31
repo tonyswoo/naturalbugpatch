@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 19830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10828_1536356600/build/classes
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/guava.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/json.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_10828_1536356600/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 656
+* Using seed 1536356644607
+* Starting evolution
+[MASTER] 13:57:31.340 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 1803s and 5777 generations, 2036011 statements, best individual has fitness: 300.23800042871284
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 656
+* Number of covered goals: 330
+* Generated 71 tests with total length 716
+* Resulting test suite's coverage: 50%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,825 / 1,800        Finished!
+	- ZeroFitness :                    300 / 0           
+* Time spent executing tests: 455938ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

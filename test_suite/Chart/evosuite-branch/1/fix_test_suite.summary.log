@@ -1,0 +1,178 @@
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 08:46:03  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 08:47:35  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 08:50:07  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 08:51:51  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:07:34  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:09:23  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:16:12  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:16:26  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:16:45  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:16:58  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:17:04  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:17:18  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:17:32  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:17:38  ######
+ - Removing 4 broken test method(s): Chart-9f-evosuite-branch.1.tar.bz2
+org.jfree.data.time.TimeSeries_ESTest::test04
+org.jfree.data.time.TimeSeries_ESTest::test11
+org.jfree.data.time.TimeSeries_ESTest::test27
+org.jfree.data.time.TimeSeries_ESTest::test39
+ - Removing 2 broken test method(s): Chart-3f-evosuite-branch.1.tar.bz2
+org.jfree.data.time.TimeSeries_ESTest::test04
+org.jfree.data.time.TimeSeries_ESTest::test39
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:18:13  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:18:22  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:18:57  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:19:01  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:19:33  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:19:43  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:19:48  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:19:49  ######
+ - Removing 1 broken test method(s): Chart-17f-evosuite-branch.1.tar.bz2
+org.jfree.data.time.TimeSeries_ESTest::test30
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:21:09  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:21:49  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:22:03  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:22:24  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:22:57  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:23:32  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Chart-2f-evosuite-branch.1.tar.bz2
+org.jfree.data.general.DatasetUtilities_ESTest::test026
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:24:48  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:25:14  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:25:29  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:25:52  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:26:38  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:26:43  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:47:47  ######
+- Found 1 test archive(s)
+ - Removing 3 broken test method(s): Chart-19f-evosuite-branch.1.tar.bz2
+org.jfree.chart.plot.CategoryPlot_ESTest::test030
+org.jfree.chart.plot.CategoryPlot_ESTest::test100
+org.jfree.chart.plot.CategoryPlot_ESTest::test183
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:48:34  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:49:10  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:49:27  ######
+- Found 1 test archive(s)
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:50:27  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:50:32  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:50:36  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:50:36  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 3 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:51:09  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:51:17  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:52:16  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:52:32  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:52:34  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:53:18  ######
+- Found 1 test archive(s)
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:54:31  ######
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 09:54:50  ######
+######  Start fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:02:37  ######
+- Found 1 test archive(s)
+ - Removing 5 broken test method(s): Chart-14f-evosuite-branch.1.tar.bz2
+org.jfree.chart.plot.XYPlot_ESTest::test092
+org.jfree.chart.plot.XYPlot_ESTest::test093
+org.jfree.chart.plot.XYPlot_ESTest::test093
+org.jfree.chart.plot.XYPlot_ESTest::test255
+org.jfree.chart.plot.XYPlot_ESTest::test256
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 5 (see /data/ktony11/test_suite/Chart/evosuite-branch/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /home/ktony11/defects4j/framework/util/fix_test_suite.pl: 2018-09-07 10:10:46  ######

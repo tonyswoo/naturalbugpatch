@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDateFormat
+* Starting client
+* Connecting to master process on port 2966
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30842_1536360877/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDateFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 444
+* Using seed 1536360897563
+* Starting evolution
+* Search finished after 1803s and 12058 generations, 1247921 statements, best individual has fitness: 49.650640242664174
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 444
+* Number of covered goals: 329
+* Generated 70 tests with total length 179
+* Resulting test suite's coverage: 86%
+* GA-Budget:
+	- ZeroFitness :                     50 / 0           
+	- MaxTime :                      1,813 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 643055ms
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'FastDateFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

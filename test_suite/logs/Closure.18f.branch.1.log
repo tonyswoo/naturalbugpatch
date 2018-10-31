@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 19402
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_31783_1536339556/build/classes
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/args4j.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/guava.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/json.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_31783_1536339556/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 565
+* Using seed 1536339597397
+* Starting evolution
+* Search finished after 1806s and 656 generations, 173858 statements, best individual has fitness: 231.83333333286768
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 09:31:36.560 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 52%
+* Total number of goals: 565
+* Number of covered goals: 295
+* Generated 333 tests with total length 6335
+* Resulting test suite's coverage: 54%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    232 / 0           
+	- MaxTime :                      1,882 / 1,800        Finished!
+* Time spent executing tests: 367183ms
+* Generating assertions
+[MASTER] 09:31:43.384 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 6 seconds more than allowed.
+* Resulting test suite's mutation score: 38%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:2466: 1
+         resolve wo$IU: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

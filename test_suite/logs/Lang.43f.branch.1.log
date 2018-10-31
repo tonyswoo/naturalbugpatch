@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 17158
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7314_1536362864/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 1536362882188
+* Starting evolution
+* Search finished after 1802s and 17861 generations, 2805603 statements, best individual has fitness: 29.666666666666668
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 123
+* Number of covered goals: 84
+* Generated 14 tests with total length 38
+* Resulting test suite's coverage: 68%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     30 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,802 / 1,800        Finished!
+* Time spent executing tests: 585674ms
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

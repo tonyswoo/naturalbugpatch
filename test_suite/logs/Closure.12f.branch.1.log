@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.MaybeReachingVariableUse
+* Starting client
+* Connecting to master process on port 18379
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_20702_1536339152/build/classes
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/args4j.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/guava.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/json.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_20702_1536339152/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MaybeReachingVariableUse
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 1536339194092
+* Starting evolution
+* Search finished after 1804s and 5070 generations, 294981 statements, best individual has fitness: 77.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 10%
+* Total number of goals: 81
+* Number of covered goals: 8
+* Generated 5 tests with total length 10
+* Resulting test suite's coverage: 10%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     78 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+* Time spent executing tests: 158155ms
+* Generating assertions
+[MASTER] 09:23:39.000 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:98: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'MaybeReachingVariableUse_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

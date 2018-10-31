@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 08:52:14  ######
+Generate tests for: org.jfree.data.DefaultKeyedValues : branch : 1800s
+Generate tests for: org.jfree.data.DefaultKeyedValues2D : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 09:53:18  ######

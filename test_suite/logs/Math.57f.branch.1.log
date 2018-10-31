@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer
+* Starting client
+* Connecting to master process on port 2836
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18573_1536373157/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 64
+* Using seed 1536373182575
+* Starting evolution
+* Search finished after 1804s and 3250 generations, 514700 statements, best individual has fitness: 56.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 64
+* Number of covered goals: 9
+* Generated 3 tests with total length 22
+* Resulting test suite's coverage: 14%
+* GA-Budget:
+	- MaxTime :                      1,837 / 1,800        Finished!
+	- ZeroFitness :                     57 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1624708ms
+* Generating assertions
+[MASTER] 18:50:34.771 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'KMeansPlusPlusClusterer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

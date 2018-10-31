@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 10397
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22075_1536347828/build/classes
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/args4j.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/guava.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/json.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_22075_1536347828/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 723
+* Using seed 1536347871683
+* Starting evolution
+[MASTER] 11:20:55.998 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 11:27:06.142 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 1802s and 11979 generations, 2103036 statements, best individual has fitness: 493.21666666666664
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 723
+* Number of covered goals: 229
+* Generated 56 tests with total length 312
+* Resulting test suite's coverage: 32%
+* GA-Budget:
+	- ZeroFitness :                    493 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 480019ms
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

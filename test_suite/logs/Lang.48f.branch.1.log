@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.builder.EqualsBuilder
+* Starting client
+* Connecting to master process on port 11418
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_20336_1536363358/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.builder.EqualsBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 232
+* Using seed 1536363375662
+* Starting evolution
+[MASTER] 15:49:10.140 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 12086 generations, 5791738 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 232
+* Number of covered goals: 227
+* Generated 81 tests with total length 333
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,810 / 1,800        Finished!
+	- ZeroFitness :                      4 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 478391ms
+* Generating assertions
+* Resulting test suite's mutation score: 77%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'EqualsBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,3 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 09:25:17  ######
+Generate tests for: com.google.javascript.jscomp.FlowSensitiveInlineVariables : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 09:55:55  ######

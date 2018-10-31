@@ -1,0 +1,85 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 12597
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7884_1536341728/build/classes
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/args4j.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/guava.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/json.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_7884_1536341728/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 753
+* Using seed 1536341772959
+* Starting evolution
+[MASTER] 09:37:23.883 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:37:54.414 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:39:15.798 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:39:16.259 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:39:35.788 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:39:38.871 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:40:33.915 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:40:34.448 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:40:38.093 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:40:55.130 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:40:57.982 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:42:31.711 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:43:37.648 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:43:51.230 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:43:53.730 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:44:50.511 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:45:03.905 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:45:34.911 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:45:54.919 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:45:55.610 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:46:37.623 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:46:59.094 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:47:43.854 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:47:50.860 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:47:56.215 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:48:26.175 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:49:02.502 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:49:04.602 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:50:12.187 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:52:05.062 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:52:07.986 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:52:56.812 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:54:46.154 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:54:50.309 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:56:03.163 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 09:59:10.462 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 10:00:14.160 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 10:00:48.017 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 10:01:44.552 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 10:03:19.985 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 10:05:27.015 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 1804s and 9334 generations, 1975259 statements, best individual has fitness: 535.7166666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 29%
+* Total number of goals: 753
+* Number of covered goals: 218
+* Generated 48 tests with total length 299
+* Resulting test suite's coverage: 29%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    536 / 0           
+	- MaxTime :                      1,817 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 624850ms
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

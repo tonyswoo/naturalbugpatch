@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.BooleanUtils
+* Starting client
+* Connecting to master process on port 3591
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_795_1536364112/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.BooleanUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 223
+* Using seed 1536364128700
+* Starting evolution
+* Search finished after 1802s and 3523 generations, 1283730 statements, best individual has fitness: 10.25
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 223
+* Number of covered goals: 210
+* Generated 104 tests with total length 157
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- ZeroFitness :                     10 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 232342ms
+* Generating assertions
+* Resulting test suite's mutation score: 67%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'BooleanUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

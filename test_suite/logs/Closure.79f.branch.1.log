@@ -1,0 +1,121 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.VarCheck
+* Starting client
+* Connecting to master process on port 19218
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21513_1536349671/build/classes
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/guava.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.VarCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1536349699558
+* Starting evolution
+[MASTER] 12:00:56.749 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:11:49.988 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:14:18.924 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 11674 generations, 1072567 statements, best individual has fitness: 57.11171328671328
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 75
+* Number of covered goals: 18
+* Generated 4 tests with total length 22
+* Resulting test suite's coverage: 24%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     57 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 727054ms
+* Generating assertions
+[MASTER] 12:18:44.696 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve @JT8fGHKBH5r%id3: 1
+         resolve module {0} cannot reference {2}, defined in module {1}, since {1} loads after {0}: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 34
+* Writing JUnit test case 'VarCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 13292
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21513_1536349671/build/classes
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/args4j.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/guava.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_21513_1536349671/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 228
+* Using seed 1536351542650
+* Starting evolution
+[MASTER] 12:25:02.231 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:26:02.684 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:28:10.551 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:28:31.132 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:30:59.728 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:31:04.944 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:31:46.378 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:32:38.412 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:32:59.192 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:33:20.798 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:33:26.223 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:34:12.790 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:34:17.928 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:35:30.164 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:36:16.812 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:36:37.394 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:37:51.356 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:38:06.652 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:38:52.976 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:38:58.030 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:42:40.287 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:43:01.982 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:45:15.340 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:46:34.061 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:47:18.844 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:48:12.204 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:49:50.653 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:49:55.676 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:50:35.921 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1987s and 1579 generations, 324260 statements, best individual has fitness: 181.0
+[MASTER] 12:52:26.971 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 186 seconds more than allowed.
+[MASTER] 12:52:32.044 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:53:22.384 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:53:57.596 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:54:02.637 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:54:32.740 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 12:55:43.171 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:57:08.836 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:57:39.044 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:57:59.140 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:58:39.528 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 12:58:59.676 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:59:03.061 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.Normalize. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 12:59:03.162 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 12:59:03.162 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:59:03.263 [main] ERROR TestGeneration - failed to write statistics data

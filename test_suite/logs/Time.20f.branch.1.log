@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.format.DateTimeFormatterBuilder
+* Starting client
+* Connecting to master process on port 21253
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10609_1536385677/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.DateTimeFormatterBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 730
+* Using seed 1536385700287
+* Starting evolution
+* Search finished after 1805s and 3847 generations, 1417407 statements, best individual has fitness: 69.90586834733894
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 730
+* Number of covered goals: 630
+* Generated 188 tests with total length 919
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,843 / 1,800        Finished!
+	- ZeroFitness :                     70 / 0           
+* Time spent executing tests: 357106ms
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 238
+* Writing JUnit test case 'DateTimeFormatterBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

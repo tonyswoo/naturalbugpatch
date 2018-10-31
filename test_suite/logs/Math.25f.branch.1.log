@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.fitting.HarmonicFitter
+* Starting client
+* Connecting to master process on port 18883
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_28751_1536368482/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.fitting.HarmonicFitter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 34
+* Using seed 1536368511462
+* Starting evolution
+* Search finished after 1802s and 20602 generations, 3184019 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 34
+* Number of covered goals: 33
+* Generated 6 tests with total length 53
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                      1,802 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 839323ms
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'HarmonicFitter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

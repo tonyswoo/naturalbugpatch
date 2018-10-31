@@ -1,0 +1,52 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 11550
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_25235_1536339290/build/classes
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/args4j.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/guava.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/json.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_25235_1536339290/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 124
+* Using seed 1536339329132
+* Starting evolution
+[MASTER] 09:15:57.404 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:20:30.752 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:21:27.624 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:21:42.473 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:23:30.812 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1801s and 19273 generations, 2160721 statements, best individual has fitness: 128.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 124
+* Number of covered goals: 5
+* Generated 4 tests with total length 21
+* Resulting test suite's coverage: 4%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    129 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 642722ms
+* Generating assertions
+[MASTER] 09:25:48.893 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve !5<R+: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 66
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,42 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 8113
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5878_1536361123/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1094
+* Using seed 1536361143007
+* Starting evolution
+* Search finished after 1808s and 6733 generations, 2182270 statements, best individual has fitness: 32.76954709192684
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 1094
+* Number of covered goals: 1049
+* Generated 429 tests with total length 563
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ZeroFitness :                     33 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,867 / 1,800        Finished!
+* Time spent executing tests: 628788ms
+* Generating assertions
+[MASTER] 15:32:47.975 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 15:33:03.040 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 15:33:43.228 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 15:34:04.568 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 15:34:14.587 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

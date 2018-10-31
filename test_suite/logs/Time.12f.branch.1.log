@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.LocalDate
+* Starting client
+* Connecting to master process on port 13281
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13669_1536383939/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.LocalDate
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 221
+* Using seed 1536383965551
+* Starting evolution
+* Search finished after 1805s and 6212 generations, 864718 statements, best individual has fitness: 11.999999999068677
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 221
+* Number of covered goals: 207
+* Generated 97 tests with total length 298
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ZeroFitness :                     12 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,834 / 1,800        Finished!
+* Time spent executing tests: 1063858ms
+* Generating assertions
+* Resulting test suite's mutation score: 41%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'LocalDate_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.LocalDateTime
+* Starting client
+* Connecting to master process on port 13390
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13669_1536383939/build/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.LocalDateTime
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 226
+* Using seed 1536386059926
+* Starting evolution
+* Search finished after 1804s and 11473 generations, 1433648 statements, best individual has fitness: 10.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 226
+* Number of covered goals: 213
+* Generated 121 tests with total length 313
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,825 / 1,800        Finished!
+	- ZeroFitness :                     11 / 0           
+* Time spent executing tests: 657638ms
+* Generating assertions
+* Resulting test suite's mutation score: 47%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 29
+* Writing JUnit test case 'LocalDateTime_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

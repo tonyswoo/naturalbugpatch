@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.UnreachableCodeElimination
+* Starting client
+* Connecting to master process on port 17745
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_8277_1536350464/build/classes
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/ant.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/args4j.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/guava.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/json.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/junit.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_8277_1536350464/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.UnreachableCodeElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 68
+* Using seed 1536350493755
+* Starting evolution
+* Search finished after 1804s and 2858 generations, 324771 statements, best individual has fitness: 41.47959183673469
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 68
+* Number of covered goals: 28
+* Generated 13 tests with total length 64
+* Resulting test suite's coverage: 41%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                     41 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+* Time spent executing tests: 253266ms
+* Generating assertions
+[MASTER] 12:32:03.732 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 26%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:550: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'UnreachableCodeElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

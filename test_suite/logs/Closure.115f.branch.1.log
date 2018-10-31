@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionInjector
+* Starting client
+* Connecting to master process on port 18758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15325_1536354677/build/classes
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/args4j.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/guava.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/json.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_15325_1536354677/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionInjector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 250
+* Using seed 1536354717581
+* Starting evolution
+* Search finished after 1803s and 1662 generations, 457563 statements, best individual has fitness: 214.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 16%
+* Total number of goals: 250
+* Number of covered goals: 39
+* Generated 13 tests with total length 122
+* Resulting test suite's coverage: 16%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    214 / 0           
+	- MaxTime :                      1,839 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1018196ms
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve et~PR'U},UR{[: 1
+         resolve [)EP;:Y`"{-`\+x+I]: 1
+         resolve 99m@IB/v~k: 1
+         and other 3 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'FunctionInjector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

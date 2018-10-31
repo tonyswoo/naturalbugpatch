@@ -1,0 +1,42 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+* Starting client
+* Connecting to master process on port 6771
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15869_1536360206/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 1536360228515
+* Starting evolution
+[MASTER] 14:48:56.954 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.text.translate.NumericEntityUnescaper. Lost connection with clients.
+ClientNode: SEARCH
+The JVM of the client process did crash:
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f7ce8d77bf3, pid=16312, tid=140172039493376
+#
+# JRE version: OpenJDK Runtime Environment (7.0_95) (build 1.7.0_95-b00)
+# Java VM: OpenJDK 64-Bit Server VM (24.95-b01 mixed mode linux-amd64 compressed oops)
+# Derivative: IcedTea 2.6.4
+# Distribution: Ubuntu Xenial Xerus (development branch), package 7u95-2.6.4-3
+# Problematic frame:
+# C  [libjava.so+0x18bf3]  Java_java_nio_Bits_copyToShortArray+0x1e3
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please include
+# instructions on how to reproduce the bug and visit:
+#   http://icedtea.classpath.org/bugzilla
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+* Computation finished
+[MASTER] 14:48:57.149 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 14:48:57.149 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 14:48:57.251 [main] ERROR TestGeneration - failed to write statistics data

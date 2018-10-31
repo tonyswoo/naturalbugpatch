@@ -1,0 +1,68 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.distribution.UniformRealDistribution
+* Starting client
+* Connecting to master process on port 6664
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18390_1536367804/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.UniformRealDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 22
+* Using seed 1536367831742
+* Starting evolution
+* Search finished after 6s and 1 generations, 2508 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Generated 15 tests with total length 29
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                          7 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 5036ms
+* Generating assertions
+* Resulting test suite's mutation score: 55%
+* Writing JUnit test case 'UniformRealDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.distribution.FDistribution
+* Starting client
+* Connecting to master process on port 18783
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18390_1536367804/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.FDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 23
+* Using seed 1536367859217
+* Starting evolution
+* Search finished after 16s and 1 generations, 2493 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Generated 7 tests with total length 14
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                         27 / 1,800       
+* Time spent executing tests: 24466ms
+* Generating assertions
+* Resulting test suite's mutation score: 29%
+* Writing JUnit test case 'FDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

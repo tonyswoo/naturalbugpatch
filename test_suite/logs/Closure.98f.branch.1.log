@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ReferenceCollectingCallback
+* Starting client
+* Connecting to master process on port 19741
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7953_1536352480/build/classes
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/junit.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_7953_1536352480/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ReferenceCollectingCallback
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 181
+* Using seed 1536352514322
+* Starting evolution
+* Search finished after 1802s and 3371 generations, 630229 statements, best individual has fitness: 62.18333333333334
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 181
+* Number of covered goals: 117
+* Generated 55 tests with total length 323
+* Resulting test suite's coverage: 65%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     62 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+* Time spent executing tests: 257262ms
+* Generating assertions
+[MASTER] 13:05:48.347 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve 6F,f7o{JBW]tD&Bm[: 1
+         resolve NZoSwX`/ovGg~G!,">: 1
+         resolve -y1: 1
+         and other 9 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'ReferenceCollectingCallback_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

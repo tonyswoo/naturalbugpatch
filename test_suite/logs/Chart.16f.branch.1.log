@@ -1,0 +1,43 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.category.DefaultIntervalCategoryDataset
+* Starting client
+* Connecting to master process on port 13670
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30400_1536335115/build
+  - /tmp/run_evosuite.pl_30400_1536335115/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.category.DefaultIntervalCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 1536335147722
+* Starting evolution
+[MASTER] 08:03:00.128 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 4159 generations, 3119722 statements, best individual has fitness: 10.666666666666668
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 137
+* Number of covered goals: 120
+* Generated 52 tests with total length 190
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- ZeroFitness :                     11 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,822 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 637724ms
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JF3682309042319128630.tmp: 1
+         execute /usr/bin/xprop: 1
+         write /tmp/+~JT247309403135897474.tmp: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'DefaultIntervalCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

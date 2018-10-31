@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FoldConstants
+* Starting client
+* Connecting to master process on port 18876
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_26955_1536353746/build/classes
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_26955_1536353746/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 928
+* Using seed 1536353777717
+* Starting evolution
+* Search finished after 1812s and 2243 generations, 590268 statements, best individual has fitness: 620.7960776042468
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 13:28:03.619 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 31%
+* Total number of goals: 928
+* Number of covered goals: 285
+* Generated 329 tests with total length 5875
+* Resulting test suite's coverage: 31%
+* GA-Budget:
+	- MaxTime :                      1,900 / 1,800        Finished!
+	- ZeroFitness :                    621 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 1264224ms
+* Generating assertions
+[MASTER] 13:28:18.302 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 16 seconds more than allowed.
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 16
+* Writing JUnit test case 'FoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

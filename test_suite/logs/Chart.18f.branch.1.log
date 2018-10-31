@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.DefaultKeyedValues
+* Starting client
+* Connecting to master process on port 19411
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9641_1536335511/build
+  - /tmp/run_evosuite.pl_9641_1536335511/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.DefaultKeyedValues
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 62
+* Using seed 1536335541465
+* Starting evolution
+* Search finished after 1801s and 11102 generations, 1228676 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 62
+* Number of covered goals: 61
+* Generated 23 tests with total length 75
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      1 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 492273ms
+* Generating assertions
+* Resulting test suite's mutation score: 70%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'DefaultKeyedValues_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.DefaultKeyedValues2D
+* Starting client
+* Connecting to master process on port 8258
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9641_1536335511/build
+  - /tmp/run_evosuite.pl_9641_1536335511/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.DefaultKeyedValues2D
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 95
+* Using seed 1536337370863
+* Starting evolution
+* Search finished after 1802s and 15601 generations, 1485707 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 95
+* Number of covered goals: 90
+* Generated 25 tests with total length 70
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ZeroFitness :                      3 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 544439ms
+* Generating assertions
+* Resulting test suite's mutation score: 53%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'DefaultKeyedValues2D_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

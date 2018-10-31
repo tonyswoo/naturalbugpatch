@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 11:15:55  ######
+Generate tests for: com.google.javascript.jscomp.SourceMap : branch : 1800s
+Generate tests for: com.google.debugging.sourcemap.SourceMapConsumerV3 : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 12:17:09  ######

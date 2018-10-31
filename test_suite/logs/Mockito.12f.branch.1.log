@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.util.reflection.GenericMaster
+* Starting client
+* Connecting to master process on port 3808
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11432_1536379322/target/classes
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.util.reflection.GenericMaster
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 9
+* Using seed 1536379347478
+* Starting evolution
+* Search finished after 1801s and 10765 generations, 890458 statements, best individual has fitness: 9.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 9
+* Number of covered goals: 1
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 11%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      9 / 0           
+* Time spent executing tests: 101013ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'GenericMaster_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

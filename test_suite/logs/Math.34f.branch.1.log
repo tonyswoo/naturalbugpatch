@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.genetics.ListPopulation
+* Starting client
+* Connecting to master process on port 7102
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_21027_1536369634/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.genetics.ListPopulation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 29
+* Using seed 1536369669571
+* Starting evolution
+* Search finished after 1802s and 23710 generations, 1469176 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 29
+* Number of covered goals: 26
+* Generated 16 tests with total length 50
+* Resulting test suite's coverage: 90%
+* GA-Budget:
+	- ZeroFitness :                      3 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,802 / 1,800        Finished!
+* Time spent executing tests: 738830ms
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ListPopulation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

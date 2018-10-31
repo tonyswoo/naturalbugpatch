@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 14:10:17  ######
+Generate tests for: com.google.javascript.rhino.Node : branch : 1800s
+Generate tests for: com.google.javascript.jscomp.ScopedAliases : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 15:19:31  ######

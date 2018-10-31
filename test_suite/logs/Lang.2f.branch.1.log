@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.LocaleUtils
+* Starting client
+* Connecting to master process on port 2738
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_14006_1536358671/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.LocaleUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 1536358689451
+* Starting evolution
+* Search finished after 544s and 7900 generations, 316996 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 81
+* Number of covered goals: 65
+* Generated 34 tests with total length 41
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                        545 / 1,800       
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 228934ms
+* Generating assertions
+* Resulting test suite's mutation score: 49%
+* Writing JUnit test case 'LocaleUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

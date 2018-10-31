@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDatePrinter
+* Starting client
+* Connecting to master process on port 20130
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22544_1536358898/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDatePrinter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 354
+* Using seed 1536358919132
+* Starting evolution
+* Search finished after 1804s and 15301 generations, 2233247 statements, best individual has fitness: 44.104486396510325
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 354
+* Number of covered goals: 298
+* Generated 69 tests with total length 273
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     44 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,809 / 1,800        Finished!
+* Time spent executing tests: 567106ms
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'FastDatePrinter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

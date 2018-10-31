@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.MockHandler
+* Starting client
+* Connecting to master process on port 6629
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12298_1536379354/target/classes
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/ktony11/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.MockHandler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 15
+* Using seed 1536379379184
+* Starting evolution
+* Search finished after 1801s and 20629 generations, 2759367 statements, best individual has fitness: 7.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 15
+* Number of covered goals: 8
+* Generated 5 tests with total length 17
+* Resulting test suite's coverage: 53%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      7 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 537599ms
+* Generating assertions
+[MASTER] 20:33:12.198 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.core.MethodWrapper, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'MockHandler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

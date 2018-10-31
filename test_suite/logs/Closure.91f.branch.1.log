@@ -1,0 +1,54 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 14717
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23100_1536351560/build/classes
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/json.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/junit.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_23100_1536351560/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1536351590488
+* Starting evolution
+[MASTER] 12:29:09.168 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1807s and 16997 generations, 2146536 statements, best individual has fitness: 51.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 27%
+* Total number of goals: 75
+* Number of covered goals: 20
+* Generated 7 tests with total length 42
+* Resulting test suite's coverage: 27%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,808 / 1,800        Finished!
+	- ZeroFitness :                     52 / 0           
+* Time spent executing tests: 725916ms
+* Generating assertions
+[MASTER] 12:50:22.741 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve 'HVd3&M?mEF/k: 1
+         connect,resolve 127.0.0.1:144: 1
+         resolve {
+: 1
+         and other 3 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 51
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,4 @@
+######  Start test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 21:59:24  ######
+Generate tests for: org.joda.time.Partial : branch : 1800s
+Generate tests for: org.joda.time.field.UnsupportedDurationField : branch : 1800s
+######  End test generation  /home/ktony11/defects4j/framework/bin/run_evosuite.pl: 2018-09-07 23:01:13  ######

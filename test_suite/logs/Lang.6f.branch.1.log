@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.text.translate.CharSequenceTranslator
+* Starting client
+* Connecting to master process on port 2946
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22036_1536358885/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.translate.CharSequenceTranslator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 15
+* Using seed 1536358908505
+* Starting evolution
+* Search finished after 6s and 1 generations, 5080 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Generated 8 tests with total length 20
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                          7 / 1,800       
+* Time spent executing tests: 2416ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'CharSequenceTranslator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

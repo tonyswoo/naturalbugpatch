@@ -1,0 +1,101 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 7624
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15862_1536345554/build/classes
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/args4j.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/guava.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/json.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 646
+* Using seed 1536345597939
+* Starting evolution
+[MASTER] 11:06:02.359 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:06:07.648 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:06:34.337 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:07:57.293 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:10:03.040 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:10:13.992 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:10:28.765 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1845s and 4777 generations, 577960 statements, best individual has fitness: 558.0
+[MASTER] 11:11:36.540 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:11:43.032 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 30%
+* Total number of goals: 646
+* Number of covered goals: 195
+* Generated 20 tests with total length 139
+* Resulting test suite's coverage: 30%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,924 / 1,800        Finished!
+	- ZeroFitness :                    431 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 1064568ms
+* Generating assertions
+[MASTER] 11:12:27.249 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 38%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve _(f\\]8\'TJn=VC@: 1
+         resolve 4_E@-lbSd30: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 22
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 20484
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15862_1536345554/build/classes
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/args4j.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/guava.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/json.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_15862_1536345554/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 1536347711472
+* Starting evolution
+* Search finished after 1805s and 4932 generations, 1449264 statements, best individual has fitness: 46.99999999953434
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 334
+* Number of covered goals: 278
+* Generated 77 tests with total length 453
+* Resulting test suite's coverage: 83%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     47 / 0           
+	- MaxTime :                      1,854 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 1253496ms
+* Generating assertions
+* Resulting test suite's mutation score: 83%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

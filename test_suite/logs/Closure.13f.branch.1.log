@@ -1,0 +1,52 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Starting client
+* Connecting to master process on port 11286
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_20779_1536339154/build/classes
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/args4j.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/guava.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/json.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_20779_1536339154/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 49
+* Using seed 1536339197102
+* Starting evolution
+[MASTER] 09:01:18.759 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:07:55.250 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:08:32.352 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 10346 generations, 2107127 statements, best individual has fitness: 3.4999000000000002
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 49
+* Number of covered goals: 43
+* Generated 3 tests with total length 48
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,806 / 1,800        Finished!
+	- ZeroFitness :                      3 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 899018ms
+* Generating assertions
+* Resulting test suite's mutation score: 92%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve `C+ LDS&7: 1
+         resolve O7r=7+;d8u: 1
+         resolve \Hl YYHT9n=K.r'yl1,: 1
+         and other 3 cases of action/name for this exception class
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'PeepholeOptimizationsPass_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

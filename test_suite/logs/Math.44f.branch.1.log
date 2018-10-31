@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.ode.AbstractIntegrator
+* Starting client
+* Connecting to master process on port 9066
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13438_1536371211/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.ode.AbstractIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 67
+* Using seed 1536371240063
+* Starting evolution
+[MASTER] 18:11:00.225 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1802s and 3079 generations, 753648 statements, best individual has fitness: 50.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 27%
+* Total number of goals: 67
+* Number of covered goals: 18
+* Generated 12 tests with total length 31
+* Resulting test suite's coverage: 27%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     50 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+* Time spent executing tests: 1624811ms
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'AbstractIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

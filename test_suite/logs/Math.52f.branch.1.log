@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.geometry.euclidean.threed.Rotation
+* Starting client
+* Connecting to master process on port 20243
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3970_1536372416/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.geometry.euclidean.threed.Rotation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 134
+* Using seed 1536372441086
+* Starting evolution
+* Search finished after 1802s and 20212 generations, 8926759 statements, best individual has fitness: 22.916666666666668
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 134
+* Number of covered goals: 111
+* Generated 61 tests with total length 169
+* Resulting test suite's coverage: 83%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                     23 / 0           
+	- MaxTime :                      1,804 / 1,800        Finished!
+* Time spent executing tests: 542853ms
+* Generating assertions
+[MASTER] 18:37:46.031 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, null
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'Rotation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.InlineObjectLiterals
+* Starting client
+* Connecting to master process on port 10745
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_882_1536341495/build/classes
+  - /tmp/run_evosuite.pl_882_1536341495/lib/args4j.jar
+  - /tmp/run_evosuite.pl_882_1536341495/lib/guava.jar
+  - /tmp/run_evosuite.pl_882_1536341495/lib/json.jar
+  - /tmp/run_evosuite.pl_882_1536341495/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_882_1536341495/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_882_1536341495/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_882_1536341495/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.InlineObjectLiterals
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 121
+* Using seed 1536341549053
+* Starting evolution
+[MASTER] 09:45:58.262 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:47:05.927 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:47:42.492 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:50:40.741 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 09:54:40.879 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 10:02:03.445 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1805s and 10593 generations, 675898 statements, best individual has fitness: 127.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 2%
+* Total number of goals: 121
+* Number of covered goals: 2
+* Generated 1 tests with total length 5
+* Resulting test suite's coverage: 2%
+* GA-Budget:
+	- MaxTime :                      1,805 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    127 / 0           
+* Time spent executing tests: 256769ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 23
+* Writing JUnit test case 'InlineObjectLiterals_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

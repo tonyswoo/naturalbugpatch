@@ -1,0 +1,259 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer
+* Starting client
+* Connecting to master process on port 2929
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 44
+* Using seed 1536366595891
+* Starting evolution
+* Search finished after 1801s and 24937 generations, 3304150 statements, best individual has fitness: 32.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 30%
+* Total number of goals: 44
+* Number of covered goals: 13
+* Generated 5 tests with total length 16
+* Resulting test suite's coverage: 30%
+* GA-Budget:
+	- ZeroFitness :                     33 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 1344494ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'PowellOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer
+* Starting client
+* Connecting to master process on port 12940
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1536368417956
+* Starting evolution
+* Search finished after 1801s and 28630 generations, 5948373 statements, best individual has fitness: 43.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 57
+* Number of covered goals: 15
+* Generated 4 tests with total length 18
+* Resulting test suite's coverage: 26%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     44 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 972131ms
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'NonLinearConjugateGradientOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer
+* Starting client
+* Connecting to master process on port 12876
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 30
+* Using seed 1536370245117
+* Starting evolution
+* Search finished after 1803s and 22733 generations, 3927563 statements, best individual has fitness: 14.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 30
+* Number of covered goals: 16
+* Generated 3 tests with total length 24
+* Resulting test suite's coverage: 53%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- ZeroFitness :                     14 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 1046294ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'SimplexOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer
+* Starting client
+* Connecting to master process on port 10013
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 28
+* Using seed 1536372071690
+* Starting evolution
+* Search finished after 1801s and 40021 generations, 7374298 statements, best individual has fitness: 21.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 21%
+* Total number of goals: 28
+* Number of covered goals: 6
+* Generated 2 tests with total length 5
+* Resulting test suite's coverage: 21%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     21 / 0           
+* Time spent executing tests: 1058559ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'GaussNewtonOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 18643
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 256
+* Using seed 1536373889181
+* Starting evolution
+* Search finished after 1802s and 23187 generations, 6713612 statements, best individual has fitness: 262.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 256
+* Number of covered goals: 28
+* Generated 10 tests with total length 57
+* Resulting test suite's coverage: 11%
+* GA-Budget:
+	- ZeroFitness :                    262 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+* Time spent executing tests: 938052ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'CMAESOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.BaseOptimizer
+* Starting client
+* Connecting to master process on port 7606
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.BaseOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 17
+* Using seed 1536375730150
+* Starting evolution
+* Search finished after 1801s and 35875 generations, 3458190 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 17
+* Number of covered goals: 15
+* Generated 7 tests with total length 21
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 907701ms
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BaseOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer
+* Starting client
+* Connecting to master process on port 14487
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17622_1536366569/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 211
+* Using seed 1536377554330
+* Starting evolution
+* Search finished after 1801s and 31620 generations, 5912176 statements, best individual has fitness: 207.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 211
+* Number of covered goals: 7
+* Generated 3 tests with total length 5
+* Resulting test suite's coverage: 3%
+* GA-Budget:
+	- ZeroFitness :                    207 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,801 / 1,800        Finished!
+* Time spent executing tests: 941740ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'LevenbergMarquardtOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

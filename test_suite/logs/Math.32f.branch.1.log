@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Starting client
+* Connecting to master process on port 20077
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19534_1536369564/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 95
+* Using seed 1536369602933
+* Starting evolution
+* Search finished after 1802s and 15492 generations, 1597241 statements, best individual has fitness: 10.166666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 95
+* Number of covered goals: 84
+* Generated 9 tests with total length 32
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,803 / 1,800        Finished!
+	- ZeroFitness :                     10 / 0           
+* Time spent executing tests: 805095ms
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'PolygonsSet_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

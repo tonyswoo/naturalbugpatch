@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.distribution.PoissonDistributionImpl
+* Starting client
+* Connecting to master process on port 20083
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22391_1536373342/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.distribution.PoissonDistributionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 20
+* Using seed 1536373365560
+* Starting evolution
+* Search finished after 1801s and 38864 generations, 1701402 statements, best individual has fitness: 17.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 20
+* Number of covered goals: 5
+* Generated 3 tests with total length 3
+* Resulting test suite's coverage: 25%
+* GA-Budget:
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     17 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 870721ms
+* Generating assertions
+[MASTER] 18:53:00.938 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, null
+[MASTER] 18:53:00.951 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.special.Gamma, null
+[MASTER] 18:53:00.955 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.distribution.SaddlePointExpansion, null
+[MASTER] 18:53:00.999 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.distribution.NormalDistributionImpl, null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'PoissonDistributionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

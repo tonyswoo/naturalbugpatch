@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 17784
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12925_1536354608/build/classes
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/args4j.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/guava.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/json.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_12925_1536354608/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 352
+* Using seed 1536354651292
+* Starting evolution
+* Search finished after 1807s and 1450 generations, 238587 statements, best individual has fitness: 326.40909090909093
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 13%
+* Total number of goals: 352
+* Number of covered goals: 45
+* Generated 6 tests with total length 36
+* Resulting test suite's coverage: 13%
+* GA-Budget:
+	- MaxTime :                      1,817 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                    326 / 0           
+* Time spent executing tests: 629578ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

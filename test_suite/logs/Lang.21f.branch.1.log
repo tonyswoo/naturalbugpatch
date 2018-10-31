@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.time.DateUtils
+* Starting client
+* Connecting to master process on port 16528
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19569_1536360537/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.DateUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 314
+* Using seed 1536360555118
+* Starting evolution
+* Search finished after 1803s and 12567 generations, 1618556 statements, best individual has fitness: 4.833333333333333
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 314
+* Number of covered goals: 305
+* Generated 113 tests with total length 279
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- MaxTime :                      1,809 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      5 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 458466ms
+* Generating assertions
+* Resulting test suite's mutation score: 49%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'DateUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

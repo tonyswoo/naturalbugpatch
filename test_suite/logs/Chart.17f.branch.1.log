@@ -1,0 +1,57 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.time.TimeSeries
+* Starting client
+* Connecting to master process on port 4039
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_5081_1536335255/build
+  - /tmp/run_evosuite.pl_5081_1536335255/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimeSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 161
+* Using seed 1536335283853
+* Starting evolution
+[MASTER] 07:49:33.544 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:53:31.131 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:53:44.038 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:54:18.815 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:57:33.406 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:58:15.526 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 07:58:53.923 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:00:34.036 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:02:32.041 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:02:56.420 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:04:42.152 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:06:12.985 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:09:17.317 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:11:16.287 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 08:14:16.744 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1811s and 4925 generations, 974248 statements, best individual has fitness: 35.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 161
+* Number of covered goals: 148
+* Generated 53 tests with total length 231
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,826 / 1,800        Finished!
+	- ZeroFitness :                      4 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 617331ms
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         execute /usr/bin/xprop: 1
+         write /tmp/+~JT7905946396523323116.tmp: 1
+  - java.lang.RuntimePermission: 
+         loadLibrary.javalcms: 1
+         writeFileDescriptor: 4
+* Writing JUnit test case 'TimeSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

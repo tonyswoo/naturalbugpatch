@@ -1,0 +1,96 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 21219
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10597_1536350526/build/classes
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/ant.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/guava.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/json.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/junit.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 406
+* Using seed 1536350558088
+* Starting evolution
+[MASTER] 12:24:59.875 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1805s and 9689 generations, 948379 statements, best individual has fitness: 226.11501532887402
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 45%
+* Total number of goals: 406
+* Number of covered goals: 182
+* Generated 60 tests with total length 280
+* Resulting test suite's coverage: 45%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,822 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    226 / 0           
+* Time spent executing tests: 638070ms
+* Generating assertions
+[MASTER] 12:33:23.095 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve 6/'t)xFFUcP2OQ: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 18
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CollapseProperties
+* Starting client
+* Connecting to master process on port 15746
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10597_1536350526/build/classes
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/ant.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/guava.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/json.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/junit.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_10597_1536350526/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CollapseProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 236
+* Using seed 1536352490496
+* Starting evolution
+* Search finished after 1802s and 8331 generations, 718650 statements, best individual has fitness: 206.87857142857143
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 236
+* Number of covered goals: 34
+* Generated 4 tests with total length 18
+* Resulting test suite's coverage: 14%
+* GA-Budget:
+	- ZeroFitness :                    207 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,807 / 1,800        Finished!
+* Time spent executing tests: 1391561ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 21
+* Writing JUnit test case 'CollapseProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,61 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 18165
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10397_1536352578/build/classes
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/junit.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_10397_1536352578/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1536352612103
+* Starting evolution
+[MASTER] 12:55:23.840 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 12:56:17.432 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:02:20.067 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:05:07.332 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:05:39.549 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:07:33.416 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:07:38.459 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 1873s and 9247 generations, 1309385 statements, best individual has fitness: 26.0
+[MASTER] 13:08:39.176 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:08:49.216 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 13:10:04.744 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:10:14.860 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 13:10:45.113 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 57
+* Number of covered goals: 41
+* Generated 114 tests with total length 906
+* Resulting test suite's coverage: 75%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     11 / 0           
+	- MaxTime :                      2,084 / 1,800        Finished!
+* Time spent executing tests: 426010ms
+* Generating assertions
+[MASTER] 13:11:55.741 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 81 seconds more than allowed.
+* Resulting test suite's mutation score: 29%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve .R{~spZ|!r!JmRm}k: 1
+         resolve ~9[h: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 29
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+[MASTER] 13:16:52.902 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.CheckGlobalThis. Clients have not finished yet, although timeout.
+ClientNode: WRITING_TESTS
+
+* Computation finished

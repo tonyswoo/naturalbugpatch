@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CommandLineRunner
+* Starting client
+* Connecting to master process on port 20334
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10742_1536352601/build/classes
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/junit.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_10742_1536352601/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CommandLineRunner
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 36
+* Using seed 1536352635157
+* Starting evolution
+* Search finished after 1801s and 7307 generations, 1411581 statements, best individual has fitness: 32.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 36
+* Number of covered goals: 9
+* Generated 2 tests with total length 14
+* Resulting test suite's coverage: 25%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                      1,801 / 1,800        Finished!
+	- ZeroFitness :                     32 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 470401ms
+* Generating assertions
+[MASTER] 13:07:40.110 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 144
+         exitVM.-1: 1
+* Writing JUnit test case 'CommandLineRunner_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

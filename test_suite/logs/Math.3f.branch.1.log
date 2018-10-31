@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.util.MathArrays
+* Starting client
+* Connecting to master process on port 3482
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12172_1536366338/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.MathArrays
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 257
+* Using seed 1536366369276
+* Starting evolution
+* Search finished after 1802s and 6637 generations, 2130866 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 257
+* Number of covered goals: 248
+* Generated 88 tests with total length 266
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                      1,810 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      8 / 0           
+* Time spent executing tests: 336696ms
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'MathArrays_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

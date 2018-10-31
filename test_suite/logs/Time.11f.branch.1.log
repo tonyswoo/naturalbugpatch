@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.tz.ZoneInfoCompiler
+* Starting client
+* Connecting to master process on port 10516
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13432_1536383932/target/classes
+  - /home/ktony11/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.tz.ZoneInfoCompiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 232
+* Using seed 1536383958939
+* Starting evolution
+* Search finished after 1802s and 3646 generations, 710067 statements, best individual has fitness: 82.08333049103533
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 232
+* Number of covered goals: 146
+* Generated 49 tests with total length 163
+* Resulting test suite's coverage: 63%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     82 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,806 / 1,800        Finished!
+* Time spent executing tests: 199817ms
+* Generating assertions
+* Resulting test suite's mutation score: 24%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 66
+* Writing JUnit test case 'ZoneInfoCompiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

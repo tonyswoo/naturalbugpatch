@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.linear.SimplexTableau
+* Starting client
+* Connecting to master process on port 8162
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11078_1536371028/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.linear.SimplexTableau
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 146
+* Using seed 1536371061200
+* Starting evolution
+* Search finished after 1804s and 12314 generations, 4199363 statements, best individual has fitness: 3.6666666666666665
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 146
+* Number of covered goals: 141
+* Generated 26 tests with total length 197
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      4 / 0           
+	- MaxTime :                      1,837 / 1,800        Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 944575ms
+* Generating assertions
+* Resulting test suite's mutation score: 24%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'SimplexTableau_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

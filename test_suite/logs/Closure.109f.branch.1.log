@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 19311
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10091_1536354537/build/classes
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/args4j.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/guava.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/json.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_10091_1536354537/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 862
+* Using seed 1536354596509
+* Starting evolution
+* Search finished after 1805s and 9058 generations, 2650602 statements, best individual has fitness: 585.2166666666667
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 862
+* Number of covered goals: 276
+* Generated 64 tests with total length 615
+* Resulting test suite's coverage: 32%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    587 / 0           
+	- MaxTime :                      1,826 / 1,800        Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 854991ms
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

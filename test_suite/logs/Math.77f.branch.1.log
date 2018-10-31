@@ -1,0 +1,74 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.ArrayRealVector
+* Starting client
+* Connecting to master process on port 6728
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24833_1536375267/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.ArrayRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 220
+* Using seed 1536375292682
+* Starting evolution
+* Search finished after 1805s and 10135 generations, 3437836 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 220
+* Number of covered goals: 217
+* Generated 84 tests with total length 331
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                      1,840 / 1,800        Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 851080ms
+* Generating assertions
+* Resulting test suite's mutation score: 49%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'ArrayRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 4658
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24833_1536375267/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 184
+* Using seed 1536377454507
+* Starting evolution
+* Search finished after 1526s and 5139 generations, 1617677 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 184
+* Number of covered goals: 184
+* Generated 50 tests with total length 232
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                      1,557 / 1,800       
+* Time spent executing tests: 1198350ms
+* Generating assertions
+* Resulting test suite's mutation score: 57%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
