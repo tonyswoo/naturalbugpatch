@@ -2,10 +2,10 @@
 
 WD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-git clone https://github.com/rjust/defects4j.git
-git clone https://github.com/squaresLab/genprog4java.git
-git clone https://github.com/squaresLab/GenProgScripts.git
-git clone https://github.com/SLP-team/SLP-Core.git
+git clone https://github.com/rjust/defects4j.git $WD/defects4j
+git clone https://github.com/squaresLab/genprog4java.git $WD/genprog4java
+git clone https://github.com/squaresLab/GenProgScripts.git $WD/GenProgScripts
+git clone https://github.com/SLP-team/SLP-Core.git $WD/SLP-Core
 
 mkdir $WD/GenProgScripts/errors
 
