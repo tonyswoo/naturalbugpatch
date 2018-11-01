@@ -22,4 +22,4 @@ cd $WD/genprog4java
 mvn package
 cd $WD
 
-cp -r changedFile/* $WD
+cp -r $WD/changedFile/* $WD
