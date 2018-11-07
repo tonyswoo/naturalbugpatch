@@ -12,4 +12,4 @@ export JAVA8_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export JAVA9_HOME=/usr/lib/jvm/java-9-openjdk-amd64
 export JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF-8"
 
-$SCRIPTS/getBugs.sh | xargs -n1 -P16 -I% bash -c "./runBug.sh % $1 $2 $3"
+$SCRIPTS/getBugs.sh | xargs -n1 -P16 -I% bash -c "$SCRIPTS/runBug.sh % $1 $2 $3"
