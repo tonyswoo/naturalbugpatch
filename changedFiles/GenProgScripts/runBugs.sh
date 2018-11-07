@@ -3,6 +3,7 @@
 # $1 is true if using entropy
 # $2 starting seed number
 # $3 is true if using humanInjected fault localization
+
 export SCRIPTS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 export INSTALLED=$SCRIPTS/..
 export D4J_HOME=$INSTALLED/defects4j
