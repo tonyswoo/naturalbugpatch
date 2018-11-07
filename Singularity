@@ -4,7 +4,7 @@ From: ubuntu:16.04
 %environment
       HOME=/home
       D4J_HOME=/home/naturalbugpatch/defects4j
-      export HOME
+      export HOME D4J_HOME
 
 %post
       apt-get update && apt-get install -y software-properties-common
