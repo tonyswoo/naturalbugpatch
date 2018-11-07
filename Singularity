@@ -3,6 +3,7 @@ From: ubuntu:16.04
 
 %environment
       HOME=/home
+      D4J_HOME=/home/naturalbugpatch/defects4j
       export HOME
 
 %post
