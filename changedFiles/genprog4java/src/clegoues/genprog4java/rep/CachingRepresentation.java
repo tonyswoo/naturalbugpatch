@@ -181,7 +181,7 @@ Representation<G>  {
 			testNum++;
 		}
 		Fitness.positiveTests = passingTests;
-		Fitness.numPositiveTests = passingTests.size()
+		Fitness.numPositiveTests = passingTests.size();
 		testNum = 1;
 		if (passingTests.size() < 1) {
 			logger.error("no positive tests pass.");
