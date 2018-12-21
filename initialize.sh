@@ -18,8 +18,9 @@ cd $WD/SLP-Core
 mvn clean install
 cd $WD
 
+cp -r $WD/changedFiles/* $WD
+
 cd $WD/genprog4java
 mvn package
 cd $WD
 
-cp -r $WD/changedFiles/* $WD

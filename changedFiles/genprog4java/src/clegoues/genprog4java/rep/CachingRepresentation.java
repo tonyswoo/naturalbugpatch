@@ -73,7 +73,7 @@ Representation<G>  {
 
 	public static boolean skipFailedSanity = ConfigurationBuilder.of( BOOL_ARG )
 			.withVarName( "skipFailedSanity" )
-			.withDefault( "true" )
+			.withDefault( "false" )
 			.withHelp( "do not include positive tests if they fail sanity" )
 			.inGroup( "CachingRepresentation Parameters" )
 			.build();
@@ -159,7 +159,6 @@ Representation<G>  {
 		int testNumber = 0;
 		for (TestCase posTest : Fitness.positiveTests) {
 			testNumber++;
-			logger.info("Checking test number " + testNumber + " out of " + Fitness.positiveTests.size());
 			FitnessValue res = this.internalTestCase(
 					CachingRepresentation.sanityExename,
 					CachingRepresentation.sanityFilename, posTest, false);
@@ -173,6 +172,8 @@ Representation<G>  {
 				if (!skipFailedSanity) {
 					return false;
 				}
+				logger.info("Checking test number " + testNumber + " out of " + Fitness.positiveTests.size());
+
 			} else {
 				passingTests.add(posTest);
 			}
@@ -180,6 +181,7 @@ Representation<G>  {
 			testNum++;
 		}
 		Fitness.positiveTests = passingTests;
+		Fitness.numPositiveTests = passingTests.size()
 		testNum = 1;
 		if (passingTests.size() < 1) {
 			logger.error("no positive tests pass.");
@@ -205,6 +207,7 @@ Representation<G>  {
 			logger.info("false (0)\n");
 			testNum++;
 		}
+		Fitness.numNegativeTests = Fitness.negativeTests.size();
 		this.cleanup();
 		this.updated();
 		logger.info("sanity checking completed (time taken = "
