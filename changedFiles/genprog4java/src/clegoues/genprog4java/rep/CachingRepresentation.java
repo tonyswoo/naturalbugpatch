@@ -159,12 +159,12 @@ Representation<G>  {
 		int testNumber = 0;
 		for (TestCase posTest : Fitness.positiveTests) {
 			testNumber++;
+			logger.info("Checking test number " + testNumber + " out of " + Fitness.positiveTests.size());
 			FitnessValue res = this.internalTestCase(
 					CachingRepresentation.sanityExename,
 					CachingRepresentation.sanityFilename, posTest, false);
 			if (!res.isAllPassed()) {
 				testsOutOfScope++;
-				logger.info(testsOutOfScope + " tests out of scope so far, out of " + Fitness.positiveTests.size());
 				logger.info("false (0)\n");
 				logger.error("cacheRep: sanity: "
 						+ CachingRepresentation.sanityFilename
@@ -172,7 +172,7 @@ Representation<G>  {
 				if (!skipFailedSanity) {
 					return false;
 				}
-				logger.info("Checking test number " + testNumber + " out of " + Fitness.positiveTests.size());
+				logger.info(testsOutOfScope + " tests out of scope so far, out of " + Fitness.positiveTests.size());
 
 			} else {
 				passingTests.add(posTest);

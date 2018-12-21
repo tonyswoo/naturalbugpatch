@@ -599,10 +599,10 @@ public class Fitness {
 		}
 
 		double avgEntropy = 0;
+		rep.rewriteOriginal();
 
 		if(useEntropy && rep.getVariantFolder().length() != 0) {
 			try {
-				rep.rewriteOriginal();
 				avgEntropy = processVariant(new File(Configuration.outputDir + "/" + rep.getVariantFolder()), new File(Configuration.sourceDir), lexerRunner, runner);
 			} catch(IOException e) {
 				e.printStackTrace();
@@ -660,10 +660,10 @@ public class Fitness {
 		}
 
 		double avgEntropy = 0;
+		rep.rewriteOriginal();
 
 		if(useEntropy && rep.getVariantFolder().length() != 0) {
 			try {
-				rep.rewriteOriginal();
 				avgEntropy = processVariant(new File(Configuration.outputDir + "/" + rep.getVariantFolder()), new File(Configuration.sourceDir), lexerRunner, runner);
 			} catch (IOException e) {
 				e.printStackTrace();
